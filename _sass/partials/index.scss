@@ -4,16 +4,16 @@
 @import "typography.scss";
 @import "layouts.scss";
 
-// Utilities
-
-@import "button.scss";
-@import "tabs.scss";
-@import "social.scss";
-@import "utilities.scss";
-
 // Components
 
 @import "header.scss";
 @import "top-bar.scss";
 @import "footer.scss";
 @import "modal.scss";
+
+// Utilities
+
+@import "button.scss";
+@import "tabs.scss";
+@import "social.scss";
+@import "utilities.scss";
