@@ -1,5 +1,5 @@
 # Welcome to Ravencoin's Codebase
-## READ.ME underconstruction!
+## READ.ME under construction!
 Current Build Status: ![Build Status](https://travis-ci.org/RavenProject/Ravencoin.svg?branch=master)
 Live site: [Ravencoin.org](https://ravencoin.org)
 Report problems or help improve the site by opening a [new issue](https://github.com/RavenProject/ravenproject.github.io.org/issues/new) or [pull request](https://github.com/RavenProject/ravenproject.github.io.org/compare).
