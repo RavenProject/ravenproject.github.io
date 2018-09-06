@@ -2,6 +2,7 @@
 layout: default
 title: Home
 permalink: /
+modalTitle: 'Announcement'
 modalContent: 'Mandatory wallet update to version 2.0.4 now available. <a href="/wallet">Click Here to Upgrade</a>'
 modalId: "upgrade-notification"
 ---
