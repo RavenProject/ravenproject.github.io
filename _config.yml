@@ -1,0 +1,56 @@
+title: Ravencoin
+author: RavenProject
+description: > # this means to ignore newlines until "twitter_username:"
+  A peer-to-peer blockchain designed to handle the efficient creation and transfer of assets from one party to another. It's an open-source project based on Bitcoin
+
+# social links
+twitter_username: ravencoin
+github_username:  RavenProject
+rss: rss
+
+show_excerpts: false # set to true to show excerpts on the homepage
+
+# Minima date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+minima:
+  date_format: "%b %-d, %Y"
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+header_pages:
+ - _pages/index.md
+ - _pages/about.md
+ - _pages/wallet.md
+ - _pages/whitepaper.md
+ - _pages/community.md
+
+# Build settings
+theme: minima
+relative_permalinks: false
+
+# Reading Files
+include:
+  - _pages
+  - _posts
+  - _wallets
+  - _translations
+ 
+# Defaults
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: default
+
+
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag

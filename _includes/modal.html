@@ -1,0 +1,41 @@
+{% if page.modalContent %}
+<div id="{{ page.modalId }}" class="fixed pin z-50 overflow-auto bg-smoke-light flex opacity-transition hide-opacity">
+  <div class="modal-notification relative p-8 bg-white w-full max-w-lg m-auto flex-col flex">
+    <span id="closeButton" class="absolute pin-t pin-r p-2 z-10">
+      <svg class="h-6 w-6 fill-current" role="button" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><title>Close</title>
+        <path d="M14.348 14.849a1.2 1.2 0 0 1-1.697 0L10 11.819l-2.651 3.029a1.2 1.2 0 1 1-1.697-1.697l2.758-3.15-2.759-3.152a1.2 1.2 0 1 1 1.697-1.697L10 8.183l2.651-3.031a1.2 1.2 0 1 1 1.697 1.697l-2.758 3.152 2.758 3.15a1.2 1.2 0 0 1 0 1.698z"
+        /></svg>
+    </span>
+    <div className="modal-content">
+      {{ page.modalContent }}
+    </div>
+  </div>
+</div>
+<style>
+  .bg-smoke-light {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+</style>
+{% if page.modalId %}
+<script>
+  (function () {
+    var id = document.getElementById("{{ page.modalId }}");
+    var closeButton = document.getElementById("closeButton");
+    var modalId = "modal-{{ page.modalId }}";
+    if (typeof Storage != "undefined") {
+      if (!localStorage.getItem(modalId)) {
+        id.classList.remove('hide-opacity')
+        id.classList.remove('hidden')
+        id.classList.add('flex')
+        closeButton.addEventListener("click", function () {
+          id.classList.add('hide-opacity')
+          setTimout(function() {
+            id.classList.add('hidden')
+            id.classList.remove('flex')
+          }, 1000)
+        })
+      }
+      localStorage.setItem(modalId, "true");
+    }
+  })()
+</script> {% endif %} {% endif %}

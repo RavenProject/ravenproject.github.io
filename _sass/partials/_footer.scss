@@ -1,0 +1,38 @@
+footer {
+  background: #0e142b;
+  color: #ffffff;
+  .footer-upper {
+    ul {
+      a,
+      a:visited {
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 14px;
+        margin-bottom: 10px;
+        display: block;
+        &:hover {
+          color: #2a7ae2;
+        }
+      }
+    }
+  }
+  .footer-bottom {
+    .social-media-list {
+      li {
+        padding-top: 0;
+        margin-left: 10px;
+        a {
+          display: block;
+          .svg-icon {
+            height: 20px;
+            width: 20px;
+            &:hover {
+              fill: #ffffff;
+              color: #ffffff;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,104 @@
+<footer class="site-footer pt-16">
+  <data class="u-url" href="{{ " / " | relative_url }}"></data>
+
+  <div class="footer-upper pb-4">
+    <div class="wrapper pb-8 flex flex-wrap border-b border-w-1 border-grey justify-between text-center">
+      <div class="w-full sm:w-1/2 md:w-1/2 sm:text-left md:text-left">
+        <a class="inline-block mb-4 text-white text-2xl" href="/">
+          <img style="max-height: 45px;" src="{{" /assets/img/media/logo-wide-sm-white.png "}}" alt="footer logo" />
+        </a>
+        <div>Donate and Support:</div>
+        <a class="inline-block mb-3 text-white hover:text-grey" href="raven:RLAAfXwoQGdRvqupMrrL7j57gzfHFqCxca" target="_blank">RLAAfXwoQGdRvqupMrrL7j57gzfHFqCxca</a>
+        <img class="block mb-8 m-auto sm:m-0" style="max-width: 125px;" src="{{" /assets/img/donate/raven-qr.png "}}" alt="donate" />
+      </div>
+      <div class="w-full sm:w-1/2 md:w-1/2 text-left">
+        <div class="flex flex-wrap">
+          <div class="w-1/3 sm:w-1/3 md:w-1/3 mb-8">
+            <h5 class="text-sm font-semibold uppercase">Navigation</h5>
+            <ul class="list-reset">
+              <li>
+                <a href="/">Home</a>
+              </li>
+              <li>
+                <a href="/about/">About</a>
+              </li>
+              <li>
+                <a href="/wallet/">Wallet</a>
+              </li>
+              <li>
+                <a href="/buy-ravencoin/">How to Buy</a>
+              </li>
+              <li>
+                <a href="/whitepaper/">White Paper</a>
+              </li>
+              <li>
+                <a href="https://ravencoin.shop/" target="_blank">Store</a>
+              </li>
+            </ul>
+          </div>
+          <div class="w-1/3 sm:w-1/3 md:w-1/3 mb-8">
+            <h5 class="text-sm font-semibold uppercase">Developers</h5>
+            <ul class="list-reset">
+              <li>
+                <a href="https://ravencoin.network/" target="_blank">Block Explorer</a>
+              </li>
+              <li>
+                <a href="/halving">Halving</a>
+              </li>
+              <li>
+                <a href="https://rvnstats.info/d/TZuwaYiiz/ravencoin-statistics-v1-1?orgId=1" target="_blank">Statistics</a>
+              </li>
+              <li>
+                <a href="https://github.com/RavenProject/Ravencoin" target="_blank">Github</a>
+              </li>
+              <li>
+                <a href="https://github.com/RavenProject/RavenMiner" target="_blank">Mining Software</a>
+              </li>
+              <li>
+                <a href="/pools/">Mining Pools</a>
+              </li>
+            </ul>
+          </div>
+          <div class="w-1/3 sm:w-1/3 md:w-1/3 mb-8">
+            <h5 class="text-sm font-semibold uppercase">Community</h5>
+            <ul class="list-reset">
+              <li>
+                <a href="https://www.ravencointalk.org/" target="_blank">Ravencoin Talk</a>
+              </li>
+              <li>
+                <a href="https://bitcointalk.org/index.php?topic=3238497" target="_blank">Bitcoin Talk</a>
+              </li>
+              <li>
+                <a href="https://discordapp.com/invite/jn6uhur" target="_blank">Discord</a>
+              </li>
+              <li>
+                <a href="https://t.me/RavencoinDev" target="_blank">Telegram</a>
+              </li>
+              <li>
+                <a href="https://www.reddit.com/r/Ravencoin/" target="_blank">Reddit</a>
+              </li>
+              <li>
+                <a href="https://medium.com/@ravencoin" target="_blank">Medium</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr/>
+  <div class="footer-bottom mb-4">
+    <div class="wrapper flex flex-wrap justify-between text-center">
+      <div class="footer-left w-full sm:w-1/2 sm:text-left">
+        <div class="footerlicense">© Ravencoin {{ site.time | date: '%Y' }} {{ site.name | default: site.title }} Released under the
+          <a class="hover:text-white" href="http://opensource.org/licenses/mit-license.php"
+            target="_blank">MIT license</a><span class="ml-2">/</span><span class="ml-2"><a class="hover:text-white" href="/attribution/">Attributions</a></span>
+        </div>
+      </div>
+      <div class="footer-right w-full sm:w-1/2 flex mt-4 sm:mt-0 m-auto justify-center sm:justify-end">
+        {%- include social.html -%}
+      </div>
+    </div>
+  </div>
+</footer>
+{%- include modal.html -%}

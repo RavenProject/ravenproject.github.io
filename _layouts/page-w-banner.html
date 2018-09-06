@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<header class="page-banner text-center relative overflow-hidden py-20">
+  <div class="py-8">
+    <h1 class="animated fadeInDown page-title text-white mt-1 mb-1">{% if page.bannerTitle %} {{ page.bannerTitle | escape }} {% else %} {{ page.title | escape }} {% endif %}</h1>
+  {% if page.subTitle %}<div class="page-subtitle text-white mb-1">{{ page.subTitle | escape }}</div>{% endif %}
+  {% if page.bannerImage %}<img class="absolute pin" src="{{ page.bannerImage }}" alt="banner image"/>{% endif %}
+  </div>
+</header>
+<div class="page-content" aria-label="Content">
+  {{ content }}
+</div>
+
+<style>
+  .page-banner {
+    background-color: rgba(46, 62, 128, 0.75);
+  }
+  .page-banner img {
+    z-index: -1;
+    left: 25%;
+    top: 25%;
+    transform: translate(-25%, -25%);
+    width: 100%;
+  }
+</style>
