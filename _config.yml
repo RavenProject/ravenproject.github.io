@@ -1,15 +1,19 @@
 title: Ravencoin
 author: RavenProject
-description: > # this means to ignore newlines until "twitter_username:"
-  A peer-to-peer blockchain designed to handle the efficient creation and transfer of assets from one party to another. It's an open-source project based on Bitcoin
+description: A peer-to-peer blockchain designed to handle the efficient creation and transfer of assets from one party to another. It's an open-source project based on Bitcoin
 
+baseurl: ""
+
+# Localization
+languages: ["en"]
+exclude_from_localizations: ["sass", ".sass-cache", "assets", "script", "favicon.png"]
+  
 # social links
 twitter_username: ravencoin
 github_username:  RavenProject
 rss: rss
 
-show_excerpts: false # set to true to show excerpts on the homepage
-
+show_excerpts: false
 # Minima date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
 minima:
@@ -30,6 +34,7 @@ relative_permalinks: false
 
 # Reading Files
 include:
+  - _i18n
   - _pages
   - _posts
   - _wallets
@@ -49,7 +54,6 @@ defaults:
       type: posts
     values:
       layout: default
-
 
 plugins:
  - jekyll-feed
