@@ -1,0 +1,39 @@
+- name: Bittrex
+  logo: /assets/img/pages/exchanges/bittrex.png
+  url: https://bittrex.com/Market/Index?MarketName=BTC-RVN
+
+- name: Cryptobridge
+  logo: /assets/img/pages/exchanges/cryptobridge.png
+  url: https://wallet.crypto-bridge.org/market/BRIDGE.RVN_BRIDGE.BTC
+
+- name: Upbit
+  logo: /assets/img/pages/exchanges/upbit.png
+  url: https://upbit.com/exchange?code=CRIX.UPBIT.BTC-RVN
+
+- name: BarterDEX
+  logo: /assets/img/pages/exchanges/barterdex.png
+  url: https://www.atomicexplorer.com/#/coins
+
+- name: Cryptopia
+  logo: /assets/img/pages/exchanges/cryptopia.png
+  url:   https://www.cryptopia.co.nz/
+
+- name: Cryptohub
+  logo: /assets/img/pages/exchanges/cryptohub.png
+  url: https://cryptohub.online/market/RVN/
+
+- name: Nanex
+  logo: /assets/img/pages/exchanges/nanex.png
+  url: https://nanex.co/
+
+- name: Graviex
+  logo: /assets/img/pages/exchanges/graviex.png
+  url: https://graviex.net/markets/rvnbtc
+
+- name: IDCM
+  logo: /assets/img/pages/exchanges/idcm.png
+  url: https://www.idcm.io/trading/RVN_BTC
+
+- name: QBTC
+  logo: /assets/img/pages/exchanges/qbtc.png
+  url: https://www.qbtc.com/trade

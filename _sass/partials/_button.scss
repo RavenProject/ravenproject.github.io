@@ -1,0 +1,18 @@
+.btn {
+  display: inline-block;
+  transition: .25s ease;
+  text-decoration: none !important;
+  &.btn-primary {
+    background: #f15b22;
+    &:visited {
+      color: #fff;
+    }
+    &:hover, .banner &:focus, .banner &:active {
+      background: #d25121;
+      color: #fff;
+    }
+  }
+  &:visited {
+    color: initial;
+  }
+}
