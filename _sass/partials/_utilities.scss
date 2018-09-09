@@ -1,0 +1,23 @@
+.opacity-transition {
+  transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -ms-transition: opacity .25s ease-in-out;
+  -o-transition: opacity .25s ease-in-out;
+}
+.hide-opacity {
+  opacity: 0;
+}
+.show-opacity {
+  opacity: 1;
+}
+
+::-moz-selection { /* Code for Firefox */
+  color: #ffffff;
+  background: #5770d6;
+}
+
+::selection {
+  color: #ffffff; 
+  background: #5770d6;
+}
