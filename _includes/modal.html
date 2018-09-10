@@ -25,16 +25,20 @@
     var modalId = "modal-{{ page.modalId }}";
     if (typeof Storage != "undefined") {
       if (!localStorage.getItem(modalId)) {
-        id.classList.remove('hide-opacity')
-        id.classList.remove('hidden')
-        id.classList.add('flex')
-        closeButton.addEventListener("click", function () {
-          id.classList.add('hide-opacity')
-          setTimout(function() {
-            id.classList.add('hidden')
-            id.classList.remove('flex')
+        setTimeout(function() {
+          id.classList.remove('hidden')
+          id.classList.add('flex')
+          setTimeout(function() {
+            id.classList.remove('hide-opacity')
           }, 1000)
-        })
+          closeButton.addEventListener("click", function () {
+            id.classList.add('hide-opacity')
+            setTimout(function() {
+              id.classList.add('hidden')
+              id.classList.remove('flex')
+            }, 1000)
+          })
+        }, 5000)
       }
       localStorage.setItem(modalId, "true");
     }
