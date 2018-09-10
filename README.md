@@ -25,9 +25,6 @@ amount of the bounty if it gets merged.
 ### Code of Conduct
 Participation in this project is subject to a [Code of Conduct](https://github.com/RavenProject/ravenproject.github.io.org/blob/master/CODE_OF_CONDUCT.md).
 
-### Donations
-Ravencoin.org is community supported: [RLAAfXwoQGdRvqupMrrL7j57gzfHFqCxca](raven:RLAAfXwoQGdRvqupMrrL7j57gzfHFqCxca)
-
 ### Questions?
 Please contact Will Binns ([dev@ravencoin.org](mailto:dev@ravencoin.org)) if you need help.
 
