@@ -17,7 +17,7 @@ amount of the bounty if it gets merged.
 3. Rename repository from ravenproject.github.io to <username>.github.io
 4. Make changes.
 5. Ensure your changes are published with GitHub Pages at https://<username>.github.io
-6. Create a Pull Request from your repository to RavenProject
+6. Create a Pull Request from your repository to RavenProject (https://help.github.com/articles/creating-a-pull-request-from-a-fork/)
 7. Add comment to pull request to your local fork of the website. https://<username>.github.io
 8. Click the Create Pull Request button
 9. Wait for PR to be approved!
