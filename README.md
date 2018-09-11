@@ -23,7 +23,7 @@ amount of the bounty if it gets merged.
 9. Wait for PR to be approved!
 
 ### Code of Conduct
-Participation in this project is subject to a [Code of Conduct](https://github.com/RavenProject/ravenproject.github.io.org/blob/master/CODE_OF_CONDUCT.md).
+Participation in this project is subject to a [Code of Conduct](https://github.com/RavenProject/ravenproject.github.io/blob/master/CODE_OF_CONDUCT.md).
 
 ### Questions?
 Please join us in one of our [communities](https://ravenproject.github.io/community/) if you need help.
