@@ -4,7 +4,7 @@ Current Build Status: ![Build Status](https://travis-ci.org/RavenProject/Ravenco
 Live site: [Ravencoin.org](https://ravencoin.org)
 Report problems or help improve the site by opening a [new issue](https://github.com/RavenProject/ravenproject.github.io.org/issues/new) or [pull request](https://github.com/RavenProject/ravenproject.github.io.org/compare).
 
-## Earn Bitcoin for Contributing to the Core
+## Earn Raven for Contributing to the Raven website (TBD)
 Open issues [labeled with "Bounty"](https://github.com/RavenProject/ravenproject.github.io/labels/Bounty)
 have bounties on them. Viewing the issue will reveal the value of the bounty.
 Submit a pull request resolving the issue along with an accompanying note or
@@ -24,9 +24,6 @@ amount of the bounty if it gets merged.
 
 ### Code of Conduct
 Participation in this project is subject to a [Code of Conduct](https://github.com/RavenProject/ravenproject.github.io.org/blob/master/CODE_OF_CONDUCT.md).
-
-### Donations
-Ravencoin.org is community supported: [RLAAfXwoQGdRvqupMrrL7j57gzfHFqCxca](raven:RLAAfXwoQGdRvqupMrrL7j57gzfHFqCxca)
 
 ### Questions?
 Please contact Will Binns ([dev@ravencoin.org](mailto:dev@ravencoin.org)) if you need help.
