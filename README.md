@@ -1,7 +1,7 @@
 # Welcome to Ravencoin's Codebase
 ## READ.ME under construction!
 Current Build Status: ![Build Status](https://travis-ci.org/RavenProject/Ravencoin.svg?branch=master)
-Live site: [Ravencoin.org](https://ravencoin.org)
+Live site: [Ravencoin.com](https://ravencoin.com)
 Report problems or help improve the site by opening a [new issue](https://github.com/RavenProject/ravenproject.github.io.org/issues/new) or [pull request](https://github.com/RavenProject/ravenproject.github.io.org/compare).
 
 ## Earn Raven for Contributing to the Raven website (TBD)
@@ -26,10 +26,10 @@ amount of the bounty if it gets merged.
 Participation in this project is subject to a [Code of Conduct](https://github.com/RavenProject/ravenproject.github.io.org/blob/master/CODE_OF_CONDUCT.md).
 
 ### Questions?
-Please contact Will Binns ([dev@ravencoin.org](mailto:dev@ravencoin.org)) if you need help.
+Please join us in one of our [communities](https://ravenproject.github.io/community/) if you need help.
 
 ### Todo List
-The following are on the Ravencoin.org agenda.
+The following are on the Ravencoin.com agenda.
 + Integrate multiple languages and language templating.
 + Refine overall templating and css structures.
 + Continue to convert away from minima theme.
