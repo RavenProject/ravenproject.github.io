@@ -43,17 +43,19 @@ ul {
   &.checkmark {
     list-style: none;
     li {
+      position: relative;
       &:before {
-        display: inline-block;
         font: normal normal normal 14px/1 'Material-Design-Iconic-Font';
         font-size: inherit;
         text-rendering: auto;
         -webkit-font-smoothing: antialiased;
         content: '\f26b';
         margin-left: -20px;
-        padding-right: 15px;
         color: #f15b22;
         font-weight: 600;
+        position: absolute;
+        left: 0;
+        top: 5px;
       }
     }
   }
