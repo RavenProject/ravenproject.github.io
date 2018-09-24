@@ -23,8 +23,9 @@
     var id = document.getElementById("{{ page.modalId }}");
     var closeButton = document.getElementById("closeButton");
     var modalId = "modal-{{ page.modalId }}";
+    var modalCacheRef = "version-{{page.modalCacheRef}}"
     if (typeof Storage != "undefined") {
-      if (!localStorage.getItem(modalId)) {
+      if (!localStorage.getItem(modalCacheRef)) {
         setTimeout(function() {
           id.classList.remove('hidden')
           id.classList.add('flex')
@@ -40,7 +41,7 @@
           })
         }, 5000)
       }
-      localStorage.setItem(modalId, "true");
+      localStorage.setItem(modalCacheRef, "true");
     }
   })()
 </script> {% endif %} {% endif %}
