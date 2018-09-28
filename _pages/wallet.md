@@ -10,10 +10,7 @@ permalink: /wallet/
   <div class="wrapper text-center pt-8 pb-20" style="max-width: 700px;">
     <h2 class="mb-16">App Downloads</h2>
     <div class="flex flex-wrap align-center justify-center pb-4">
-      <div class="px-3 w-1/2 text-right">
-        <a target="_blank" class="block opacity-25 cursor-not-allowed"><img style="width:100%;max-width: 200px;" src="/assets/img/pages/wallet/app-store-badge.svg" alt="app store"/></a>
-      </div>
-      <div class="px-3 w-1/2 text-left">
+      <div class="px-3 w-1/2 text-center">
         <a href="https://play.google.com/store/apps/details?id=com.ravencoin" target="_blank" class="block"><img style="width:100%;max-width: 200px;" src="{{ "/assets/img/pages/wallet/google-play-badge.svg" }}" alt="google play"/></a>
       </div>
     </div>
