@@ -11,10 +11,7 @@ permalink: /wallet/
     <h2 class="mb-16">App Downloads</h2>
     <div class="flex flex-wrap align-center justify-center pb-4">
       <div class="px-3 w-full sm:w-1/2 text-center sm:text-right mb-5">
-        <div class="inline-block text-center">
-          <a target="_blank" class="block opacity-25 cursor-not-allowed"><img style="width:100%;width: 200px;" src="/assets/img/pages/wallet/app-store-badge.svg" alt="app store"/></a>
-          <p class="mt-2">Coming Soon!</p>
-        </div>
+          <a href="https://itunes.apple.com/us/app/rvn-wallet/id1371751946?mt=8" target="_blank" class="block"><img style="width:100%;width: 200px;" src="/assets/img/pages/wallet/app-store-badge.svg" alt="app store"/></a>
       </div>
       <div class="px-3 w-full sm:w-1/2 text-center sm:text-left">
         <a href="https://play.google.com/store/apps/details?id=com.ravencoin" target="_blank" class="block"><img style="width:100%;width: 200px;" src="/assets/img/pages/wallet/google-play-badge.svg" alt="google play"/></a>
