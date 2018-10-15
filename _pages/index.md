@@ -2,7 +2,7 @@
 layout: default
 title: Home
 permalink: /
-modalTitle: 'Announcement'
+modalTitle: "Announcement"
 modalContent: 'Mandatory wallet update to version 2.1.0 now available. <a href="/wallet">Click Here to Upgrade</a>'
 modalId: "upgrade-notification"
 modalCacheRef: "2.1.0"
@@ -52,22 +52,22 @@ modalCacheRef: "2.1.0"
     max-width: 800px;
   }
 
-  @keyframes animatedBackground {
-    0% { background-position: 0 0; }
-    100% { background-position: -188px 0; }
-  }
-  @-moz-keyframes animatedBackground {
-      0% { background-position: 0 0; }
-      100% { background-position: -188px 0; }
-  }
-  @-webkit-keyframes animatedBackground {
-      0% { background-position: 0 0; }
-      100% { background-position: -188px 0; }
-  }
-  @-ms-keyframes animatedBackground {
-      0% { background-position: 0 0; }
-      100% { background-position: -188px 0; }
-  }
+@keyframes animatedBackground {
+0% { background-position: 0 0; }
+100% { background-position: -188px 0; }
+}
+@-moz-keyframes animatedBackground {
+0% { background-position: 0 0; }
+100% { background-position: -188px 0; }
+}
+@-webkit-keyframes animatedBackground {
+0% { background-position: 0 0; }
+100% { background-position: -188px 0; }
+}
+@-ms-keyframes animatedBackground {
+0% { background-position: 0 0; }
+100% { background-position: -188px 0; }
+}
 </style>
 
 <div class="banner text-center">
@@ -219,6 +219,9 @@ modalCacheRef: "2.1.0"
       </div>
       {% endfor %}
     </div>
+      <div class="text-center">
+        <a class="btn btn-primary d-block mx-2 mt-4 mb-3 px-3 py-3 font-medium text-base rounded text-white hover:text-white" href="/buy-ravencoin/">See All Exchanges</a>
+      </div>
   </div>
 </div>
 
