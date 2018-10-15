@@ -39,7 +39,7 @@ permalink: /wallet/
           <a class="inline-block text-lg bg-blue hover:bg-blue-dark rounded p-2 text-white px-8" href="https://github.com/todd1251/WalletGenerator.net/tree/ravencoin" target="_blank"><span class="inline-block ml-3">Paper Wallet | Contributed by Penfold</span></a>
         </div>
         <div class="w-full sm:w-1/2 px-2 mb-4">
-          <a class="inline-block text-lg bg-blue hover:bg-blue-dark rounded p-2 text-white px-8" href="http://ravenpaperwallet.msft.online/" target="_blank"><span class="inline-block ml-3">Paper Wallet | Contributed by MSFTserver</span></a>
+          <a class="inline-block text-lg bg-blue hover:bg-blue-dark rounded p-2 text-white px-8" href="//paperwallet.ravencoin.online" target="_blank"><span class="inline-block ml-3">Paper Wallet | Contributed by MSFTserver</span></a>
         </div>
       </div>
     </div>
