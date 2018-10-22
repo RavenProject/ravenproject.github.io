@@ -41,7 +41,7 @@ permalink: /community/
             <img style="width:40px;" src="{{"/assets/img/pages/community/discord.png"}}" alt="discord"/>
           </div>
         </a>
-        <h3><a href="https://discord.gg/jn6uhur" target="_blank">Discord</a></h3>
+        <h3><a href="https://discord.gg/sntqk8" target="_blank">Discord</a></h3>
       </div>
       <div class="w-1/2 sm:w-1/4 mb-8">
         <a href="https://t.me/RavencoinDev" target="_blank">
