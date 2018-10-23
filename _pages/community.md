@@ -84,6 +84,14 @@ permalink: /community/
         <h3><a href="https://medium.com/@ravencoin" target="_blank">Medium</a></h3>
       </div>
       <div class="w-1/2 sm:w-1/4 mb-8">
+        <a href="https://medium.com/@tronblack" target="_blank">
+          <div class="mb-6 py-6 px-5 inline-block rounded-full bg-grey hover:bg-grey-dark">
+            <img style="width:40px;" src="{{"/assets/img/pages/community/medium.png"}}" alt="medium"/>
+          </div>
+        </a>
+        <h3><a href="https://medium.com/@tronblack" target="_blank">Medium (Tron Black)</a></h3>
+      </div>
+      <div class="w-1/2 sm:w-1/4 mb-8">
         <a href="https://ravencoin.shop/" target="_blank">
           <div class="mb-6 py-4 px-5 inline-block rounded-full bg-grey hover:bg-grey-dark">
             <i class="zmdi zmdi-store text-5xl text-white"></i>
