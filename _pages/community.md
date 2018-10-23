@@ -36,7 +36,7 @@ permalink: /community/
         <h3><a href="https://twitter.com/ravencoin" target="_blank">Twitter</a></h3>
       </div>
       <div class="w-1/2 sm:w-1/4 mb-8">
-        <a href="https://discord.gg/jn6uhur" target="_blank">
+        <a href="https://discord.gg/H7KaQ2j" target="_blank">
           <div class="mb-6 px-5 inline-block rounded-full bg-grey hover:bg-grey-dark" style="padding-top: 1.75em;padding-bottom: 1.75em;">
             <img style="width:40px;" src="{{"/assets/img/pages/community/discord.png"}}" alt="discord"/>
           </div>
