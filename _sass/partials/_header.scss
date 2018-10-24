@@ -20,6 +20,7 @@
 .site-nav {
   float: right;
   line-height: $base-line-height * $base-font-size * 2.25;
+  z-index: 1;
 
   .nav-trigger {
     display: none;
