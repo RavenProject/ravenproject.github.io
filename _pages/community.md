@@ -38,10 +38,18 @@ permalink: /community/
       <div class="w-1/2 sm:w-1/4 mb-8">
         <a href="https://discord.gg/jn6uhur" target="_blank">
           <div class="mb-6 px-5 inline-block rounded-full bg-grey hover:bg-grey-dark" style="padding-top: 1.75em;padding-bottom: 1.75em;">
-            <img style="width:40px;" src="{{"/assets/img/pages/community/discord.png"}}" alt="discord"/>
+            <img style="width:40px;" src="{{"/assets/img/pages/community/discord.png"}}" alt="discord 1"/>
           </div>
         </a>
-        <h3><a href="https://discord.gg/jn6uhur" target="_blank">Discord</a></h3>
+        <h3><a href="https://discord.gg/jn6uhur" target="_blank">Discord 1</a></h3>
+      </div>
+      <div class="w-1/2 sm:w-1/4 mb-8">
+        <a href="https://discord.gg/uh6PrWh" target="_blank">
+          <div class="mb-6 px-5 inline-block rounded-full bg-grey hover:bg-grey-dark" style="padding-top: 1.75em;padding-bottom: 1.75em;">
+            <img style="width:40px;" src="{{"/assets/img/pages/community/discord.png"}}" alt="discord 2"/>
+          </div>
+        </a>
+        <h3><a href="https://discord.gg/uh6PrWh" target="_blank">Discord 2</a></h3>
       </div>
       <div class="w-1/2 sm:w-1/4 mb-8">
         <a href="https://t.me/RavencoinDev" target="_blank">
@@ -57,7 +65,15 @@ permalink: /community/
             <i class="zmdi zmdi-reddit text-5xl text-white"></i>
           </div>
         </a>
-        <h3><a href="https://www.reddit.com/r/Ravencoin/" target="_blank">Reddit</a></h3>
+        <h3><a href="https://www.reddit.com/r/Ravencoin/" target="_blank">Reddit 1</a></h3>
+      </div>
+      <div class="w-1/2 sm:w-1/4 mb-8">
+        <a href="https://www.reddit.com/r/rvn/" target="_blank">
+          <div class="mb-6 py-4 px-5 inline-block rounded-full bg-grey hover:bg-grey-dark">
+            <i class="zmdi zmdi-reddit text-5xl text-white"></i>
+          </div>
+        </a>
+        <h3><a href="https://www.reddit.com/r/rvn/" target="_blank">Reddit 2</a></h3>
       </div>
       <div class="w-1/2 sm:w-1/4 mb-8">
         <a href="https://github.com/RavenProject/Ravencoin" target="_blank">
@@ -90,6 +106,14 @@ permalink: /community/
           </div>
         </a>
         <h3><a href="https://ravencoin.shop/" target="_blank">Store</a></h3>
+      </div>
+      <div class="w-1/2 sm:w-1/4 mb-8">
+        <a href="https://getravencoin.org/" target="_blank">
+          <div class="mb-6 py-4 px-5 inline-block rounded-full bg-grey hover:bg-grey-dark">
+            <i class="zmdi zmdi-comments text-5xl text-white"></i>
+          </div>
+        </a>
+        <h3><a href="https://getravencoin.org/" target="_blank">GetRavencoin.org</a></h3>
       </div>
     </div>
   </div>
