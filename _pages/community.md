@@ -115,6 +115,14 @@ permalink: /community/
         </a>
         <h3><a href="https://getravencoin.org/" target="_blank">GetRavencoin.org</a></h3>
       </div>
+      <div class="w-1/2 sm:w-1/4 mb-8">
+        <a href="https://rvnstats.info/" target="_blank">
+          <div class="mb-6 py-4 px-5 inline-block rounded-full bg-grey hover:bg-grey-dark">
+            <i class="zmdi zmdi-chart text-5xl text-white"></i>
+          </div>
+        </a>
+        <h3><a href="https://rvnstats.info/" target="_blank">Ravencoin Statistics</a></h3>
+      </div>
     </div>
   </div>
 </div>
