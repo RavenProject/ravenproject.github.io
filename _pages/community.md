@@ -84,6 +84,30 @@ permalink: /community/
         <h3><a href="https://www.reddit.com/r/rvn/" target="_blank">Reddit 2</a></h3>
       </div>
       <div class="w-1/2 sm:w-1/4 mb-8">
+        <a href="https://www.reddit.com/r/RVNMiner/" target="_blank">
+          <div class="mb-6 py-4 px-5 inline-block rounded-full bg-grey hover:bg-grey-dark">
+            <i class="zmdi zmdi-reddit text-5xl text-white"></i>
+          </div>
+        </a>
+        <h3><a href="https://www.reddit.com/r/RVNMiner/" target="_blank">Reddit 3</a></h3>
+      </div>
+      <div class="w-1/2 sm:w-1/4 mb-8">
+        <a href="https://www.reddit.com/r/RVNCoin/" target="_blank">
+          <div class="mb-6 py-4 px-5 inline-block rounded-full bg-grey hover:bg-grey-dark">
+            <i class="zmdi zmdi-reddit text-5xl text-white"></i>
+          </div>
+        </a>
+        <h3><a href="https://www.reddit.com/r/RVNCoin/" target="_blank">Reddit 4</a></h3>
+      </div>
+      <div class="w-1/2 sm:w-1/4 mb-8">
+        <a href="https://www.reddit.com/r/ravencointrader/" target="_blank">
+          <div class="mb-6 py-4 px-5 inline-block rounded-full bg-grey hover:bg-grey-dark">
+            <i class="zmdi zmdi-reddit text-5xl text-white"></i>
+          </div>
+        </a>
+        <h3><a href="https://www.reddit.com/r/ravencointrader/" target="_blank">Reddit 5</a></h3>
+      </div>
+      <div class="w-1/2 sm:w-1/4 mb-8">
         <a href="https://github.com/RavenProject/Ravencoin" target="_blank">
           <div class="mb-6 py-4 px-5 inline-block rounded-full bg-grey hover:bg-grey-dark">
             <i class="zmdi zmdi-github text-5xl text-white"></i>
