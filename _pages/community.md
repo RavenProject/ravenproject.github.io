@@ -41,7 +41,7 @@ permalink: /community/
             <img style="width:40px;" src="{{"/assets/img/pages/community/discord.png"}}" alt="discord 1"/>
           </div>
         </a>
-        <h3><a href="https://discord.gg/jn6uhur" target="_blank">Discord 1</a></h3>
+        <h3><a href="https://discord.gg/jn6uhur" target="_blank">Discord - Ravencoin Community</a></h3>
       </div>
       <div class="w-1/2 sm:w-1/4 mb-8">
         <a href="https://discord.gg/uh6PrWh" target="_blank">
@@ -49,7 +49,7 @@ permalink: /community/
             <img style="width:40px;" src="{{"/assets/img/pages/community/discord.png"}}" alt="discord 2"/>
           </div>
         </a>
-        <h3><a href="https://discord.gg/uh6PrWh" target="_blank">Discord 2</a></h3>
+        <h3><a href="https://discord.gg/uh6PrWh" target="_blank">Discord - Raven</a></h3>
       </div>
       <div class="w-1/2 sm:w-1/4 mb-8">
         <a href="https://discord.gg/fVymYST" target="_blank">
@@ -57,7 +57,7 @@ permalink: /community/
             <img style="width:40px;" src="{{"/assets/img/pages/community/discord.png"}}" alt="discord 3"/>
           </div>
         </a>
-        <h3><a href="https://discord.gg/fVymYST" target="_blank">Discord 3</a></h3>
+        <h3><a href="https://discord.gg/fVymYST" target="_blank">Discord - Ravencoin (RVN) Lounge</a></h3>
       </div>
       <div class="w-1/2 sm:w-1/4 mb-8">
         <a href="https://t.me/RavencoinDev" target="_blank">
@@ -73,7 +73,7 @@ permalink: /community/
             <i class="zmdi zmdi-reddit text-5xl text-white"></i>
           </div>
         </a>
-        <h3><a href="https://www.reddit.com/r/Ravencoin/" target="_blank">Reddit 1</a></h3>
+        <h3><a href="https://www.reddit.com/r/Ravencoin/" target="_blank">Reddit - r/Ravencoin</a></h3>
       </div>
       <div class="w-1/2 sm:w-1/4 mb-8">
         <a href="https://www.reddit.com/r/rvn/" target="_blank">
@@ -81,7 +81,7 @@ permalink: /community/
             <i class="zmdi zmdi-reddit text-5xl text-white"></i>
           </div>
         </a>
-        <h3><a href="https://www.reddit.com/r/rvn/" target="_blank">Reddit 2</a></h3>
+        <h3><a href="https://www.reddit.com/r/rvn/" target="_blank">Reddit - r/rvn</a></h3>
       </div>
       <div class="w-1/2 sm:w-1/4 mb-8">
         <a href="https://www.reddit.com/r/RVNMiner/" target="_blank">
@@ -89,7 +89,7 @@ permalink: /community/
             <i class="zmdi zmdi-reddit text-5xl text-white"></i>
           </div>
         </a>
-        <h3><a href="https://www.reddit.com/r/RVNMiner/" target="_blank">Reddit 3</a></h3>
+        <h3><a href="https://www.reddit.com/r/RVNMiner/" target="_blank">Reddit - r/RVNMiner</a></h3>
       </div>
       <div class="w-1/2 sm:w-1/4 mb-8">
         <a href="https://www.reddit.com/r/RVNCoin/" target="_blank">
@@ -97,7 +97,7 @@ permalink: /community/
             <i class="zmdi zmdi-reddit text-5xl text-white"></i>
           </div>
         </a>
-        <h3><a href="https://www.reddit.com/r/RVNCoin/" target="_blank">Reddit 4</a></h3>
+        <h3><a href="https://www.reddit.com/r/RVNCoin/" target="_blank">Reddit - r/RVNCoin</a></h3>
       </div>
       <div class="w-1/2 sm:w-1/4 mb-8">
         <a href="https://www.reddit.com/r/ravencointrader/" target="_blank">
@@ -105,7 +105,7 @@ permalink: /community/
             <i class="zmdi zmdi-reddit text-5xl text-white"></i>
           </div>
         </a>
-        <h3><a href="https://www.reddit.com/r/ravencointrader/" target="_blank">Reddit 5</a></h3>
+        <h3><a href="https://www.reddit.com/r/ravencointrader/" target="_blank">Reddit - r/ravencointrader</a></h3>
       </div>
       <div class="w-1/2 sm:w-1/4 mb-8">
         <a href="https://github.com/RavenProject/Ravencoin" target="_blank">
