@@ -155,6 +155,22 @@ permalink: /community/
         </a>
         <h3><a href="https://rvnstats.info/" target="_blank">Ravencoin Statistics</a></h3>
       </div>
+      <div class="w-1/2 sm:w-1/4 mb-8">
+        <a href="https://www.assetsexplorer.com/" target="_blank">
+          <div class="mb-6 py-4 px-5 inline-block rounded-full bg-grey hover:bg-grey-dark">
+            <i class="zmdi zmdi-view-list-alt text-5xl text-white"></i>
+          </div>
+        </a>
+        <h3><a href="https://www.assetsexplorer.com/" target="_blank">Ravencoin Asset Explorer by RealBokito</a></h3>
+      </div>
+      <div class="w-1/2 sm:w-1/4 mb-8">
+        <a href="https://ravencoin.asset-explorer.net/" target="_blank">
+          <div class="mb-6 py-4 px-5 inline-block rounded-full bg-grey hover:bg-grey-dark">
+            <i class="zmdi zmdi-view-list-alt text-5xl text-white"></i>
+          </div>
+        </a>
+        <h3><a href="https://ravencoin.asset-explorer.net/" target="_blank">Ravencoin Asset Explorer by Scotty</a></h3>
+      </div>
     </div>
   </div>
 </div>
