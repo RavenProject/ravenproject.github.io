@@ -15,7 +15,7 @@ permalink: /halving/
     <h3 class="mt-8">What is that in years?</h3>
     <p>1458.33333 / 365.25 = 3.992699 years (with one leap year)</p>
     <h3 class="mt-8">How accurate are those timelines</h3>
-    <p>This is all dependent on the number of blocks, not calendar time. If the block speed is faster than one minute, it will be sooner. If slower, it will be longer than 4 years.</p>
+    <p>This is all dependent on the number of blocks, not calendar time. If the block speed is faster than one minute, it will be sooner. If slower, it will be longer than 3 years.</p>
     <h3 class="mt-8">Okay, but can I have an example?</h3>
     <p>Example: By counting blocks on November 18th, 2018, Ravencoin was at 315.57 days, but in calendar time, we were at 319 days. This difference was caused by our mining power being increased almost every difficulty adjustment in the first months after the start of the platform.</p>
   </div>
