@@ -4,6 +4,8 @@ Current Build Status: ![Build Status](https://travis-ci.org/RavenProject/Ravenco
 Live site: [Ravencoin.com](https://ravencoin.com)
 Report problems or help improve the site by opening a [new issue](https://github.com/RavenProject/ravenproject.github.io.org/issues/new) or [pull request](https://github.com/RavenProject/ravenproject.github.io.org/compare).
 
+> Note: The Ravencoin.com website source has moved to https://github.com/RavenDevKit/RavenDevKit.github.io
+
 ## Earn Raven for Contributing to the Raven website (TBD)
 Open issues [labeled with "Bounty"](https://github.com/RavenProject/ravenproject.github.io/labels/Bounty)
 have bounties on them. Viewing the issue will reveal the value of the bounty.
