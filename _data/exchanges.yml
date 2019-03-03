@@ -6,6 +6,10 @@
   logo: /assets/img/pages/exchanges/binance.png
   url: https://www.binance.com/en/trade/RVN_BTC
 
+- name: Vertbase
+  logo: /assets/img/pages/exchanges/vertbase.png
+  url: https://www.vertbase.com/coins/ravencoin/
+
 - name: CoinExchange
   logo: /assets/img/pages/exchanges/coinexchange.png
   url: https://www.coinexchange.io/market/RVN/BTC
