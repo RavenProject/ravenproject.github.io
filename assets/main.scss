@@ -3,3 +3,9 @@
 ---
 
 @import "minima";
+
+//make header sticky
+.site-header {
+    position: fixed;
+    width: 100%;
+}
