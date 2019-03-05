@@ -1,6 +1,5 @@
 //make header sticky
-.site-header {
+.header-nav {
 	position: fixed;
 	width: 100%;
-	z-index: 999;
 }
