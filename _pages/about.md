@@ -30,7 +30,7 @@ permalink: /about/
     <li>Mining algorithm (X16R)</li>
   </ul>
 
-  <p>This algorithm is intended to address the centralization of mining caused by ASIC hardware. In the X16R&nbsp;<a href="https://ravencoin.org/wp-content/uploads/2018/03/X16R-Whitepaper.pdf">algorithm paper</a>, the team behind the currency explains that the fixed order of ordinary hashing algorithms lends itself to the construction of ASIC miners.</p>
+  <p>This algorithm is intended to address the centralization of mining caused by ASIC hardware. In the X16R&nbsp;<a href="/assets/documents/X16R-Whitepaper.pdf">algorithm paper</a>, the team behind the currency explains that the fixed order of ordinary hashing algorithms lends itself to the construction of ASIC miners.</p>
 
   <p>However, the X16R algorithm aims to overcome this problem by constantly disrupting the ordering of the hashing algorithms – it uses the same algorithms used in X15 and SHA512, but the ordering of those algorithms is changed based on the hash of the previous block.</p>
 
