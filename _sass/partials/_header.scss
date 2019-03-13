@@ -2,128 +2,126 @@
  * Site header
  */
 .site-header {
-	border-bottom: 1px solid $grey-color-light;
-	min-height: $spacing-unit * 1.865;
-	background-color: #ffffff;
+  border-bottom: 1px solid $grey-color-light;
+  min-height: $spacing-unit * 1.865;
+  background-color: #ffffff;
 
-	// Make header sticky
-	position: fixed;
-	width: 100%;
-	z-index: 1;
+  // Positioning context for the mobile navigation icon
+  position: relative;
 }
 
 .site-title {
-	img {
-		max-height: 35px;
-		margin-top: 10px;
-	}
+  img {
+    max-height: 35px;
+    margin-top: 10px;
+  }
 }
 
 .site-nav {
-	float: right;
-	line-height: $base-line-height * $base-font-size * 2.25;
-	z-index: 1;
+  float: right;
+  line-height: $base-line-height * $base-font-size * 2.25;
+  z-index: 1;
 
-	.nav-trigger {
-		display: none;
-	}
+  .nav-trigger {
+    display: none;
+  }
 
-	.menu-icon {
-		display: none;
-	}
+  .menu-icon {
+    display: none;
+  }
 
-	.page-link {
-		color: $grey-secondary;
-		line-height: $base-line-height;
-		text-transform: uppercase;
-		text-decoration: none;
-		padding-bottom: 3px;
-		border-bottom: 2px solid transparent;
-		transition: 0.25s ease;
-		font-weight: 600;
-		font-size: 14px;
+  .page-link {
+    color: $grey-secondary;
+    line-height: $base-line-height;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-bottom: 3px;
+    border-bottom: 2px solid transparent;
+    transition: 0.25s ease;
+    font-weight: 600;
+    font-size: 14px;
 
-		// Gaps between nav items, but not on the last one
-		&:not(:last-child) {
-			margin-right: 20px;
-		}
-		&:hover {
-			border-bottom-color: $primary-color;
-		}
-	}
+    // Gaps between nav items, but not on the last one
+    &:not(:last-child) {
+      margin-right: 20px;
+    }
+    &:hover {
+      border-bottom-color: $primary-color;
+    }
+  }
 
-	@include media-query($on-palm) {
-		position: absolute;
-		top: 9px;
-		right: $spacing-unit / 2;
-		background-color: $background-color;
-		border: 1px solid $grey-color-light;
-		border-radius: 5px;
-		text-align: right;
+  @include media-query($on-palm) {
+    position: absolute;
+    top: 9px;
+    right: $spacing-unit / 2;
+    background-color: $background-color;
+    border: 1px solid $grey-color-light;
+    border-radius: 5px;
+    text-align: right;
 
-		label[for="nav-trigger"] {
-			display: block;
-			float: right;
-			width: 36px;
-			height: 36px;
-			z-index: 2;
-			cursor: pointer;
-		}
+    label[for="nav-trigger"] {
+      display: block;
+      float: right;
+      width: 36px;
+      height: 36px;
+      z-index: 2;
+      cursor: pointer;
+    }
 
-		.menu-icon {
-			display: block;
-			float: right;
-			width: 36px;
-			height: 26px;
-			line-height: 0;
-			padding-top: 10px;
-			text-align: center;
+    .menu-icon {
+      display: block;
+      float: right;
+      width: 36px;
+      height: 26px;
+      line-height: 0;
+      padding-top: 10px;
+      text-align: center;
 
-			> svg {
-				fill: $grey-color-dark;
-			}
-		}
+      > svg {
+        fill: $grey-color-dark;
+      }
+    }
 
-		input ~ .trigger {
-			clear: both;
-			display: none;
-		}
+    input ~ .trigger {
+      clear: both;
+      display: none;
+    }
 
-		input:checked ~ .trigger {
-			display: block;
-			padding-bottom: 5px;
-		}
+    input:checked ~ .trigger {
+      display: block;
+      padding-bottom: 5px;
+    }
 
-		.page-link {
-			display: block;
-			padding: 5px 10px;
+    .page-link {
+      display: block;
+      padding: 5px 10px;
 
-			&:not(:last-child) {
-				margin-right: 0;
-			}
-			margin-left: 20px;
-		}
-	}
+      &:not(:last-child) {
+        margin-right: 0;
+      }
+      margin-left: 20px;
+    }
+  }
 }
 
 @media screen and (max-width: 700px) and (min-width: 601px) {
-	.site-title,
-	.site-nav {
-		width: 100%;
-		text-align: center;
-	}
-	.site-title {
-		img {
-			display: block;
-			margin: 20px auto 0;
-		}
-	}
+  .site-title,
+  .site-nav {
+    width: 100%;
+    text-align: center;
+  }
+  .site-title {
+    img {
+      display: block;
+      margin: 20px auto 0;
+    }
+  }
 }
 @media screen and (max-width: 600px) {
-	.header-nav {
-		height: 55px;
-	}
-	.site-nav {
-		top: 40px;
-	}
+  .header-nav {
+    height: 55px;
+  }
+  .site-nav {
+    top: 40px;
+  }
 }
