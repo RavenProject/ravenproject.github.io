@@ -13,6 +13,9 @@ Submit a pull request resolving the issue along with an accompanying note or
 comment containing a raven address and automatically receive a payment in the
 amount of the bounty if it gets merged.
 
+## Setup the website locally
+https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/
+
 ## How to Participate
 1. Fork ravenproject.github.io
 2. Click the settings tab
