@@ -3,6 +3,7 @@ layout: default
 title: Home
 permalink: /
 modalTitle: "Announcement"
+modalContent: 'Wallet version 2.2.2 is now available. <a href="/wallet">Click Here to Upgrade</a>'
 modalId: "upgrade-notification"
 modalCacheRef: "2.2.2"
 ---
