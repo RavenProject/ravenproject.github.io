@@ -1,3 +1,6 @@
+- name: Nanopool
+  url: https://rvn.nanopool.org/
+
 - name: 2Miners
   url: https://2miners.com
   
