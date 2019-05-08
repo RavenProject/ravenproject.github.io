@@ -10,6 +10,10 @@
   logo: /assets/img/pages/exchanges/vertbase.png
   url: https://www.vertbase.com/coins/ravencoin/
 
+- name: Digifinex
+  logo: /assets/img/pages/exchanges/digifinex.png
+  url: https://www.digifinex.com/trade/BTC/RVN
+
 - name: CoinExchange
   logo: /assets/img/pages/exchanges/coinexchange.png
   url: https://www.coinexchange.io/market/RVN/BTC
@@ -49,3 +53,43 @@
 - name: QBTC
   logo: /assets/img/pages/exchanges/qbtc.png
   url: https://www.qbtc.com/trade
+
+- name: Alladin
+  logo: /assets/img/pages/exchanges/alladin.png
+  url: https://alladin.io/
+
+- name: Altilly
+  logo: /assets/img/pages/exchanges/altilly.png
+  url: https://www.altilly.com/asset/RVN
+
+- name: BitsFox
+  logo: /assets/img/pages/exchanges/bitsfox.png
+  url: https://bitsfox.com/exchange/RVN-BTC
+
+- name: Bitmesh
+  logo: /assets/img/pages/exchanges/bitmesh.png
+  url: https://bitmesh.com/exchange?market=btc_rvn#/
+
+- name: Bitrue
+  logo: /assets/img/pages/exchanges/bitrue.png
+  url: https://www.bitrue.com/
+
+- name: Bitladon
+  logo: /assets/img/pages/exchanges/bitladon.png
+  url: https://www.bitladon.com/ravencoin
+
+- name: Chaoex
+  logo: /assets/img/pages/exchanges/chaoex.png
+  url: https://www.chaoex.com/dealcenter
+
+- name: Coinall
+  logo: /assets/img/pages/exchanges/coinall.png
+  url: https://www.coinall.com/spot/trade#product=rvn_btc
+
+- name: CoinSpot
+  logo: /assets/img/pages/exchanges/coinspot.png
+  url: https://www.coinspot.com.au/chart/RVN
+
+- name: Indodax
+  logo: /assets/img/pages/exchanges/indodax.png
+  url: https://indodax.com/
