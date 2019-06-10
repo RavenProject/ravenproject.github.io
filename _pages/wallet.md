@@ -20,15 +20,21 @@ permalink: /wallet/
     <h2 class="mt-10 mb-16">Desktop Downloads</h2>
     <div class="flex flex-wrap align-center justify-center">
       <div class="w-full sm:w-1/2 md:w-1/3 px-4 mb-12">
-        <img style="max-height: 125px;" src="/assets/img/pages/wallet/windows.svg" alt="windows download"/>
+        <div class="bg-grey-lighter max-w-sm rounded overflow-hidden shadow-md hover:by-grey">
+          <a class="block px-6 py-4" href="https://github.com/RavenProject/Ravencoin/releases" target="_blank"><img style="max-height: 125px;" src="/assets/img/pages/wallet/windows.svg" align="middle" alt=" Windows wallet"/></a>
+        </div>
         <a class="block mt-8 text-lg bg-blue hover:bg-blue-dark rounded p-2 text-white" href="https://github.com/RavenProject/Ravencoin/releases" download><i class="zmdi zmdi-download"></i><span class="inline-block ml-3">Windows</span></a>
       </div>
       <div class="w-full sm:w-1/2 md:w-1/3 px-4 mb-12">
-        <img style="max-height: 125px;" src="/assets/img/pages/wallet/mac.svg" alt="mac download"/>
+        <div class="bg-grey-lighter max-w-sm rounded overflow-hidden shadow-md hover:by-grey">
+          <a class="block px-6 py-4" href="https://github.com/RavenProject/Ravencoin/releases" target="_blank"><img style="max-height: 125px;" src="/assets/img/pages/wallet/mac.svg" align="middle" alt=" Mac wallet"/></a>
+        </div>
         <a class="block mt-8 text-lg bg-blue hover:bg-blue-dark rounded p-2 text-white" href="https://github.com/RavenProject/Ravencoin/releases" download><i class="zmdi zmdi-download"></i><span class="inline-block ml-3">Mac</span></a>
       </div>
       <div class="w-full sm:w-1/2 md:w-1/3 px-4 mb-12">
-        <img style="max-height: 125px;" src="/assets/img/pages/wallet/linux.svg" alt="linux download"/>
+        <div class="bg-grey-lighter max-w-sm rounded overflow-hidden shadow-md hover:by-grey">
+          <a class="block px-6 py-4" href="https://github.com/RavenProject/Ravencoin/releases" target="_blank"><img style="max-height: 125px;" src="/assets/img/pages/wallet/linux.svg" align="middle" alt="Linux wallet"/></a>
+        </div>
         <a class="block mt-8 text-lg bg-blue hover:bg-blue-dark rounded p-2 text-white" href="https://github.com/RavenProject/Ravencoin/releases" download><i class="zmdi zmdi-download"></i><span class="inline-block ml-3">Linux</span></a>
       </div>
     </div>
@@ -46,7 +52,7 @@ permalink: /wallet/
         </div>
         <div class="flex flex-wrap">
           {% for platform in wallet.platforms %}
-            <img style="height: 25px; length: 16px; padding-right: 20px; padding-top: 4px;" src="/assets/img/pages/wallet/{{platform}}.svg"/>
+            <img style="height: 25px; length: 16px; padding-right: 15px; padding-top: 4px;" src="/assets/img/pages/wallet/{{platform}}.svg"/>
           {% endfor %}
         </div>
         <a class="block mt-4 mb-8 text-lg bg-blue hover:bg-blue-dark rounded p-2 text-white" href="{{ wallet.url }}"><i class="zmdi zmdi-download"></i><span class="inline-block ml-3">{{wallet.name}} Wallet</span></a>
