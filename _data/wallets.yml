@@ -1,0 +1,45 @@
+- name: Zelcore
+  logo: /assets/img/pages/wallet/zelcore.png
+  url: https://zel.network/project/zelcore/
+  asset-support: true
+  platforms:
+    - app-store-badge
+    - google-play-badge
+    - windows
+    - mac
+    - linux
+
+- name: Exodus
+  logo: /assets/img/pages/wallet/exodus.png
+  url: https://www.exodus.io/download/
+  asset-support: false
+  platforms:
+    - app-store-badge
+    - google-play-badge
+    - windows
+    - mac
+    - linux
+
+- name: Spend
+  logo: /assets/img/pages/wallet/spend.png
+  url: https://www.spend.com/
+  asset-support: false
+  platforms:
+    - app-store-badge
+    - google-play-badge
+
+- name: Trust
+  logo: /assets/img/pages/wallet/trust.png
+  url: https://trustwallet.com/
+  asset-support: false
+  platforms:
+    - app-store-badge
+    - google-play-badge
+
+- name: Cobo
+  logo: /assets/img/pages/wallet/cobo.png
+  url: https://cobo.com/
+  asset-support: false
+  platforms:
+    - app-store-badge
+    - google-play-badge
