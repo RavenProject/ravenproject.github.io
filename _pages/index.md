@@ -72,14 +72,6 @@ modalCacheRef: "2.2.2"
 
 <div class="banner text-center">
   <div class="wrapper">
-  <h1 class="animated fadeInRight mb-3 mb-2 m-auto leading-tight"><u>Europe Ravencoin Meetup</u></h1>
-  <h2 class="animated fadeInRight mb-3 mb-2 m-auto leading-tight">Come talk and meet with the Community and Developers.</h2>
-  <h3 class="animated fadeInRight mb-3 mb-2 m-auto leading-tight">June 19, 2019 | 5PM-6PM  | RAI | Amsterdam Netherlands</h3>
-  <a class="btn btn-primary mx-2 mt-4 mb-3 px-3 py-3 font-medium text-base rounded text-white hover:text-white" href="https://www.ravencoinmeetup.org/event/ravencoin-meetup-europe-june-2019">Come join us</a>
-  <br>
-  <br>
-  <br>
-
     <h1 class="animated fadeInRight mb-3 mb-2 m-auto leading-tight">Ravencoin is a peer-to-peer blockchain, handling the efficient creation and transfer of assets from one party to another.</h1>
 
     <div class="animated fadeInLeft">
