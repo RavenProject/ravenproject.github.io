@@ -86,6 +86,11 @@ modalCacheRef: "2.4.0"
       </a>
     <span class="mt-2">What is Ravencoin?</span></div>
   </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <h1 id="wallet_update" class="animated fadeInLeft mb-3 mb-2 m-auto leading-tight text-orange">New Ravencoin wallet version 2.4.0 is available</h1>
 </div>
 <div class="section-intro text-white py-20">
   <div class="wrapper">
@@ -231,6 +236,18 @@ modalCacheRef: "2.4.0"
   MediaBox('.mediabox');
 </script>
 <script type="text/javascript">
+
+setInterval(function() {
+  // Display the result in the element with id="wallet_update"
+  let temp = document.getElementById("wallet_update");
+
+  if (temp.style.color === 'orange') {
+    temp.style.color = 'purple';
+  } else {
+    temp.style.color = 'orange';
+  }
+  }, 1000);
+
   window.addEventListener("load", function() {
 
     /* Tabs */
