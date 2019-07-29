@@ -43,3 +43,12 @@
   platforms:
     - app-store-badge
     - google-play-badge
+
+- name: Edge
+  logo: /assets/img/pages/wallet/edge.png
+  url: https://edge.app/
+  asset-support: false
+  platforms:
+    - app-store-badge
+    - google-play-badge
+
