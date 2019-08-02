@@ -93,3 +93,7 @@
 - name: Indodax
   logo: /assets/img/pages/exchanges/indodax.png
   url: https://indodax.com/
+
+- name: bitqist
+  logo: /assets/img/pages/exchanges/bitqist.png
+  url: https://www.bitqist.com/en/buy/ravencoin
