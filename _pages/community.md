@@ -12,14 +12,6 @@ permalink: /community/
     <p>We have a number of active and growing communities for you to choose from:</p>
     <div class="flex flex-wrap pt-16 pb-32 m-auto" style="max-width: 800px;">
       <div class="w-1/2 sm:w-1/4 mb-8">
-        <a href="https://www.ravencointalk.org/" target="_blank">
-          <div class="mb-6 py-4 px-5 inline-block rounded-full bg-grey hover:bg-grey-dark">
-            <i class="zmdi zmdi-comments text-5xl text-white"></i>
-          </div>
-        </a>
-        <h3><a href="https://www.ravencointalk.org/" target="_blank">Ravencoin Talk</a></h3>
-      </div>
-      <div class="w-1/2 sm:w-1/4 mb-8">
         <a href="https://bitcointalk.org/index.php?topic=3238497" target="_blank">
           <div class="mb-6 py-4 px-5 inline-block rounded-full bg-grey hover:bg-grey-dark">
             <i class="zmdi zmdi-comments text-5xl text-white"></i>
@@ -162,6 +154,14 @@ permalink: /community/
           </div>
         </a>
         <h3><a href="https://rvnstats.info/" target="_blank">Ravencoin Statistics</a></h3>
+      </div>
+      <div class="w-1/2 sm:w-1/4 mb-8">
+        <a href="http://www.ravennodes.com/" target="_blank">
+          <div class="mb-6 py-4 px-5 inline-block rounded-full bg-grey hover:bg-grey-dark">
+            <i class="zmdi zmdi-chart text-5xl text-white"></i>
+          </div>
+        </a>
+        <h3><a href="http://www.ravennodes.com/" target="_blank">Ravencoin Node Map</a></h3>
       </div>
       <div class="w-1/2 sm:w-1/4 mb-8">
         <a href="https://www.assetsexplorer.com/" target="_blank">

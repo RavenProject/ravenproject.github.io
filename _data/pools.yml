@@ -3,7 +3,7 @@
 
 - name: 2Miners
   url: https://2miners.com
-  
+
 - name: Bsod
   url: https://bsod.pw/site/
 
@@ -48,3 +48,6 @@
 
 - name: Ravencoin.world
   url: https://ravencoin.world/
+
+- name: Coinotron
+  url: https://coinotron.com/app?action=home
