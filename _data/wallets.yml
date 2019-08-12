@@ -51,4 +51,37 @@
   platforms:
     - app-store-badge
     - google-play-badge
+    
+- name: Coinpayments
+  logo: /assets/img/pages/wallet/coinpayments.png
+  url: https://www.coinpayments.net/apps
+  asset-support: false
+  platforms:
+    - app-store-badge
+    - google-play-badge
 
+- name: Crypto.com
+  logo: /assets/img/pages/wallet/crypto.com.png
+  url: https://www.crypto.com/en/index.html
+  asset-support: false
+  platforms:
+    - app-store-badge
+    - google-play-badge
+
+- name: Safepay
+  logo: /assets/img/pages/wallet/safepay.png
+  url: https://safepay.safecoin.org/
+  asset-support: false
+  platforms:
+    - app-store-badge
+    - google-play-badge
+    - windows
+    - linux
+    - world-wide-web
+
+- name: Dove
+  logo: /assets/img/pages/wallet/dove.png
+  url: https://dovewallet.com/
+  asset-support: false
+  platforms:
+    - world-wide-web

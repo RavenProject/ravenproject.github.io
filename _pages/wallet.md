@@ -66,14 +66,9 @@ permalink: /wallet/
           <a class="inline-block text-lg bg-blue hover:bg-blue-dark rounded p-2 text-white px-8" href="https://github.com/todd1251/WalletGenerator.net/tree/ravencoin" target="_blank"><span class="inline-block ml-3">Paper Wallet | Contributed by Penfold</span></a>
         </div>
         <div class="w-full sm:w-1/2 px-2 mb-4">
-          <a class="inline-block text-lg bg-blue hover:bg-blue-dark rounded p-2 text-white px-8" href="//paperwallet.ravencoin.online" target="_blank"><span class="inline-block ml-3">Paper Wallet | Contributed by MSFTserver</span></a>
+          <a class="inline-block text-lg bg-blue hover:bg-blue-dark rounded p-2 text-white px-8" href="https://paper.pocketraven.com/" target="_blank"><span class="inline-block ml-3">Paper Wallet | Contributed by Traysi</span></a>
         </div>
       </div>
-    </div>
-    <h2 class="mt-16 mb-8">All Releases</h2>
-    <div class="pt-8 mb-8">
-      <a class="inline-block text-lg bg-blue hover:bg-blue-dark rounded p-2 text-white px-8" href="https://github.com/MSFTserver/RavenCoin-Wallet-With-Miners/releases" download><i class="zmdi zmdi-link"></i><span class="inline-block ml-3">View All</span></a>
-    </div>
   </div>
 </div>
 

@@ -14,6 +14,10 @@
   logo: /assets/img/pages/exchanges/digifinex.png
   url: https://www.digifinex.com/trade/BTC/RVN
 
+- name: ChangeAngel
+  logo: /assets/img/pages/exchanges/changeangel.png
+  url: https://changeangel.io/
+
 - name: CoinExchange
   logo: /assets/img/pages/exchanges/coinexchange.png
   url: https://www.coinexchange.io/market/RVN/BTC
@@ -30,17 +34,9 @@
   logo: /assets/img/pages/exchanges/barterdex.png
   url: https://www.atomicexplorer.com/#/coins
 
-- name: Cryptopia
-  logo: /assets/img/pages/exchanges/cryptopia.png
-  url:   https://www.cryptopia.co.nz/
-
 - name: Cryptohub
   logo: /assets/img/pages/exchanges/cryptohub.png
   url: https://cryptohub.online/market/RVN/
-
-- name: Nanex
-  logo: /assets/img/pages/exchanges/nanex.png
-  url: https://nanex.co/
 
 - name: Graviex
   logo: /assets/img/pages/exchanges/graviex.png
@@ -66,10 +62,6 @@
   logo: /assets/img/pages/exchanges/bitsfox.png
   url: https://bitsfox.com/exchange/RVN-BTC
 
-- name: Bitmesh
-  logo: /assets/img/pages/exchanges/bitmesh.png
-  url: https://bitmesh.com/exchange?market=btc_rvn#/
-
 - name: Bitrue
   logo: /assets/img/pages/exchanges/bitrue.png
   url: https://www.bitrue.com/
@@ -92,4 +84,12 @@
 
 - name: Indodax
   logo: /assets/img/pages/exchanges/indodax.png
-  url: https://indodax.com/
+  url: https://indodax.com/market/RVNIDR
+
+- name: bitqist
+  logo: /assets/img/pages/exchanges/bitqist.png
+  url: https://www.bitqist.com/en/buy/ravencoin
+
+- name: bitqist
+  logo: /assets/img/pages/exchanges/wazirx.png
+  url:  https://wazirx.com/exchange/RVN-USDT
