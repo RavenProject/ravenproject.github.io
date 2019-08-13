@@ -69,7 +69,11 @@ permalink: /wallet/
           <a class="inline-block text-lg bg-blue hover:bg-blue-dark rounded p-2 text-white px-8" href="https://paper.pocketraven.com/" target="_blank"><span class="inline-block ml-3">Paper Wallet | Contributed by Traysi</span></a>
         </div>
       </div>
-  </div>
+    </div>
+    <h2 class="mt-16 mb-8">Ledger</h2>
+    <div class="pt-8 mb-8 pb-8">
+          <a class="inline-block text-lg bg-blue hover:bg-blue-dark rounded p-2 text-white px-8" href="/ledger/" target="_blank"><span class="inline-block ml-3">Ledger Guide</span></a>
+    </div>
 </div>
 
 <style>
