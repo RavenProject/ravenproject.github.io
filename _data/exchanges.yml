@@ -30,6 +30,10 @@
   logo: /assets/img/pages/exchanges/upbit.png
   url: https://upbit.com/exchange?code=CRIX.UPBIT.BTC-RVN
 
+- name: ProBit
+  logo: /assets/img/pages/exchanges/probit.png
+  url: https://www.probit.com/app
+
 - name: BarterDEX
   logo: /assets/img/pages/exchanges/barterdex.png
   url: https://www.atomicexplorer.com/#/coins
