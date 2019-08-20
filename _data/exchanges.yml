@@ -32,7 +32,7 @@
 
 - name: ProBit
   logo: /assets/img/pages/exchanges/probit.png
-  url: https://www.probit.com/app
+  url: https://www.probit.com/app/exchange/RVN-USDT
 
 - name: BarterDEX
   logo: /assets/img/pages/exchanges/barterdex.png
