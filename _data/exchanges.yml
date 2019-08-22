@@ -101,3 +101,7 @@
 - name: BXB (ref code for RVN donations)
   logo: /assets/img/pages/exchanges/bxb.png
   url:  https://trade.bxb.io/register/html/index.html?code=72T8U8
+
+- name: ATAIX
+  logo: /assets/img/pages/exchanges/ataix.png
+  url:  https://ataix.com/market/RVN-BTC
