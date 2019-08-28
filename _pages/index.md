@@ -3,9 +3,9 @@ layout: default
 title: Home
 permalink: /
 modalTitle: "Announcement"
-modalContent: 'Critical Wallet Upgrade: Upgrade to Version 2.5.0 before Oct 1st. <a href="/wallet">Click Here to Upgrade</a>'
+modalContent: 'Critical Wallet Upgrade: Upgrade to Version 2.5.1 before Oct 1st. <a href="/wallet">Click Here to Upgrade</a>'
 modalId: "upgrade-notification"
-modalCacheRef: "2.5.0"
+modalCacheRef: "2.5.1"
 ---
 
 <link href="/assets/vendors/mediabox/mediabox.css" rel="stylesheet">
@@ -91,7 +91,7 @@ modalCacheRef: "2.5.0"
   <br>
   <br>
   <h1 class="animated fadeInLeft mb-3 mb-2 m-auto leading-tight text-red">Critical Wallet Update</h1>
-  <h1 class="animated fadeInLeft mb-3 mb-2 m-auto leading-tight text-black">Update to version 2.5.0 before Oct 1st</h1>
+  <h1 class="animated fadeInLeft mb-3 mb-2 m-auto leading-tight text-black">Update to version 2.5.1 before Oct 1st</h1>
 </div>
 <div class="section-intro text-white py-20">
   <div class="wrapper">
