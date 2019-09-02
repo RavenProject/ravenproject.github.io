@@ -10,6 +10,10 @@
   logo: /assets/img/pages/exchanges/vertbase.png
   url: https://www.vertbase.com/coins/ravencoin/
 
+- name: tZero
+  logo: /assets/img/pages/exchanges/tzero.png
+  url: https://www.tzero.com/crypto-app
+
 - name: Digifinex
   logo: /assets/img/pages/exchanges/digifinex.png
   url: https://www.digifinex.com/trade/BTC/RVN
@@ -29,6 +33,10 @@
 - name: Upbit
   logo: /assets/img/pages/exchanges/upbit.png
   url: https://upbit.com/exchange?code=CRIX.UPBIT.BTC-RVN
+
+- name: ProBit
+  logo: /assets/img/pages/exchanges/probit.png
+  url: https://www.probit.com/app/exchange/RVN-USDT
 
 - name: BarterDEX
   logo: /assets/img/pages/exchanges/barterdex.png
@@ -93,3 +101,11 @@
 - name: bitqist
   logo: /assets/img/pages/exchanges/wazirx.png
   url:  https://wazirx.com/exchange/RVN-USDT
+
+- name: BXB (ref code for RVN donations)
+  logo: /assets/img/pages/exchanges/bxb.png
+  url:  https://trade.bxb.io/register/html/index.html?code=72T8U8
+
+- name: ATAIX
+  logo: /assets/img/pages/exchanges/ataix.png
+  url:  https://ataix.com/market/RVN-BTC
