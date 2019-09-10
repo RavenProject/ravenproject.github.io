@@ -43,6 +43,17 @@
   platforms:
     - app-store-badge
     - google-play-badge
+    
+- name: Atomic Wallet
+  logo: /assets/img/pages/wallet/atomic-wallet.png
+  url: https://atomicwallet.io/
+  asset-support: false
+  platforms:
+    - app-store-badge
+    - google-play-badge
+    - windows
+    - mac
+    - linux
 
 - name: Edge
   logo: /assets/img/pages/wallet/edge.png
