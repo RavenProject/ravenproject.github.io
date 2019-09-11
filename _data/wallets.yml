@@ -44,7 +44,7 @@
     - app-store-badge
     - google-play-badge
     
-- name: Atomic Wallet
+- name: Atomic
   logo: /assets/img/pages/wallet/atomic-wallet.png
   url: https://atomicwallet.io/
   asset-support: false
