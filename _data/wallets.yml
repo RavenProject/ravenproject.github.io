@@ -1,3 +1,12 @@
+- name: Flare
+  logo: /assets/img/pages/wallet/flare-wallet.png
+  url: https://flarewallet.io/
+  asset-support: false
+  platforms:
+    - windows
+    - mac
+    - linux
+
 - name: Zelcore
   logo: /assets/img/pages/wallet/zelcore.png
   url: https://zel.network/project/zelcore/
