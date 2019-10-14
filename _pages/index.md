@@ -192,8 +192,8 @@ modalCacheRef: "2.5.1"
           <li>Block time of 1 minute instead of 10.</li>
           <li>Total coin supply of 21 Billion instead of 21 million.</li>
           <li>A new mining algorithm, X16R which allows for more decentralized mining.</li>
-          <li>Addition of Asset issuance, and transfer.</li>
-          <li>Future addition of unique assets, sub-assets, rewards, messaging, and voting.</li>
+          <li>Addition of Asset & Sub-asset issuance, transfer, and unique assets.</li>
+          <li>Future addition of rewards, messaging, and voting.</li>
         </ul>
       </div>
       <div class="w-full sm:w-full md:w-1/4 text-center hidden md:block">
