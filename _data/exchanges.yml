@@ -22,10 +22,6 @@
   logo: /assets/img/pages/exchanges/changeangel.png
   url: https://changeangel.io/
 
-- name: CoinExchange
-  logo: /assets/img/pages/exchanges/coinexchange.png
-  url: https://www.coinexchange.io/market/RVN/BTC
-
 - name: Cryptobridge
   logo: /assets/img/pages/exchanges/cryptobridge.png
   url: https://wallet.crypto-bridge.org/market/BRIDGE.RVN_BRIDGE.BTC
