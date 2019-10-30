@@ -26,8 +26,8 @@ permalink: /wcc/
           <li><a href="https://raven-nightly-builds.ravencoin.org">Download Ravencoin Daemon / Qt</a></li>
           <li><a href="https://github.com/RavenDevKit/insight-api">Ravencoin Api Documentation</a></li>
           <li><a href="https://testnet.ravencoin.network/">Testnet Faucet</a></li>
-          <li><a href="https://testnet.ravencoin.network/api/">Testnet Api</a></li>
-          <li><a href="https://testnet.ravencoin.network/">Block Explorer</a></li>
+          <li><a href="https://testnet-api.ravencoin.org/api/">Testnet Api</a></li>
+          <li><a href="https://testnet-api.ravencoin.org/">Block Explorer</a></li>
         </ul>
       </h3>
     </div>
@@ -84,7 +84,7 @@ permalink: /wcc/
 
     <div class="wrapper ml-80 m-auto">
       <h3>
-        The block explorer allows you to view the Ravencoin blocks, transactions, and address balances on a website
+        The block explorer allows you to view the Ravencoin blocks, transactions, and address balances on a website. Visit it here <a href="https://testnet-api.ravencoin.org/">Block Explorer</a>
       </h3>
     </div>
 
