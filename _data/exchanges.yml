@@ -8,7 +8,7 @@
 
 - name: Vertbase
   logo: /assets/img/pages/exchanges/vertbase.png
-  url: https://www.vertbase.com/coins/ravencoin/
+  url: https://www.vertbase.com/coins/rvn
 
 - name: tZero
   logo: /assets/img/pages/exchanges/tzero.png
@@ -38,37 +38,21 @@
   logo: /assets/img/pages/exchanges/barterdex.png
   url: https://www.atomicexplorer.com/#/coins
 
-- name: Cryptohub
-  logo: /assets/img/pages/exchanges/cryptohub.png
-  url: https://cryptohub.online/market/RVN/
-
 - name: Graviex
   logo: /assets/img/pages/exchanges/graviex.png
   url: https://graviex.net/markets/rvnbtc
 
-- name: IDCM
-  logo: /assets/img/pages/exchanges/idcm.png
-  url: https://www.idcm.io/trading/RVN_BTC
-
 - name: QBTC
   logo: /assets/img/pages/exchanges/qbtc.png
-  url: https://www.qbtc.com/trade
-
-- name: Alladin
-  logo: /assets/img/pages/exchanges/alladin.png
-  url: https://alladin.io/
+  url: https://www.qbtc.com/trade?symbol=RVN_USDT
 
 - name: Altilly
   logo: /assets/img/pages/exchanges/altilly.png
   url: https://www.altilly.com/asset/RVN
 
-- name: BitsFox
-  logo: /assets/img/pages/exchanges/bitsfox.png
-  url: https://bitsfox.com/exchange/RVN-BTC
-
 - name: Bitrue
   logo: /assets/img/pages/exchanges/bitrue.png
-  url: https://www.bitrue.com/
+  url: https://www.bitrue.com/trade/rvn_btc
 
 - name: Bitladon
   logo: /assets/img/pages/exchanges/bitladon.png
