@@ -109,3 +109,7 @@
 - name: ATAIX
   logo: /assets/img/pages/exchanges/ataix.png
   url:  https://ataix.com/market/RVN-BTC
+
+- name: DEX Trade
+  logo: /assets/img/pages/exchanges/dextrade.png
+  url:  https://dex-trade.com/trading/RVNBTC
