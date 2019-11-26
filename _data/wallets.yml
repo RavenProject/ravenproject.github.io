@@ -1,22 +1,44 @@
-- name: Flare
-  logo: /assets/img/pages/wallet/flare-wallet.png
-  url: https://flarewallet.io/
+- name: Atomic
+  logo: /assets/img/pages/wallet/atomic-wallet.png
+  url: https://atomicwallet.io/
   asset-support: false
-  platforms:
-    - windows
-    - mac
-    - linux
-
-- name: Zelcore
-  logo: /assets/img/pages/wallet/zelcore.png
-  url: https://zel.network/project/zelcore/
-  asset-support: true
   platforms:
     - app-store-badge
     - google-play-badge
     - windows
     - mac
     - linux
+
+- name: Cobo
+  logo: /assets/img/pages/wallet/cobo.png
+  url: https://cobo.com/
+  asset-support: false
+  platforms:
+    - app-store-badge
+    - google-play-badge
+
+- name: Coinpayments
+  logo: /assets/img/pages/wallet/coinpayments.png
+  url: https://www.coinpayments.net/apps
+  asset-support: false
+  platforms:
+    - app-store-badge
+    - google-play-badge
+
+- name: Crypto.com
+  logo: /assets/img/pages/wallet/crypto.com.png
+  url: https://www.crypto.com/en/index.html
+  asset-support: false
+  platforms:
+    - app-store-badge
+    - google-play-badge
+
+- name: Dove
+  logo: /assets/img/pages/wallet/dove.png
+  url: https://dovewallet.com/
+  asset-support: false
+  platforms:
+    - world-wide-web
 
 - name: Exodus
   logo: /assets/img/pages/wallet/exodus.png
@@ -28,6 +50,45 @@
     - windows
     - mac
     - linux
+
+- name: Edge
+  logo: /assets/img/pages/wallet/edge.png
+  url: https://edge.app/
+  asset-support: false
+  platforms:
+    - app-store-badge
+    - google-play-badge
+
+- name: Flare
+  logo: /assets/img/pages/wallet/flare-wallet.png
+  url: https://flarewallet.io/
+  asset-support: false
+  platforms:
+    - windows
+    - mac
+    - linux
+
+- name: Guarda
+  logo: /assets/img/pages/wallet/guarda_wallet.png
+  url: https://guarda.co/
+  asset-support: false
+  platforms:
+    - app-store-badge
+    - google-play-badge
+    - windows
+    - linux
+    - world-wide-web
+
+- name: Safepay
+  logo: /assets/img/pages/wallet/safepay.png
+  url: https://safepay.safecoin.org/
+  asset-support: false
+  platforms:
+    - app-store-badge
+    - google-play-badge
+    - windows
+    - linux
+    - world-wide-web
 
 - name: Spend
   logo: /assets/img/pages/wallet/spend.png
@@ -45,63 +106,13 @@
     - app-store-badge
     - google-play-badge
 
-- name: Cobo
-  logo: /assets/img/pages/wallet/cobo.png
-  url: https://cobo.com/
-  asset-support: false
-  platforms:
-    - app-store-badge
-    - google-play-badge
-    
-- name: Atomic
-  logo: /assets/img/pages/wallet/atomic-wallet.png
-  url: https://atomicwallet.io/
-  asset-support: false
+- name: Zelcore
+  logo: /assets/img/pages/wallet/zelcore.png
+  url: https://zel.network/project/zelcore/
+  asset-support: true
   platforms:
     - app-store-badge
     - google-play-badge
     - windows
     - mac
     - linux
-
-- name: Edge
-  logo: /assets/img/pages/wallet/edge.png
-  url: https://edge.app/
-  asset-support: false
-  platforms:
-    - app-store-badge
-    - google-play-badge
-    
-- name: Coinpayments
-  logo: /assets/img/pages/wallet/coinpayments.png
-  url: https://www.coinpayments.net/apps
-  asset-support: false
-  platforms:
-    - app-store-badge
-    - google-play-badge
-
-- name: Crypto.com
-  logo: /assets/img/pages/wallet/crypto.com.png
-  url: https://www.crypto.com/en/index.html
-  asset-support: false
-  platforms:
-    - app-store-badge
-    - google-play-badge
-
-- name: Safepay
-  logo: /assets/img/pages/wallet/safepay.png
-  url: https://safepay.safecoin.org/
-  asset-support: false
-  platforms:
-    - app-store-badge
-    - google-play-badge
-    - windows
-    - linux
-    - world-wide-web
-
-- name: Dove
-  logo: /assets/img/pages/wallet/dove.png
-  url: https://dovewallet.com/
-  asset-support: false
-  platforms:
-    - world-wide-web
