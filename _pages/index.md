@@ -94,17 +94,11 @@ modalCacheRef: "2.5.1"
       </a>
     <span class="mt-2">What is Ravencoin?</span></div>
   </div>
-
   <br>
   <br>
   <br>
   <br>
-  <h1 class="animated fadeInLeft mb-3 mb-2 m-auto leading-tight text-red">Critical Wallet Update</h1>
-  <h1 class="animated fadeInLeft mb-3 mb-2 m-auto leading-tight text-black">Update to version 2.5.1 before Oct 1st</h1>
 </div>
-
-
-
 <div class="section-intro text-white py-20">
   <div class="wrapper">
     <div class="text-center m-auto" style="max-width: 900px;">
@@ -242,10 +236,6 @@ modalCacheRef: "2.5.1"
         <a class="btn btn-primary d-block mx-2 mt-4 mb-3 px-3 py-3 font-medium text-base rounded text-white hover:text-white" href="/buy-ravencoin/">See All Exchanges</a>
       </div>
   </div>
-</div>
-
-<div width='100%'>
-  <iframe src="https://cdn.forms-content.sg-form.com/8ec7a872-d599-11e9-ada2-7a44cc589a29"/>
 </div>
 
 <script src="/assets/vendors/mediabox/mediabox.js"></script>
