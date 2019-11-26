@@ -24,6 +24,7 @@ header_pages:
  - _pages/wallet.md
  - _pages/whitepaper.md
  - _pages/community.md
+ - _pages/updates.md
 
 # Build settings
 theme: minima
