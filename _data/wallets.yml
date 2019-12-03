@@ -1,3 +1,11 @@
+- name: tZERO
+  logo: /assets/img/pages/wallet/tzero.png
+  url: https://www.tzero.com/crypto-app
+  asset-support: false
+  platforms:
+    - app-store-badge
+    - google-play-badge
+
 - name: Atomic
   logo: /assets/img/pages/wallet/atomic-wallet.png
   url: https://atomicwallet.io/
