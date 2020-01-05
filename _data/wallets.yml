@@ -7,7 +7,7 @@
     - google-play-badge
 
 - name: Atomic
-  logo: /assets/img/pages/wallet/atomic-wallet.png
+  logo: /assets/img/pages/wallet/atomic.png
   url: https://atomicwallet.io/
   asset-support: false
   platforms:
@@ -68,7 +68,7 @@
     - google-play-badge
 
 - name: Flare
-  logo: /assets/img/pages/wallet/flare-wallet.png
+  logo: /assets/img/pages/wallet/flare.png
   url: https://flarewallet.io/
   asset-support: false
   platforms:
@@ -77,7 +77,7 @@
     - linux
 
 - name: Guarda
-  logo: /assets/img/pages/wallet/guarda_wallet.png
+  logo: /assets/img/pages/wallet/guarda.png
   url: https://guarda.co/
   asset-support: false
   platforms:
@@ -85,6 +85,15 @@
     - google-play-badge
     - windows
     - linux
+    - world-wide-web
+
+- name: Hebe
+  logo: /assets/img/pages/wallet/hebe.png
+  url: https://hebe.cc/
+  asset-support: false
+  platforms:
+    - app-store-badge
+    - google-play-badge
     - world-wide-web
 
 - name: Safepay
