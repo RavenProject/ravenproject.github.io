@@ -10,6 +10,10 @@
   logo: /assets/img/pages/exchanges/vertbase.png
   url: https://www.vertbase.com/coins/rvn
 
+- name: Changelly
+  logo: /assets/img/pages/exchanges/changelly.png
+  url: https://changelly.com/
+
 - name: tZero
   logo: /assets/img/pages/exchanges/tzero.png
   url: https://www.tzero.com/crypto-app
@@ -21,10 +25,6 @@
 - name: ChangeAngel
   logo: /assets/img/pages/exchanges/changeangel.png
   url: https://changeangel.io/
-
-- name: Cryptobridge
-  logo: /assets/img/pages/exchanges/cryptobridge.png
-  url: https://wallet.crypto-bridge.org/market/BRIDGE.RVN_BRIDGE.BTC
 
 - name: Upbit
   logo: /assets/img/pages/exchanges/upbit.png
@@ -93,3 +93,7 @@
 - name: DEX Trade
   logo: /assets/img/pages/exchanges/dextrade.png
   url:  https://dex-trade.com/trading/RVNBTC
+
+- name: Swapzone.io
+  logo: /assets/img/pages/exchanges/swapzone.png
+  url:  https://swapzone.io/
