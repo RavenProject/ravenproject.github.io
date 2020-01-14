@@ -30,6 +30,7 @@ permalink: /wcc/
           <li><a href="https://testnet-api.ravencoin.org/">Block Explorer</a></li>
           <li><a href="https://github.com/underdarkskies/ravencore-lib">Ravencoin Javascript Library</a></li>
           <li><a href="https://github.com/standard-error/python-ravencoinlib">Ravencoin Python Library</a></li>
+          <li><a href="https://github.com/JonPizza/ravenrpc">2nd Ravencoin Python Library</a></li> 
         </ul>
       </h3>
     </div>
