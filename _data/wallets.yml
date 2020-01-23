@@ -96,6 +96,14 @@
     - google-play-badge
     - world-wide-web
 
+- name: Ownbit
+  logo: /assets/img/pages/wallet/ownbit.png
+  url: https://ownbit.io/
+  asset-support: false
+  platforms:
+    - app-store-badge
+    - google-play-badge
+
 - name: Safepay
   logo: /assets/img/pages/wallet/safepay.png
   url: https://safepay.safecoin.org/
