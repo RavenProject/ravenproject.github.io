@@ -81,7 +81,6 @@ modalCacheRef: "3.3.1"
 <div class="banner text-center">
   <div class="wrapper">
     <h1 class="animated fadeInRight mb-3 mb-2 m-auto leading-tight">Ravencoin is a peer-to-peer blockchain, handling the efficient creation and transfer of assets from one party to another.</h1>
-
     <div class="animated fadeInLeft">
       <a class="btn btn-primary mx-2 mt-4 mb-3 px-3 py-3 font-medium text-base rounded text-white hover:text-white" href="/wallet/">Get Your Wallet</a>
       <a class="btn btn-primary mx-2 mt-4 mb-3 px-3 py-3 font-medium text-base rounded text-white hover:text-white" href="/buy-ravencoin/">Buy Ravencoin</a>
@@ -92,7 +91,8 @@ modalCacheRef: "3.3.1"
           <path d="M256,0C114.617,0,0,114.615,0,256s114.617,256,256,256s256-114.615,256-256S397.383,0,256,0z M344.48,269.57l-128,80  c-2.59,1.617-5.535,2.43-8.48,2.43c-2.668,0-5.34-0.664-7.758-2.008C195.156,347.172,192,341.82,192,336V176  c0-5.82,3.156-11.172,8.242-13.992c5.086-2.836,11.305-2.664,16.238,0.422l128,80c4.676,2.93,7.52,8.055,7.52,13.57  S349.156,266.641,344.48,269.57z" fill="#2e3e80"/>
         </svg>
       </a>
-    <span class="mt-2">What is Ravencoin?</span></div>
+    <span class="mt-2">What is Ravencoin?</span>
+    </div>
   </div>
   <br>
   <br>
@@ -118,18 +118,24 @@ modalCacheRef: "3.3.1"
       <div id="tab-1" class="tab-pane active">
         <div class="flex flex-wrap">
           <div class="w-full md:w-1/3 lg:w-1/4 text-center">
-            <img class="animated mb-4" id="tab-token" style="max-width: 150px;margin-top: 15px;" src="{{"/assets/img/svg/token.svg"}}" alt="token"/>
+            <img class="animated mb-4" id="tab-gold" style="max-width: 150px;margin-top: 15px;" src="{{"/assets/img/svg/gold.svg"}}" alt="gold"/>
           </div>
           <div class="sm:w-full md:w-2/3 lg:w-3/4">
-           <h3 class="text-white">Representing real world custodied physical or digital asset</h3>
-            <ul class="list-reset">
-              <li>Securities tokens: stock or shares of a company where the shares are represented by a token rather than a physical stock certificate</li>
-              <li>Securities or partnership interests with the built-in ability to pay dividends in RVN</li>
-              <li>Tokens which represent a coop, limited partnership, royalty sharing or profit sharing platform</li>
-              <li>A token which represents a cflexd-funded item with the ability to transfer or resell the item</li>
-            </ul>  
+            <h3 class="text-white">Representing a share of a project</h3>
+            <div class="flex flex-wrap">
+              <ul class="list-reset w-full sm:w-1/2 md:w-1/3">
+                <li>Gold bar</li>
+                <li>Silver coins</li>
+                <li>Physical Euros</li>
+              </ul>
+              <ul class="list-reset w-full sm:w-1/2 md:w-1/3">
+                <li>Land Deeds</li>
+                <li>DC Comics Presents #26</li>
+                <li>Energy credits (Electricity, Wood, Gas, Oil, Wind)</li>
+              </ul>
+            </div>
           </div>
-        </div>    
+        </div>  
       </div>
       <div id="tab-2" class="tab-pane">
         <div class="flex flex-wrap">
@@ -150,24 +156,18 @@ modalCacheRef: "3.3.1"
       <div id="tab-3" class="tab-pane">
         <div class="flex flex-wrap">
           <div class="w-full md:w-1/3 lg:w-1/4 text-center">
-            <img class="animated mb-4" id="tab-gold" style="max-width: 150px;margin-top: 15px;" src="{{"/assets/img/svg/gold.svg"}}" alt="gold"/>
+            <img class="animated mb-4" id="tab-token" style="max-width: 150px;margin-top: 15px;" src="{{"/assets/img/svg/token.svg"}}" alt="token"/>
           </div>
           <div class="sm:w-full md:w-2/3 lg:w-3/4">
-            <h3 class="text-white">Representing a share of a project</h3>
-            <div class="flex flex-wrap">
-              <ul class="list-reset w-full sm:w-1/2 md:w-1/3">
-                <li>Gold bar</li>
-                <li>Silver coins</li>
-                <li>Physical Euros</li>
-              </ul>
-              <ul class="list-reset w-full sm:w-1/2 md:w-1/3">
-                <li>Land Deeds</li>
-                <li>DC Comics Presents #26</li>
-                <li>Energy credits (Electricity, Wood, Gas, Oil, Wind)</li>
-              </ul>
-            </div>
+           <h3 class="text-white">Representing real world custodied physical or digital asset</h3>
+            <ul class="list-reset">
+              <li>Securities tokens: stock or shares of a company where the shares are represented by a token rather than a physical stock certificate</li>
+              <li>Securities or partnership interests with the built-in ability to pay dividends in RVN</li>
+              <li>Tokens which represent a coop, limited partnership, royalty sharing or profit sharing platform</li>
+              <li>A token which represents a cflexd-funded item with the ability to transfer or resell the item</li>
+            </ul>  
           </div>
-        </div>
+        </div>  
       </div>
       <div id="tab-4" class="tab-pane">
         <div class="flex flex-wrap">
@@ -242,8 +242,8 @@ modalCacheRef: "3.3.1"
 <script>
   MediaBox('.mediabox');
 </script>
-<script type="text/javascript">
 
+<script type="text/javascript">
 setInterval(function() {
   // Display the result in the element with id="wallet_update"
   let temp = document.getElementById("wallet_update");
