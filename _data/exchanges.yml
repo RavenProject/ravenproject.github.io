@@ -6,6 +6,10 @@
   logo: /assets/img/pages/exchanges/binance.png
   url: https://www.binance.com/en/trade/RVN_BTC
 
+- name: OKEx
+  logo: /assets/img/pages/exchanges/okex.png
+  url: https://www.okex.com/en/markets/spot/rvn_btc
+
 - name: Vertbase
   logo: /assets/img/pages/exchanges/vertbase.png
   url: https://www.vertbase.com/coins/rvn
@@ -13,6 +17,10 @@
 - name: Changelly
   logo: /assets/img/pages/exchanges/changelly.png
   url: https://changelly.com/
+
+- name: tZero
+  logo: /assets/img/pages/exchanges/tzero.png
+  url: https://www.tzero.com/crypto-app
 
 - name: tZero
   logo: /assets/img/pages/exchanges/tzero.png
@@ -58,10 +66,6 @@
   logo: /assets/img/pages/exchanges/bitladon.png
   url: https://www.bitladon.com/ravencoin
 
-- name: Chaoex
-  logo: /assets/img/pages/exchanges/chaoex.png
-  url: https://www.chaoex.com/dealcenter
-
 - name: Coinall
   logo: /assets/img/pages/exchanges/coinall.png
   url: https://www.coinall.com/spot/trade#product=rvn_btc
@@ -81,10 +85,6 @@
 - name: bitqist
   logo: /assets/img/pages/exchanges/wazirx.png
   url:  https://wazirx.com/exchange/RVN-USDT
-
-- name: BXB (ref code for RVN donations)
-  logo: /assets/img/pages/exchanges/bxb.png
-  url:  https://trade.bxb.io/register/html/index.html?code=72T8U8
 
 - name: ATAIX
   logo: /assets/img/pages/exchanges/ataix.png
