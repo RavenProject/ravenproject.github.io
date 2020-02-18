@@ -97,3 +97,11 @@
 - name: Swapzone.io
   logo: /assets/img/pages/exchanges/swapzone.png
   url:  https://swapzone.io/
+
+- name: Diger
+  logo: /assets/img/pages/exchanges/diger.png
+  url:  https://diger.exchange/
+
+- name: Gazua
+  logo: /assets/img/pages/exchanges/gazua.png
+  url:  https://www.gazuaex.io/
