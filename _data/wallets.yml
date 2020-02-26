@@ -72,6 +72,8 @@
   url: https://flarewallet.io/
   asset-support: false
   platforms:
+    - google-play-badge
+    - app-store-badge
     - windows
     - mac
     - linux
