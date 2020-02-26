@@ -10,6 +10,12 @@ modalCacheRef: "3.3.1"
 
 <link href="/assets/vendors/mediabox/mediabox.css" rel="stylesheet">
 <style>
+  .hero-buttons {
+    margin: 50px 0;
+  }
+  .hero-buttons .btn.btn-primary {
+    border: 2px solid #f15b22;
+  }
   .banner {
     background: url("/assets/img/home/gplaypattern.png");
     padding: 12em 0 13em;
@@ -51,11 +57,9 @@ modalCacheRef: "3.3.1"
   .section-exchange .wrapper {
     max-width: 800px;
   }
-  
   .enlarge-on-hover {
     transition: transform .2s;
   }
-  
   .enlarge-on-hover:hover {
     transform: scale(1.05);
   }
@@ -81,9 +85,9 @@ modalCacheRef: "3.3.1"
 <div class="banner text-center">
   <div class="wrapper">
     <h1 class="animated fadeInRight mb-3 mb-2 m-auto leading-tight">Ravencoin is a peer-to-peer blockchain, handling the efficient creation and transfer of assets from one party to another.</h1>
-    <div class="animated fadeInLeft">
+    <div class="animated fadeInLeft hero-buttons">
       <a class="btn btn-primary mx-2 mt-4 mb-3 px-3 py-3 font-medium text-base rounded text-white hover:text-white" href="/wallet/">Get Your Wallet</a>
-      <a class="btn btn-primary mx-2 mt-4 mb-3 px-3 py-3 font-medium text-base rounded text-white hover:text-white" href="/buy-ravencoin/">Buy Ravencoin</a>
+      <a class="btn btn-ghost mx-2 mt-4 mb-3 px-3 py-3 font-medium text-base rounded text-black hover:text-white" href="/buy-ravencoin/">Buy Ravencoin</a>
     </div>
     <div class="video-icon animated fadeInRight flex content-center justify-center font-semibold mt-4" uk-lightbox>
       <a class="video-icon-button mr-4 mediabox" href="https://www.youtube.com/embed/fbfUvkZaw2w?rel=0&amp;showinfo=0">
