@@ -244,6 +244,19 @@ modalCacheRef: "3.3.1"
 </script>
 
 <script type="text/javascript">
+setInterval(function() {
+  // Display the result in the element with id="wallet_update"
+  let temp = document.getElementById("wallet_update");
+
+  if (temp.style.color === 'orange') {
+    temp.style.color = 'purple';
+  } else {
+    temp.style.color = 'orange';
+  }
+  }, 1000);
+
+  window.addEventListener("load", function() {
+
     /* Tabs */
 
     var myTabs = document.querySelectorAll("ul.nav-tabs > li");
