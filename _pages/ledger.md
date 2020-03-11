@@ -18,7 +18,7 @@ permalink: /ledger/
     <li>Download and install <a href="https://support.ledger.com/hc/en-us/articles/360006395553">Ledger Live</a>.</li>
     <li><a href="https://support.ledger.com/hc/en-us/articles/360006395233">Set up</a> your Ledger device.</li>
     <li><a href="https://support.ledger.com/hc/en-us/articles/360002731113-Update-Ledger-Nano-S-firmware">Update</a> to the latest Ledger firmware if needed.</li>
-    <li>Install the <a href="https://support.ledger.com/hc/en-us/articles/115005195945">Bitcoin app</a> on your device.</li>
+    <li>Install the latest <a href="https://support.ledger.com/hc/en-us/articles/115005195945">Bitcoin app</a> on your device, as the Ravencoin app requires it.</li>
   </ul>
 
   <br>
@@ -30,7 +30,7 @@ permalink: /ledger/
     <li>If prompted, allow the manager on your device.</li>
     <li>Find the Ravencoin app in the app catalog.</li>
     <li>Click the install button for the Ravencoin app.</li>
-    <li>An installation window will appear.</li>
+    <li>An installation window will appear. If you receive a dialog stating "app required", it means you need to install or upgrade to the latest Bitcoin app first.</li>
     <li>Close the installation window after the installation is confirmed.</li>
   </ul>
 
