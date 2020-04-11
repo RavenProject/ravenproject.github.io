@@ -101,3 +101,7 @@
 - name: Gazua
   logo: /assets/img/pages/exchanges/gazua.png
   url:  https://www.gazuaex.io/
+
+- name: SwapSpace
+  logo: /assets/img/pages/exchanges/swapspace.png
+  url:  https://swapspace.co/
