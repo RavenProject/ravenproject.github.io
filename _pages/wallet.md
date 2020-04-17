@@ -1,6 +1,6 @@
 ---
 layout: page-w-banner
-title: Wallet
+title: Wallets
 bannerTitle: Ravencoin Wallets
 bannerImage: /assets/img/pages/wallet/wallet-banner.jpg
 permalink: /wallet/
