@@ -1,107 +1,149 @@
-- name: Bittrex
-  logo: /assets/img/pages/exchanges/bittrex.png
-  url: https://bittrex.com/Market/Index?MarketName=BTC-RVN
-
-- name: Binance
-  logo: /assets/img/pages/exchanges/binance.png
-  url: https://www.binance.com/en/trade/RVN_BTC
-
-- name: OKEx
-  logo: /assets/img/pages/exchanges/okex.png
-  url: https://www.okex.com/en/markets/spot/rvn_btc
-
-- name: Vertbase
-  logo: /assets/img/pages/exchanges/vertbase.png
-  url: https://www.vertbase.com/coins/rvn
+- name: ChangeAngel
+  logo: /assets/img/pages/exchanges/changeangel.png
+  url: https://changeangel.io/
+  kyc: false
 
 - name: Changelly
   logo: /assets/img/pages/exchanges/changelly.png
   url: https://changelly.com/
+  kyc: false
 
-- name: tZero
-  logo: /assets/img/pages/exchanges/tzero.png
-  url: https://www.tzero.com/crypto-app
+- name: ChangeNow
+  logo: /assets/img/pages/exchanges/changenow.png
+  url: https://changenow.io
+  kyc: false
 
-- name: Digifinex
-  logo: /assets/img/pages/exchanges/digifinex.png
-  url: https://www.digifinex.com/trade/BTC/RVN
+- name: CoinSwitch
+  logo: /assets/img/pages/exchanges/coinswitch.png
+  url: https://coinswitch.co
+  kyc: false
 
-- name: ChangeAngel
-  logo: /assets/img/pages/exchanges/changeangel.png
-  url: https://changeangel.io/
-
-- name: Upbit
-  logo: /assets/img/pages/exchanges/upbit.png
-  url: https://upbit.com/exchange?code=CRIX.UPBIT.BTC-RVN
-
-- name: ProBit
-  logo: /assets/img/pages/exchanges/probit.png
-  url: https://www.probit.com/app/exchange/RVN-USDT
-
-- name: BarterDEX
-  logo: /assets/img/pages/exchanges/barterdex.png
-  url: https://www.atomicexplorer.com/#/coins
-
-- name: Graviex
-  logo: /assets/img/pages/exchanges/graviex.png
-  url: https://graviex.net/markets/rvnbtc
-
-- name: QBTC
-  logo: /assets/img/pages/exchanges/qbtc.png
-  url: https://www.qbtc.com/trade?symbol=RVN_USDT
-
-- name: Altilly
-  logo: /assets/img/pages/exchanges/altilly.png
-  url: https://www.altilly.com/asset/RVN
-
-- name: Bitrue
-  logo: /assets/img/pages/exchanges/bitrue.png
-  url: https://www.bitrue.com/trade/rvn_btc
-
-- name: Bitladon
-  logo: /assets/img/pages/exchanges/bitladon.png
-  url: https://www.bitladon.com/ravencoin
-
-- name: Coinall
-  logo: /assets/img/pages/exchanges/coinall.png
-  url: https://www.coinall.com/spot/trade#product=rvn_btc
-
-- name: CoinSpot
-  logo: /assets/img/pages/exchanges/coinspot.png
-  url: https://www.coinspot.com.au/chart/RVN
-
-- name: Indodax
-  logo: /assets/img/pages/exchanges/indodax.png
-  url: https://indodax.com/market/RVNIDR
-
-- name: bitqist
-  logo: /assets/img/pages/exchanges/bitqist.png
-  url: https://www.bitqist.com/en/buy/ravencoin
-
-- name: bitqist
-  logo: /assets/img/pages/exchanges/wazirx.png
-  url:  https://wazirx.com/exchange/RVN-USDT
-
-- name: ATAIX
-  logo: /assets/img/pages/exchanges/ataix.png
-  url:  https://ataix.com/market/RVN-BTC
-
-- name: DEX Trade
-  logo: /assets/img/pages/exchanges/dextrade.png
-  url:  https://dex-trade.com/trading/RVNBTC
-
-- name: Swapzone.io
-  logo: /assets/img/pages/exchanges/swapzone.png
-  url:  https://swapzone.io/
-
-- name: Diger
-  logo: /assets/img/pages/exchanges/diger.png
-  url:  https://diger.exchange/
-
-- name: Gazua
-  logo: /assets/img/pages/exchanges/gazua.png
-  url:  https://www.gazuaex.io/
+- name: SimpleSamp
+  logo: /assets/img/pages/exchanges/simpleswap.png
+  url:  https://simpleswap.io/
+  kyc: false
 
 - name: SwapSpace
   logo: /assets/img/pages/exchanges/swapspace.png
   url:  https://swapspace.co/
+  kyc: false
+
+- name: Swapzone
+  logo: /assets/img/pages/exchanges/swapzone.png
+  url:  https://swapzone.io/
+  kyc: false
+
+- name: Bittrex
+  logo: /assets/img/pages/exchanges/bittrex.png
+  url: https://bittrex.com/Market/Index?MarketName=BTC-RVN
+  kyc: true
+
+- name: Binance
+  logo: /assets/img/pages/exchanges/binance.png
+  url: https://www.binance.com/en/trade/RVN_BTC
+  kyc: true
+
+- name: OKEx
+  logo: /assets/img/pages/exchanges/okex.png
+  url: https://www.okex.com/en/markets/spot/rvn_btc
+  kyc: true
+
+- name: Vertbase
+  logo: /assets/img/pages/exchanges/vertbase.png
+  url: https://www.vertbase.com/coins/rvn
+  kyc: true
+
+- name: tZero
+  logo: /assets/img/pages/exchanges/tzero.png
+  url: https://www.tzero.com/crypto-app
+  kyc: true
+
+- name: Digifinex
+  logo: /assets/img/pages/exchanges/digifinex.png
+  url: https://www.digifinex.com/trade/BTC/RVN
+  kyc: true
+
+- name: Upbit
+  logo: /assets/img/pages/exchanges/upbit.png
+  url: https://upbit.com/exchange?code=CRIX.UPBIT.BTC-RVN
+  kyc: true
+
+- name: ProBit
+  logo: /assets/img/pages/exchanges/probit.png
+  url: https://www.probit.com/app/exchange/RVN-USDT
+  kyc: true
+
+- name: BarterDEX
+  logo: /assets/img/pages/exchanges/barterdex.png
+  url: https://www.atomicexplorer.com/#/coins
+  kyc: true
+
+- name: Graviex
+  logo: /assets/img/pages/exchanges/graviex.png
+  url: https://graviex.net/markets/rvnbtc
+  kyc: true
+
+- name: QBTC
+  logo: /assets/img/pages/exchanges/qbtc.png
+  url: https://www.qbtc.com/trade?symbol=RVN_USDT
+  kyc: true
+
+- name: Altilly
+  logo: /assets/img/pages/exchanges/altilly.png
+  url: https://www.altilly.com/asset/RVN
+  kyc: true
+
+- name: Bitrue
+  logo: /assets/img/pages/exchanges/bitrue.png
+  url: https://www.bitrue.com/trade/rvn_btc
+  kyc: true
+
+- name: Bitladon
+  logo: /assets/img/pages/exchanges/bitladon.png
+  url: https://www.bitladon.com/ravencoin
+  kyc: true
+
+- name: Coinall
+  logo: /assets/img/pages/exchanges/coinall.png
+  url: https://www.coinall.com/spot/trade#product=rvn_btc
+  kyc: true
+
+- name: CoinSpot
+  logo: /assets/img/pages/exchanges/coinspot.png
+  url: https://www.coinspot.com.au/chart/RVN
+  kyc: true
+
+- name: Indodax
+  logo: /assets/img/pages/exchanges/indodax.png
+  url: https://indodax.com/market/RVNIDR
+  kyc: true
+
+- name: bitqist
+  logo: /assets/img/pages/exchanges/bitqist.png
+  url: https://www.bitqist.com/en/buy/ravencoin
+  kyc: true
+
+- name: bitqist
+  logo: /assets/img/pages/exchanges/wazirx.png
+  url:  https://wazirx.com/exchange/RVN-USDT
+  kyc: true
+
+- name: ATAIX
+  logo: /assets/img/pages/exchanges/ataix.png
+  url:  https://ataix.com/market/RVN-BTC
+  kyc: true
+
+- name: DEX Trade
+  logo: /assets/img/pages/exchanges/dextrade.png
+  url:  https://dex-trade.com/trading/RVNBTC
+  kyc: true
+
+- name: Diger
+  logo: /assets/img/pages/exchanges/diger.png
+  url:  https://diger.exchange/
+  kyc: true
+
+- name: Gazua
+  logo: /assets/img/pages/exchanges/gazua.png
+  url:  https://www.gazuaex.io/
+  kyc: true
