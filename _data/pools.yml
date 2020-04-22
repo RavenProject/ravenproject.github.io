@@ -1,50 +1,34 @@
 - name: Nanopool
   url: https://rvn.nanopool.org/
+  twitter: @nanopool_org
 
 - name: 2Miners
   url: https://2miners.com
+  twitter: @pool2miners
 
 - name: Bsod
-  url: https://bsod.pw/site/
+  url: https://bsod.pw
+  twitter: @BsodPool
 
 - name: Coinblockers
   url: https://rvn.coinblockers.com/
+  twitter: @coinblockers
 
 - name: Cryptopool.party
   url: https://cryptopool.party/
 
-- name: Hash4.life
-  url: https://hash4.life/
-
-- name: Minepool
-  url: https://www.minepool.com/
-
 - name: Minermore
   url: https://minermore.com/
-
-- name: Omegapool
-  url: https://www.omegapool.cc/
-
-- name: PickAxePro
-  url: 	http://www.pickaxe.pro/
+  twitter: @MinerMore
 
 - name: Ravenminer
   url: http://www.ravenminer.com/
-
-- name: RushHourMining
-  url: http://rushhourmining.com/
+  twitter: @RavenMinerPool
 
 - name: Suprnova.cc
   url: https://rvn.suprnova.cc/index.php
-
-- name: Virtopia
-  url: http://pool.virtopia.ca/
-
-- name: Yiimp.eu
-  url: http://yiimp.eu/
-
-- name: Ravencoin.world
-  url: https://ravencoin.world/
+  twitter: @SuprnovaPools
 
 - name: Coinotron
   url: https://coinotron.com/app?action=home
+  twitter: @Coinotron
