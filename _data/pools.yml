@@ -1,39 +1,39 @@
 - name: Nanopool
   url: https://rvn.nanopool.org/
-  twitter: @nanopool_org
+  twitter: '@nanopool_org'
 
 - name: 2Miners
   url: https://2miners.com
-  twitter: @pool2miners
+  twitter: '@pool2miners'
 
 - name: Bsod
   url: https://bsod.pw
-  twitter: @BsodPool
+  twitter: '@BsodPool'
 
 - name: Coinblockers
   url: https://rvn.coinblockers.com/
-  twitter: @coinblockers
+  twitter: '@coinblockers'
 
 - name: Cryptopool.party
   url: https://cryptopool.party/
 
 - name: Minermore
   url: https://minermore.com/
-  twitter: @MinerMore
+  twitter: '@MinerMore'
 
 - name: Ravenminer
   url: http://www.ravenminer.com/
-  twitter: @RavenMinerPool
+  twitter: '@RavenMinerPool'
 
 - name: Suprnova.cc
   url: https://rvn.suprnova.cc/index.php
-  twitter: @SuprnovaPools
+  twitter: '@SuprnovaPools'
 
 - name: Coinotron
   url: https://coinotron.com/app?action=home
-  twitter: @Coinotron
+  twitter: '@Coinotron'
 
 - name: ZPool
   url: https://zpool.ca/
-  twitter: @_zpool_
+  twitter: '@_zpool_'
 
