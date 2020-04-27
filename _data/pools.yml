@@ -32,3 +32,8 @@
 - name: Coinotron
   url: https://coinotron.com/app?action=home
   twitter: @Coinotron
+
+- name: ZPool
+  url: https://zpool.ca/
+  twitter: @_zpool_
+
