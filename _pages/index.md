@@ -196,14 +196,13 @@ modalCacheRef: "4.1.0"
     <div class="flex flex-wrap">
       <div class="w-full sm:w-full md:w-3/4">
         <h2>What Makes Ravencoin Different from Bitcoin?</h2>
-        <p>The X16R algorithm intends to solve the centralization of mining seen on the Bitcoin blockchain caused by the introduction of expensive and highly efficient Application Specific Integrated Circuit (ASIC) hardware. By randomizing the order of 16 different hashing algorithms, Raven makes ASICs difficult to develop, allowing room for anyone to be able to mine the Raven network without the disadvantage of competing with ASIC hardware. The Raven team has also committed to change the hashing algorithms if a Raven ASIC miner is ever developed.</p>
         <ul class="checkmark">
           <li>Block reward of 5,000 RVN instead of 50 BTC.</li>
           <li>Block time of 1 minute instead of 10.</li>
-          <li>Total coin supply of 21 Billion instead of 21 million.</li>
-          <li>A new mining algorithm, X16R which allows for more decentralized mining.</li>
-          <li>Addition of Asset & Sub-asset issuance, transfer, and unique assets.</li>
-          <li>Future addition of rewards, messaging, and voting.</li>
+          <li>Total coin supply of 21 billion instead of 21 million.</li>
+          <li>A new mining algorithm, KAWPOW which allows for more decentralized mining.</li>
+          <li>Addition of Asset & Sub-asset issuance, transfer, unique assets, and rewards.</li>
+          <li>Future addition of messaging and voting.</li>
         </ul>
       </div>
       <div class="w-full sm:w-full md:w-1/4 text-center hidden md:block">
