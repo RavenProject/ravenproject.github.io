@@ -2,6 +2,7 @@
 layout: page-w-banner
 title: Pools
 bannerTitle: Mining Pools
+bannerImage: /assets/img/pages/exchanges/exchange-banner.jpg
 permalink: /pools/
 ---
 
