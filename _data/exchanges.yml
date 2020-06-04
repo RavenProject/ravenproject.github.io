@@ -68,6 +68,11 @@
   url: https://upbit.com/exchange?code=CRIX.UPBIT.BTC-RVN
   kyc: true
 
+- name: Paribu
+  logo: /assets/img/pages/exchanges/paribu.png
+  url: https://www.paribu.com/?utm_source=ravencoin.org
+  kyc: true
+
 - name: ProBit
   logo: /assets/img/pages/exchanges/probit.png
   url: https://www.probit.com/app/exchange/RVN-USDT
