@@ -30,7 +30,7 @@ permalink: /about/
     <li>Mining algorithm (KAWPOW formerly X16R and X16RV2 respectively)</li>
   </ul>
 
-  <p>The algorithm is intended to address the centralization of mining caused by ASIC hardware. In the X16R&nbsp;<a href="/assets/documents/X16R-Whitepaper.pdf">algorithm paper</a>, the team behind the currency explains that the fixed order of ordinary hashing algorithms lends itself to the construction of ASIC miners.</p>
+  <p>The algorithm is intended to address the centralization of mining caused by ASIC hardware. In the original X16R&nbsp;<a href="/assets/documents/X16R-Whitepaper.pdf">algorithm paper</a>, the team behind the currency explains that the fixed order of ordinary hashing algorithms lends itself to the construction of ASIC miners.</p>
 
   <p>The initial X16R algorithm aimed to overcome this problem by constantly disrupting the ordering of the hashing algorithms – it uses the same algorithms used in X15 and SHA512, but the ordering of those algorithms was changed based on the hash of the previous block. Eventually it became economically viable for X16R ASIC's and the community decided to implement new algorithms to mitigate the unfair distribution of Ravencoin. The community has carried out 2 algorithm forks to date to mitigate the potential efficiency of the ASIC miners equipment. No more algorithm forks are envisaged to stabilise the fair economic distribution of Ravencoin.</p>
 
