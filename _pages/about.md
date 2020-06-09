@@ -27,17 +27,19 @@ permalink: /about/
     <li>The issuance schedule (block reward of 5,000 RVN)</li>
     <li>Block time (1 minute)</li>
     <li>Coin supply (21 Billion)</li>
-    <li>Mining algorithm (X16R)</li>
+    <li>Mining algorithm (KAWPOW formerly X16R and X16RV2 respectively)</li>
   </ul>
 
-  <p>This algorithm is intended to address the centralization of mining caused by ASIC hardware. In the X16R&nbsp;<a href="/assets/documents/X16R-Whitepaper.pdf">algorithm paper</a>, the team behind the currency explains that the fixed order of ordinary hashing algorithms lends itself to the construction of ASIC miners.</p>
+  <p>The algorithm is intended to address the centralization of mining caused by ASIC hardware. In the X16R&nbsp;<a href="/assets/documents/X16R-Whitepaper.pdf">algorithm paper</a>, the team behind the currency explains that the fixed order of ordinary hashing algorithms lends itself to the construction of ASIC miners.</p>
 
-  <p>However, the X16R algorithm aims to overcome this problem by constantly disrupting the ordering of the hashing algorithms – it uses the same algorithms used in X15 and SHA512, but the ordering of those algorithms is changed based on the hash of the previous block.</p>
+  <p>The initial X16R algorithm aimed to overcome this problem by constantly disrupting the ordering of the hashing algorithms – it uses the same algorithms used in X15 and SHA512, but the ordering of those algorithms was changed based on the hash of the previous block. Eventually it became economically viable for X16R ASIC's and the community decided to implement new algorithms to mitigate the unfair distribution of Ravencoin. The community has carried out 2 algorithm forks to date to mitigate the potential efficiency of the ASIC miners equipment. No more algorithm forks are envisaged to stabilise the fair economic distribution of Ravencoin.</p>
+
+  <p>The current &nbsp;<a href="https://medium.com/@tronblack/ravencoin-v4-kawpow-16fb1f8ec372">KAWPOW algorithm</a> aims to overcome this problem of centralisation of mining by utilising over the counter graphic processing unit (GPU) memory and compute capabilities. This is intended to allow most consumer grade GPU hardware to mine Ravencoin. The KAWPOW algorith was derived from ProgPOW and ethhash, with modifications, to improve the distribution of Ravencoin to everyone.</p>
 
   <h3>Unique characteristics of Ravencoin</h3>
 
   <ul>
-    <li>ASIC resistant – Uses an X16R hashing algorithm to discourage the development of ASIC hardware</li>
+    <li>ASIC resistant – Uses the KAWPOW hashing algorithm to discourage the development of ASIC hardware</li>
     <li>Fair launch - Everyone has equal opportunity to mine or purchase RVN since day one.</li>
     <li>No pre-mine, no ICO, and no coins held for developer or founders rewards.</li>
     <li>Community Driven, and True Open Source</li>
