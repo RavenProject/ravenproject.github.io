@@ -1,10 +1,10 @@
 # Welcome to future Ravencoin.org website codebase
 ## READ.ME under construction!
 Current Build Status: ![Build Status](https://travis-ci.org/RavenProject/Ravencoin.svg?branch=master)
-Live site: [temp.ravencoin.org](https://temp.ravencoin.org)
+Live site: [ravencoin.org](https://ravencoin.org)
 Report problems or help improve the site by opening a [new issue](https://github.com/RavenProject/ravenproject.github.io.org/issues/new) or [pull request](https://github.com/RavenProject/ravenproject.github.io.org/compare).
 
-> Note: The Ravencoin.com website source has moved to https://github.com/RavenDevKit/RavenDevKit.github.io
+> Note: The Ravencoin.com website now redirects to ravencoin.org
 
 ## Earn Raven for Contributing to the Raven website (TBD)
 Open issues [labeled with "Bounty"](https://github.com/RavenProject/ravenproject.github.io/labels/Bounty)
@@ -15,6 +15,7 @@ amount of the bounty if it gets merged.
 
 ## Setup the website locally
 https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/
+View site on localhost:4000
 
 ## How to Participate
 1. Fork ravenproject.github.io
