@@ -1,3 +1,8 @@
+- name: Bitni
+  logo: /assets/img/pages/exchanges/bitni.png
+  url: https://bitni.com/swap/rvn/btc
+  kyc: false
+
 - name: ChangeAngel
   logo: /assets/img/pages/exchanges/changeangel.png
   url: https://changeangel.io/
