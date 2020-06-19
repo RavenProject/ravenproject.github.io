@@ -1,3 +1,11 @@
+- name: D'CENT Wallet
+  logo: /assets/img/pages/wallet/dcentwallet.png
+  url: https://dcentwallet.com
+  asset-support: false
+  platforms:
+    - app-store-badge
+    - google-play-badge
+
 - name: tZERO
   logo: /assets/img/pages/wallet/tzero.png
   url: https://www.tzero.com/crypto-app
