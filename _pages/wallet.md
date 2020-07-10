@@ -29,7 +29,7 @@ permalink: /wallet/
         <div class="bg-grey-lighter max-w-sm rounded overflow-hidden shadow-md hover:by-grey">
           <a class="block px-6 py-4" href="https://github.com/RavenProject/Ravencoin/releases" target="_blank"><img style="max-height: 125px;" src="/assets/img/pages/wallet/mac.svg" align="middle" alt=" Mac wallet"/></a>
         </div>
-        <a class="block mt-8 text-lg bg-blue hover:bg-blue-dark rounded p-2 text-white" href="https://github.com/RavenProject/Ravencoin/releases/download/v4.2.1/raven-4.2.1.0-osx.dmg" download><i class="zmdi zmdi-download"></i><span class="inline-block ml-3">Mac</span></a>
+        <a class="block mt-8 text-lg bg-blue hover:bg-blue-dark rounded p-2 text-white" href="https://github.com/RavenProject/Ravencoin/releases/download/v4.2.1/raven-4.2.1-osx.dmg" download><i class="zmdi zmdi-download"></i><span class="inline-block ml-3">Mac</span></a>
       </div>
       <div class="w-full sm:w-1/2 md:w-1/3 px-4 mb-12">
         <div class="bg-grey-lighter max-w-sm rounded overflow-hidden shadow-md hover:by-grey">
