@@ -240,7 +240,7 @@ modalCacheRef: "4.3.1"
       </div>
   </div>
 </div>
-<div class="section-reviews bg-grey-lighter text-center">
+<div class="bg-grey-lighter text-center">
   <h2 class="font-medium">Community about us</h2>
   <iframe src="https://revain.org/widget-v2/review-carousel?companyType=Project&amp;companySlug=ravencoin&amp;consumer=https%3A%2F%2Fravencoin.org&amp;contentLines=4&amp;elevationLevel=2&amp;writeReviewAt=6&amp;sortBy=recent&amp;perPage=9&amp;bg=neutral.0&amp;reviewLocale=en&amp;ratingProgressFill=%23eb9c35&amp;blockchainLinkColor=%231f89e5&amp;showMoreLinkColor=%231f89e5&amp;dataSource=null&amp;locale=en&amp;theme=default" width="100%" height="450" style="border: none; display: block"></iframe>
 </div>
