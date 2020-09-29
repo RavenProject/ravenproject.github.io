@@ -9,7 +9,7 @@ permalink: /updates/
 
 
 <div class="wrapper mt-8">
-  <p>This mailing list distributes information about the open-source Ravencoin Project.  Other sources of information include the community operated <a href='https://discord.gg/jn6uhur'>Discord</a>, or <a href='https://discord.gg/jn6uhur'>Telegram</a>. If you have updates, send them to info@kaaawww.com</p>  
+  <p>This mailing list distributes information about the open-source Ravencoin Project.  Other sources of information include the community operated <a href='https://discord.gg/jn6uhur'>Discord</a>, or <a href='https://t.me/RavencoinDev'>Telegram</a>. If you have updates, send them to info@kaaawww.com</p>  
 </div>
 
 

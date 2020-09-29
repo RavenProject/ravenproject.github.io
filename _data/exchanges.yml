@@ -43,11 +43,6 @@
   url: https://bittrex.com/Market/Index?MarketName=BTC-RVN
   kyc: true
 
-- name: bitqist
-  logo: /assets/img/pages/exchanges/bitqist.png
-  url: https://www.bitqist.com/en/buy/ravencoin
-  kyc: true
-
 - name: ChangeAngel
   logo: /assets/img/pages/exchanges/changeangel.png
   url: https://changeangel.io/
@@ -90,8 +85,18 @@
 
 - name: Digifinex
   logo: /assets/img/pages/exchanges/digifinex.png
-  url: https://www.digifinex.com/trade/BTC/RVN
+  url: https://www.digifinex.com/en-ww/trade/BTC/RVN
   kyc: true
+
+- name: Evorese
+  logo: /assets/img/pages/exchanges/evorese.png
+  url: https://exchange.evorese.com/market/BIRAKE.RVN_BIRAKE.BTC
+  kyc: false
+
+- name: Exolix
+  logo: /assets/img/pages/exchanges/exolix.png
+  url: https://exolix.com/exchange/BTC-RVN
+  kyc: false
 
 - name: Gazua
   logo: /assets/img/pages/exchanges/gazua.png
