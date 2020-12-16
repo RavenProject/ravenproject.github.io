@@ -162,3 +162,8 @@
   logo: /assets/img/pages/exchanges/vertbase.png
   url: https://app.vertbase.com/assets/rvn
   kyc: true
+
+- name: StealthEX
+  logo: /assets/img/pages/exchanges/stealthex.png
+  url: https://stealthex.io/?to=rvn
+  kyc: false
