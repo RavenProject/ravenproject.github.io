@@ -84,7 +84,7 @@ modalCacheRef: "4.3.1"
 
 <div class="banner text-center">
   <div class="wrapper">
-    <h1 class="animated fadeInRight mb-3 mb-2 m-auto leading-tight">Ravencoin es una blockchain entre pares (peer-to-peer), que permite la creación y transferencia eficiente de activos entre las partes.</h1>
+    <h1 class="animated fadeInRight mb-3 mb-2 m-auto leading-tight">Ravencoin es una blockchain peer-to-peer, que permite la creación y transferencia eficiente de activos.</h1>
     <div class="animated fadeInLeft hero-buttons">
       <a class="btn btn-primary mx-2 mt-4 mb-3 px-3 py-3 font-medium text-base rounded text-white hover:text-white" href="/wallet/">Obtén tu Wallet</a>
       <a class="btn btn-ghost mx-2 mt-4 mb-3 px-3 py-3 font-medium text-base rounded text-black hover:text-white" href="/buy-ravencoin/">Comprar Ravecoin</a>
@@ -107,7 +107,7 @@ modalCacheRef: "4.3.1"
   <div class="wrapper">
     <div class="text-center m-auto" style="max-width: 900px;">
       <h2 class="text-white">Bienvenido a Ravencoin</h2>
-      <p style="max-width: 900px;" class="m-auto">Ravencoin es un protocolo basado en un fork del código de Bitcoin que le añade características especificamente enfocadas en permitir la emisión de token en la blockchain de Ravencoin. Estos token pueden tener cualquier característica que el emisor decida - These tokens can have whatever properties the issue of the token decides - por lo que se pueden limitar en cantidad, nombrar y emitir como valores o como objetos de colección.</p>
+      <p style="max-width: 900px;" class="m-auto">Ravencoin es un protocolo basado en un fork del código de Bitcoin que le añade características especificamente enfocadas en permitir la emisión de token en la blockchain de Ravencoin. Estos token pueden tener cualquier característica que el emisor decida por lo que se pueden limitar en cantidad, nombrar y emitir como valores o como objetos de colección.</p>
       <p class="mt-8">Puede crear su propio token de valores en minutos y operar con él en todo el mundo.</p>
       <hr class="border-b pt-6"/>
     </div>
@@ -195,7 +195,7 @@ modalCacheRef: "4.3.1"
   <div class="wrapper">
     <div class="flex flex-wrap">
       <div class="w-full sm:w-full md:w-3/4">
-        <h2>¿Qué Hace Ravencoin Diferente del Bitcoin?</h2>
+        <h2>¿Qué Hace Diferente a Ravencoin del Bitcoin?</h2>
         <ul class="checkmark">
           <li>Recompensa de bloque de 5,000 RVN en lugar de 50 BTC.</li>
           <li>Block time de 1 minuto en lugar 10.</li>
