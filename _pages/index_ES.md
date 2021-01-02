@@ -214,7 +214,7 @@ modalCacheRef: "4.3.1"
 <div class="section-cta py-10">
   <div class="flex flex-wrap wrapper">
     <div class="w-full sm:w-1/2 md:w-3/4">
-      <h2 class="text-white font-medium mb-3">!Involúcrate hoy!</h2>
+      <h2 class="text-white font-medium mb-3">¡Involúcrate hoy!</h2>
       <p class="text-white">Forma parte de la comunidad y contribuye la red global descentralizada de mineros, voluntarios, traders y desarrolladores de Ravencoin.</p>
     </div>
     <div class="w-full sm:w-1/2 md:w-1/4 text-left sm:text-center">
@@ -236,7 +236,7 @@ modalCacheRef: "4.3.1"
       {% endfor %}
     </div>
       <div class="text-center">
-        <a class="btn btn-primary d-block mx-2 mt-4 mb-3 px-3 py-3 font-medium text-base rounded text-white hover:text-white" href="/buy-ravencoin/">See All Exchanges</a>
+        <a class="btn btn-primary d-block mx-2 mt-4 mb-3 px-3 py-3 font-medium text-base rounded text-white hover:text-white" href="/buy-ravencoin/">Ver todos los Exchanges</a>
       </div>
   </div>
 </div>
