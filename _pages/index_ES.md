@@ -199,7 +199,7 @@ modalCacheRef: "4.3.1"
         <ul class="checkmark">
           <li>Recompensa de bloque de 5,000 RVN en lugar de 50 BTC.</li>
           <li>Block time de 1 minuto en lugar 10.</li>
-          <li>Número total de monedas acuñables de 21 billojes en lugar de 21 millones.</li>
+          <li>Número total de monedas acuñables de 21 billones en lugar de 21 millones.</li>
           <li>Un nuevo algoritmo de minado, KAWPOW,  que permite un minado mas descentralizado.</li>
           <li>Añade la emisión de Bienes y Sub-bienes, transferencias, bienes únicos y recompensas.</li>
           <li>En el futuro añadirá un sistema de mensajes y votos.</li>
