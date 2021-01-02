@@ -106,36 +106,36 @@ modalCacheRef: "4.3.1"
 <div class="section-intro text-white py-20">
   <div class="wrapper">
     <div class="text-center m-auto" style="max-width: 900px;">
-      <h2 class="text-white">Welcome to Ravencoin</h2>
-      <p style="max-width: 900px;" class="m-auto">Ravencoin is a protocol based on a fork of the Bitcoin code which adds features specifically focused on allowing tokens to be issued on the Ravencoin blockchain. These tokens can have whatever properties the issue of the token decides - so they can be limited in quantity, named and be issued as securities or as collectibles.</p>
-      <p class="mt-8">You can make your own security token within minutes and have it trade worldwide.</p>
+      <h2 class="text-white">Bienvenido a Ravencoin</h2>
+      <p style="max-width: 900px;" class="m-auto">Ravencoin es un protocolo basado en un fork del código de Bitcoin que le añade características especificamente enfocadas en permitir la emisión de token en la blockchain de Ravencoin. Estos token pueden tener cualquier característica que el emisor decida - These tokens can have whatever properties the issue of the token decides - por lo que se pueden limitar en cantidad, nombrar y emitir como valores o como objetos de colección.</p>
+      <p class="mt-8">Puede crear su propio token de valores en minutos y operar con él en todo el mundo.</p>
       <hr class="border-b pt-6"/>
     </div>
     <hr class="my-8"/>
     <ul class="nav nav-tabs list-reset">
-      <li class="active"><a href="#tab-1">Project Shares</a></li>
-      <li class="tab-2"><a href="#tab-2">Virtual Goods</a></li>
-      <li class="tab-3"><a href="#tab-3">Physical &amp; Digital Assets</a></li>
-      <li class="tab-4"><a href="#tab-4">Credit</a></li>
+      <li class="active"><a href="#tab-1">Participaciones en Proyectos</a></li>
+      <li class="tab-2"><a href="#tab-2">Bienes Virtuales</a></li>
+      <li class="tab-3"><a href="#tab-3">Activos Físicos &amp; Digitales</a></li>
+      <li class="tab-4"><a href="#tab-4">Créditos</a></li>
     </ul>
     <div class="tab-content">
       <div id="tab-1" class="tab-pane active">
         <div class="flex flex-wrap">
           <div class="w-full md:w-1/3 lg:w-1/4 text-center">
-            <img class="animated mb-4" id="tab-gold" style="max-width: 150px;margin-top: 15px;" src="{{"/assets/img/svg/gold.svg"}}" alt="gold"/>
+            <img class="animated mb-4" id="tab-gold" style="max-width: 150px;margin-top: 15px;" src="{{"/assets/img/svg/gold.svg"}}" alt="oro"/>
           </div>
           <div class="sm:w-full md:w-2/3 lg:w-3/4">
-            <h3 class="text-white">Representing a share of a project</h3>
+            <h3 class="text-white">Representando una participación de un proyecto</h3>
             <div class="flex flex-wrap">
               <ul class="list-reset w-full sm:w-1/2 md:w-1/3">
-                <li>Gold bar</li>
-                <li>Silver coins</li>
-                <li>Physical Euros</li>
+                <li>Lingote de oro</li>
+                <li>Monedas de plata</li>
+                <li>Euros físicos</li>
               </ul>
               <ul class="list-reset w-full sm:w-1/2 md:w-1/3">
-                <li>Land Deeds</li>
-                <li>DC Comics Presents #26</li>
-                <li>Energy credits (Electricity, Wood, Gas, Oil, Wind)</li>
+                <li>Derechos de propiedad de tierras</li>
+                <li>Un cómic de colección</li>
+                <li>Créditos energéticos (Electricidad, Leña, Gas, Petróleo, Viento)</li>
               </ul>
             </div>
           </div>
@@ -144,15 +144,15 @@ modalCacheRef: "4.3.1"
       <div id="tab-2" class="tab-pane">
         <div class="flex flex-wrap">
           <div class="w-full md:w-1/3 lg:w-1/4 text-center">
-            <img class="animated mb-4" id="tab-tickets" style="max-width: 150px;margin-top: 15px;" src="{{"/assets/img/svg/tickets.svg"}}" alt="tickets"/>
+            <img class="animated mb-4" id="tab-tickets" style="max-width: 150px;margin-top: 15px;" src="{{"/assets/img/svg/tickets.svg"}}" alt="entradas"/>
           </div>
           <div class="sm:w-full md:w-2/3 lg:w-3/4">
-            <h3 class="text-white">Representing virtual goods</h3>
+            <h3 class="text-white">Representando bienes virtuales</h3>
             <ul class="list-reset">
-              <li>Tickets to an event such as a Baltimore Ravens game with the ability to resell without worry of duplicates being made</li>
-              <li>A license to allow an activity</li>
-              <li>An access token to use a service</li>
-              <li>In-game currency and items, transferable to other gamers outside of the game platform</li>
+              <li>Entradas para un evento como para un partido de los Baltimore Ravens con la capacidad de reventa sin la preocupación de que se hagan duplicados</li>
+              <li>Una licencia que permita una actividad</li>
+              <li>Un token de acceso para utilizar algún servicio</li>
+              <li>Monedas de juego u objetos, transferibles a otros jugadores fuera de la plataforma de juego</li>
             </ul>
           </div>
         </div>
@@ -163,12 +163,12 @@ modalCacheRef: "4.3.1"
             <img class="animated mb-4" id="tab-token" style="max-width: 150px;margin-top: 15px;" src="{{"/assets/img/svg/token.svg"}}" alt="token"/>
           </div>
           <div class="sm:w-full md:w-2/3 lg:w-3/4">
-           <h3 class="text-white">Representing real world custodied physical or digital asset</h3>
+           <h3 class="text-white">Representar activos físicos o digitales custodiados en el mundo real</h3>
             <ul class="list-reset">
-              <li>Securities tokens: stock or shares of a company where the shares are represented by a token rather than a physical stock certificate</li>
-              <li>Securities or partnership interests with the built-in ability to pay dividends in RVN</li>
-              <li>Tokens which represent a coop, limited partnership, royalty sharing or profit sharing platform</li>
-              <li>A token which represents a cflexd-funded item with the ability to transfer or resell the item</li>
+              <li>Tokens de valores: acciones o participaciones en una compañía representadas por el token en lugar de por un certificado físico</li>
+              <li>Valores o participaciones en sociedades con la capacidad incorporada de pagar dividendos en RVN</li>
+              <li>Tokens que representan una sociedad cooperativa, sociedad limitada, reparto de royalties o reparto de beneficios</li>
+              <li>Un token que representa un artículo financiado por cflexd con la capacidad de transferir o revender el artículo</li>
             </ul>  
           </div>
         </div>  
@@ -176,14 +176,14 @@ modalCacheRef: "4.3.1"
       <div id="tab-4" class="tab-pane">
         <div class="flex flex-wrap">
           <div class="w-full md:w-1/3 lg:w-1/4 text-center">
-            <img class="animated mb-4" id="tab-gift-card" style="max-width: 150px;" src="{{"/assets/img/svg/gift-card.svg"}}" alt="gift-card"/>
+            <img class="animated mb-4" id="tab-gift-card" style="max-width: 150px;" src="{{"/assets/img/svg/gift-card.svg"}}" alt="tarjeta-regalo"/>
           </div>
           <div class="sm:w-full md:w-2/3 lg:w-3/4">
-            <h3 class="text-white">Representing a credit</h3>
+            <h3 class="text-white">Representando un crédito</h3>
             <ul class="list-reset">
-              <li>Gift cards</li>
-              <li>Airline miles</li>
-              <li>Reward points</li>
+              <li>Tarjetas regalo</li>
+              <li>Sistemas de recompensa de millas de aerolíneas</li>
+              <li>Puntos de recompensa</li>
             </ul>
           </div>
         </div>
@@ -195,14 +195,14 @@ modalCacheRef: "4.3.1"
   <div class="wrapper">
     <div class="flex flex-wrap">
       <div class="w-full sm:w-full md:w-3/4">
-        <h2>What Makes Ravencoin Different from Bitcoin?</h2>
+        <h2>¿Qué Hace Ravencoin Diferente del Bitcoin?</h2>
         <ul class="checkmark">
-          <li>Block reward of 5,000 RVN instead of 50 BTC.</li>
-          <li>Block time of 1 minute instead of 10.</li>
-          <li>Total coin supply of 21 billion instead of 21 million.</li>
-          <li>A new mining algorithm, KAWPOW which allows for more decentralized mining.</li>
-          <li>Addition of Asset & Sub-asset issuance, transfer, unique assets, and rewards.</li>
-          <li>Future addition of messaging and voting.</li>
+          <li>Recompensa de bloque de 5,000 RVN en lugar de 50 BTC.</li>
+          <li>Block time de 1 minuto en lugar 10.</li>
+          <li>Número total de monedas acuñables de 21 billojes en lugar de 21 millones.</li>
+          <li>Un nuevo algoritmo de minado, KAWPOW,  que permite un minado mas descentralizado.</li>
+          <li>Añade la emisión de Bienes y Sub-bienes, transferencias, bienes únicos y recompensas.</li>
+          <li>En el futuro añadirá un sistema de mensajes y votos.</li>
         </ul>
       </div>
       <div class="w-full sm:w-full md:w-1/4 text-center hidden md:block">
@@ -214,11 +214,11 @@ modalCacheRef: "4.3.1"
 <div class="section-cta py-10">
   <div class="flex flex-wrap wrapper">
     <div class="w-full sm:w-1/2 md:w-3/4">
-      <h2 class="text-white font-medium mb-3">Get Involved Today!</h2>
-      <p class="text-white">Become a part of the community and contribute to Ravencoin’s global decentralized network of miners, contributes, traders, and developers.</p>
+      <h2 class="text-white font-medium mb-3">!Involúcrate hoy!</h2>
+      <p class="text-white">Forma parte de la comunidad y contribuye la red global descentralizada de mineros, voluntarios, traders y desarrolladores de Ravencoin.</p>
     </div>
     <div class="w-full sm:w-1/2 md:w-1/4 text-left sm:text-center">
-      <a class="btn btn-primary mx-2 mt-5 mb-3 px-4 py-3 font-normal text-base rounded text-white border-white border-solid border-2 hover:text-black" href="/community">Join the Community</a>
+      <a class="btn btn-primary mx-2 mt-5 mb-3 px-4 py-3 font-normal text-base rounded text-white border-white border-solid border-2 hover:text-black" href="/community">Únete a la Comunidad</a>
     </div>
   </div>
 
@@ -241,13 +241,13 @@ modalCacheRef: "4.3.1"
   </div>
 </div>
 <div class="bg-grey-lighter text-center">
-  <h2 class="font-medium">Community</h2>
+  <h2 class="font-medium">Comunidad</h2>
   <iframe src="https://revain.org/widget-v2/review-carousel?companyType=Project&amp;companySlug=ravencoin&amp;consumer=https%3A%2F%2Fravencoin.org&amp;contentLines=4&amp;elevationLevel=2&amp;writeReviewAt=6&amp;sortBy=recent&amp;perPage=9&amp;bg=neutral.0&amp;reviewLocale=en&amp;ratingProgressFill=%23eb9c35&amp;blockchainLinkColor=%231f89e5&amp;showMoreLinkColor=%231f89e5&amp;dataSource=null&amp;locale=en&amp;theme=default" width="100%" height="450" style="border: none; display: block"></iframe>
 </div>
 <div class="bg-grey-lighter text-center" style="padding-bottom:50px">
-  <h2 class="font-medium">Twitter Updates</h2>
-  <a class="twitter-timeline" data-width="600" data-height="600" data-dnt="true" data-theme="dark" href="https://twitter.com/Ravencoin?ref_src=twsrc%5Etfw">Tweets by Ravencoin</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-  <a class="twitter-timeline" data-width="600" data-height="600" data-dnt="true" data-theme="dark" href="https://twitter.com/Ravencoin/likes?ref_src=twsrc%5Etfw">Tweets Liked by Ravencoin</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  <h2 class="font-medium">Novedades en Twitter</h2>
+  <a class="twitter-timeline" data-width="600" data-height="600" data-dnt="true" data-theme="dark" href="https://twitter.com/Ravencoin?ref_src=twsrc%5Etfw">Tweets de Ravencoin</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  <a class="twitter-timeline" data-width="600" data-height="600" data-dnt="true" data-theme="dark" href="https://twitter.com/Ravencoin/likes?ref_src=twsrc%5Etfw">Tweets que le gustan a Ravencoin</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
 <script src="/assets/vendors/mediabox/mediabox.js"></script>
 <script>
