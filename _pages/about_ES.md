@@ -8,7 +8,7 @@ permalink: /ES/about/
 ---
 
 <div class="wrapper mt-16 pb-20">
-  <h2>¿Qué es Ravencoin</h2>
+  <h2>¿Qué es Ravencoin?</h2>
 
   <p>Ravencoin es una red peer to peer que se enfoca en implementar una blockchain, diseñada para gestionar una función específica: la transferencia de activos entre pares. Implementada como un fork del código de Bitcoin, Ravencoin se lanzó el 3 de enero de 2018, y se trata de un proyecto de código abierto por completo (sin ICO ni nodos maestros). Enfocado en construir una tecnología útil, con una comunidad sólida en crecimiento.</p>
 
