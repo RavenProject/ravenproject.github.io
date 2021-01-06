@@ -16,7 +16,7 @@ permalink: /ES/about/
 
   <p>En una publicación de Ravencoin en &nbsp;<em>Medium</em>&nbsp; de Noviembre de 2017 hace referencia a Juego de Tronos cuando introduce su entonces moneda experimental:</p>
   <blockquote>
-    “En el mundo de ficción de Westeros, los cuervos eran usados como mensajeros que transportaban declariones de verdad. Ravencoin es un caso específico de la blockchain diseñado para transportar declaraciones de verdad acerca de quien posee qué activos.”
+    “En el mundo de ficción de Westeros (Juego de Tronos), los cuervos eran usados como mensajeros que transportaban declariones de verdad. Ravencoin es un caso específico de la blockchain diseñado para transportar declaraciones de verdad acerca de quien posee qué activos.”
   </blockquote>
 
   <p>Landaza el 3 de Enero de 2018, durante el noveno aniversario del lanzamiento de bitcoin, Ravencoin es un proyecto de software libre diseñado para permitir pagos instantáneo a cualquiera alrededor del globo. El objetivo del proyecto es crear una blockchain optimizada especificamente para la transferencia de activos como tokens de un titular a otro</p>
@@ -36,15 +36,15 @@ permalink: /ES/about/
 
   <p>El actual algoritmo &nbsp;<a href="https://medium.com/@tronblack/ravencoin-v4-kawpow-16fb1f8ec372">KAWPOW </a> solventa el problema de la centralización del minado haciendo uso  de la memoria y la capacidad de cálculo de las tarjetas gráficas (GPU). Esto esta destinado a permitir a que todo las GPU de uso común minen Ravencoin. El algoritmo KAWPOW esta derivado de los algoritmos ProgPOW y ethhash, con modificaciones, para mejorar la distribución de Ravencoin.</p>
 
-  <p>No additional future algorithm forks are envisaged. Note that this may allow future ASIC development to proceed, albeit as there is a limited potential for ASIC efficiency gains compared to consumer grade hardware, we are resistant to this form of centralisation.</p>
+  <p>No está prevista la adopción de un nuevo algoritmo en el futuro. Nótese que esto permite el desarrollo futuro de alternativas de minado mediante ASIC, pero debido al limitado potencial de éstos frente a la GPU de uso doméstico, somos resistentes a este tipo de centralización.</p>
 
-  <h3>Unique characteristics of Ravencoin</h3>
+  <h3>Características Únicas de Ravencoin</h3>
 
   <ul>
-    <li>ASIC resistant – Uses the KAWPOW hashing algorithm to discourage the development of ASIC hardware</li>
-    <li>Fair launch - Everyone has equal opportunity to mine or purchase RVN since day one.</li>
-    <li>No pre-mine, no ICO, and no coins held for developer or founders rewards.</li>
-    <li>Community Driven, and True Open Source</li>
+    <li>Resistente a minado ASICASIC – El uso del algoritmo de hashing KAWPOW para desalentar el desarrollo de hardware ASIC</li>
+    <li>Lanzamiento justo - mismas oportunidades para todos de minar o comprar RVN desde el primer día.</li>
+    <li>Sin preminado, ni ICO y no se guardan monedas para recompensas de desarrolladores o fundadores.</li>
+    <li>Impulsado por la comunidad y código abierto</li>
   </ul>
 
   <p><a href="https://medium.com/@ravencoin/ravencoin-4683cd00f83c">https://medium.com/@ravencoin/ravencoin-4683cd00f83c</a></p>
