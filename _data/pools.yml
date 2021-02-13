@@ -5,6 +5,10 @@
 - name: WoolyPooly
   url: https://woolypooly.com/
   twitter: '@Woolypooly_com'
+ 
+- name: Flypool
+  url: https://ravencoin.flypool.org/
+  twitter: '@etherchain_org'
 
 - name: 2Miners
   url: https://2miners.com
