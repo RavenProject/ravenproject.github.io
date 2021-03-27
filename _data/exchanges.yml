@@ -143,6 +143,11 @@
   url:  https://swapspace.co/
   kyc: false
 
+- name: SwapSwop
+  logo: /assets/img/pages/exchanges/swapswop.png
+  url:  https://swapswop.io/
+  kyc: false
+
 - name: Swapzone
   logo: /assets/img/pages/exchanges/swapzone.png
   url:  https://swapzone.io/
