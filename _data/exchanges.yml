@@ -78,11 +78,6 @@
   url:  https://dex-trade.com/trading/RVNBTC
   kyc: true
 
-- name: Diger
-  logo: /assets/img/pages/exchanges/diger.png
-  url:  https://diger.exchange/
-  kyc: true
-
 - name: Digifinex
   logo: /assets/img/pages/exchanges/digifinex.png
   url: https://www.digifinex.com/en-ww/trade/BTC/RVN
@@ -97,11 +92,6 @@
   logo: /assets/img/pages/exchanges/exolix.png
   url: https://exolix.com/exchange/BTC-RVN
   kyc: false
-
-- name: Gazua
-  logo: /assets/img/pages/exchanges/gazua.png
-  url:  https://www.gazuaex.io/
-  kyc: true
 
 - name: Graviex
   logo: /assets/img/pages/exchanges/graviex.png
@@ -172,3 +162,8 @@
   logo: /assets/img/pages/exchanges/stealthex.png
   url: https://stealthex.io/?to=rvn
   kyc: false
+
+- name: UnicornX
+  logo: /assets/img/pages/exchanges/UnicornX.png
+  url: https://www.unicornx.exchange/markets/spot-info/rvn-usdt
+  kyc: true

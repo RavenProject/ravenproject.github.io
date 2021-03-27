@@ -151,3 +151,11 @@
     - windows
     - mac
     - linux
+
+- name: CoinUs
+  logo: /assets/img/pages/wallet/CoinUs.png
+  url: https://www.coinus.io/
+  asset-support: true
+  platforms:
+    - app-store-badge
+    - google-play-badge
