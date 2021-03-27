@@ -45,3 +45,7 @@
 - name: Mole-Pool
   url: https://rvn.mole-pool.net/
   twitter: ''
+  
+- name: Skypool
+  url: https://rvn.skypool.org/
+  twitter: ''
