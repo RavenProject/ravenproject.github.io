@@ -7,6 +7,9 @@ permalink: /buy-ravencoin/
 ---
 
 <div class="page-content">
+  <div class="wrapper m-auto">
+    <h3>Trader fees are partly donated back to the project</h3>
+  </div>
   <div class="wrapper mt-8 mb-32 m-auto">
     <h1><b>Non-Custodial exchanges</b></h1><br>
     <div class="flex flex-wrap">
