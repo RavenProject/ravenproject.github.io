@@ -7,9 +7,6 @@ permalink: /buy-ravencoin/
 ---
 
 <div class="page-content">
-  <div class="wrapper m-auto">
-    <h3>Trader fees are partly donated back to the project</h3>
-  </div>
   <div class="wrapper mt-8 mb-32 m-auto">
     <h1><b>Non-Custodial exchanges</b></h1><br>
     <div class="flex flex-wrap">
@@ -19,7 +16,10 @@ permalink: /buy-ravencoin/
                   <div class="bg-grey-lighter max-w-sm rounded overflow-hidden shadow-md hover:by-grey">
                     <a class="block px-6 py-8" href="{{ exchange.url }}" target="_blank"><img src="{{ exchange.logo }}" alt="{{ exchange.name }} exchange"/></a>
                   </div>
-                  <span><i class="zmdi zmdi-balance"></i> &nbsp; Donates to foundation</span>
+                  {% if exchange.donates_to_project == true %}
+                    <span><i class="zmdi zmdi-balance"></i> &nbsp; Donates to foundation</span>
+                  {% endif %}
+                  
                   <h3 class="mt-6"><a href="{{ exchange.url }}" target="_blank">{{ exchange.name }}</a></h3>
                 </div>
             {% endif %}
@@ -34,6 +34,9 @@ permalink: /buy-ravencoin/
             <div class="bg-grey-lighter max-w-sm rounded overflow-hidden shadow-md hover:by-grey">
               <a class="block px-6 py-8" href="{{ exchange.url }}" target="_blank"><img src="{{ exchange.logo }}" alt="{{ exchange.name }} exchange"/></a>
             </div>
+                  {% if exchange.donates_to_project == true %}
+                    <span><i class="zmdi zmdi-balance"></i> &nbsp; Donates to foundation</span>
+                  {% endif %}
             <h3 class="mt-6"><a href="{{ exchange.url }}" target="_blank">{{ exchange.name }}</a></h3>
           </div>
         {% endif %}

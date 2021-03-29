@@ -2,173 +2,208 @@
   logo: /assets/img/pages/exchanges/altilly.png
   url: https://www.altilly.com/asset/RVN
   kyc: true
+  donates_to_project: false
 
 - name: ATAIX
   logo: /assets/img/pages/exchanges/ataix.png
   url:  https://ataix.com/market/RVN-BTC
   kyc: true
+  donates_to_project: false
 
 - name: BarterDEX
   logo: /assets/img/pages/exchanges/barterdex.png
   url: https://www.atomicexplorer.com/#/coins
   kyc: true
+  donates_to_project: false
 
 - name: BC Bitcoin
   logo: /assets/img/pages/exchanges/bcbitcoin.png
   url: https://www.bcbitcoin.co.uk/buy/?coin=RVN
   kyc: false
+  donates_to_project: false
 
 - name: Bitladon
   logo: /assets/img/pages/exchanges/bitladon.png
   url: https://www.bitladon.com/ravencoin
   kyc: true
+  donates_to_project: false
 
 - name: Bitni
   logo: /assets/img/pages/exchanges/bitni.png
   url: https://bitni.com/swap/rvn/btc
   kyc: false
+  donates_to_project: false
 
 - name: Bitrue
   logo: /assets/img/pages/exchanges/bitrue.png
   url: https://www.bitrue.com/trade/rvn_btc
   kyc: true
+  donates_to_project: false
 
 - name: Binance
   logo: /assets/img/pages/exchanges/binance.png
   url: https://www.binance.com/en/trade/RVN_BTC
   kyc: true
+  donates_to_project: false
 
 - name: Bittrex
   logo: /assets/img/pages/exchanges/bittrex.png
   url: https://bittrex.com/Market/Index?MarketName=BTC-RVN
   kyc: true
+  donates_to_project: false
 
 - name: ChangeAngel
   logo: /assets/img/pages/exchanges/changeangel.png
   url: https://changeangel.io/
   kyc: false
+  donates_to_project: true
 
 - name: Changelly
   logo: /assets/img/pages/exchanges/changelly.png
   url: https://changelly.com/
   kyc: false
+  donates_to_project: false
 
 - name: ChangeNow
   logo: /assets/img/pages/exchanges/changenow.png
   url: https://changenow.io
   kyc: false
+  donates_to_project: false
 
 - name: Coinall
   logo: /assets/img/pages/exchanges/coinall.png
   url: https://www.coinall.com/spot/trade#product=rvn_btc
   kyc: true
+  donates_to_project: false
 
 - name: CoinSpot
   logo: /assets/img/pages/exchanges/coinspot.png
   url: https://www.coinspot.com.au/chart/RVN
   kyc: true
+  donates_to_project: false
 
 - name: CoinSwitch
   logo: /assets/img/pages/exchanges/coinswitch.png
   url: https://coinswitch.co
   kyc: false
+  donates_to_project: false
 
 - name: DEX Trade
   logo: /assets/img/pages/exchanges/dextrade.png
   url:  https://dex-trade.com/trading/RVNBTC
   kyc: true
+  donates_to_project: false
 
 - name: Diger
   logo: /assets/img/pages/exchanges/diger.png
   url:  https://diger.exchange/
   kyc: true
+  donates_to_project: false
 
 - name: Digifinex
   logo: /assets/img/pages/exchanges/digifinex.png
   url: https://www.digifinex.com/en-ww/trade/BTC/RVN
   kyc: true
+  donates_to_project: false
 
 - name: Evorese
   logo: /assets/img/pages/exchanges/evorese.png
   url: https://exchange.evorese.com/market/BIRAKE.RVN_BIRAKE.BTC
   kyc: false
+  donates_to_project: false
 
 - name: Exolix
   logo: /assets/img/pages/exchanges/exolix.png
   url: https://exolix.com/exchange/BTC-RVN
   kyc: false
+  donates_to_project: false
 
 - name: Gazua
   logo: /assets/img/pages/exchanges/gazua.png
   url:  https://www.gazuaex.io/
   kyc: true
+  donates_to_project: false
 
 - name: Graviex
   logo: /assets/img/pages/exchanges/graviex.png
   url: https://graviex.net/markets/rvnbtc
   kyc: true
+  donates_to_project: false
 
 - name: Indodax
   logo: /assets/img/pages/exchanges/indodax.png
   url: https://indodax.com/market/RVNIDR
   kyc: true
+  donates_to_project: false
 
 - name: OKEx
   logo: /assets/img/pages/exchanges/okex.png
   url: https://www.okex.com/en/markets/spot/rvn_btc
   kyc: true
+  donates_to_project: false
 
 - name: Paribu
   logo: /assets/img/pages/exchanges/paribu.png
   url: https://www.paribu.com/?utm_source=ravencoin.org
   kyc: true
+  donates_to_project: false
 
 - name: QBTC
   logo: /assets/img/pages/exchanges/qbtc.png
   url: https://www.qbtc.com/trade?symbol=RVN_USDT
   kyc: true
+  donates_to_project: false
 
 - name: ProBit
   logo: /assets/img/pages/exchanges/probit.png
   url: https://www.probit.com/app/exchange/RVN-USDT
   kyc: true
+  donates_to_project: false
 
 - name: SimpleSamp
   logo: /assets/img/pages/exchanges/simpleswap.png
   url:  https://simpleswap.io/
   kyc: false
+  donates_to_project: false
 
 - name: SwapSpace
   logo: /assets/img/pages/exchanges/swapspace.png
   url:  https://swapspace.co/
   kyc: false
+  donates_to_project: false
 
 - name: SwapSwop
   logo: /assets/img/pages/exchanges/swapswop.png
   url:  https://swapswop.io/
   kyc: false
+  donates_to_project: false
 
 - name: Swapzone
   logo: /assets/img/pages/exchanges/swapzone.png
   url:  https://swapzone.io/
   kyc: false
+  donates_to_project: false
 
 - name: tZero
   logo: /assets/img/pages/exchanges/tzero.png
   url: https://www.tzero.com/crypto-app
   kyc: true
+  donates_to_project: false
 
 - name: Upbit
   logo: /assets/img/pages/exchanges/upbit.png
   url: https://upbit.com/exchange?code=CRIX.UPBIT.BTC-RVN
   kyc: true
+  donates_to_project: false
 
 - name: Vertbase
   logo: /assets/img/pages/exchanges/vertbase.png
   url: https://app.vertbase.com/assets/rvn
   kyc: true
+  donates_to_project: true
 
 - name: StealthEX
   logo: /assets/img/pages/exchanges/stealthex.png
   url: https://stealthex.io/?to=rvn
   kyc: false
+  donates_to_project: false
