@@ -123,7 +123,7 @@
   url:  https://www.gazuaex.io/
   kyc: true
   donates_to_project: false
-
+  
 - name: Graviex
   logo: /assets/img/pages/exchanges/graviex.png
   url: https://graviex.net/markets/rvnbtc
@@ -206,4 +206,10 @@
   logo: /assets/img/pages/exchanges/stealthex.png
   url: https://stealthex.io/?to=rvn
   kyc: false
+  donates_to_project: false
+
+- name: UnicornX
+  logo: /assets/img/pages/exchanges/UnicornX.png
+  url: https://www.unicornx.exchange/markets/spot-info/rvn-usdt
+  kyc: true
   donates_to_project: false
