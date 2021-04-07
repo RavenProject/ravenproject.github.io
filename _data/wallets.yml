@@ -80,7 +80,7 @@
 
 - name: Guarda
   logo: /assets/img/pages/wallet/guarda.png
-  url: https://guarda.co/
+  url: https://guarda.com/
   asset-support: false
   platforms:
     - app-store-badge
