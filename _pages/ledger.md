@@ -37,7 +37,9 @@ permalink: /ledger/
   <br>
   <h3>Installing the Electrum-RVN wallet</h3>
 
-  <p>In order to use your ledger device to manage your Ravencoin you will need to download and install the Electrum-RVN wallet which can be found here: <a href="https://github.com/standard-error/electrum-raven/releases/">https://github.com/standard-error/electrum-raven/releases/</a>. Choose the most recent version and download the appropriate choice for your operating system.</p>
+  <p>A new electrum client is being worked on! For now, you will need the <a href="https://github.com/kralverde/electrum-raven/releases">Electrum-RVN</a> wallet to manage your Ravencoin with a ledger device. The linked fork is an updated version of the outdated repository by <a href="https://github.com/standard-error">standard-error</a>. Choose the most recent version and download the appropriate file for your operating system. Unfortunately, OSX is currently not supported in this new fork. If you are an OSX user, you could try running the raw python file as outlined in the README of <a href="https://github.com/kralverde/electrum-raven">https://github.com/kralverde/electrum-raven</a> or use <a href="https://wiki.winehq.org/MacOS">wine</a> to run the .exe binary.</p> 
+  <p>The Electrum-RVN Special Interest Group is working on the new electrum client and server for full Ravencoin support (assets included). You can track work on the new electrum client at the <a href="https://discord.gg/VuubYncHz4">Ravencoin Community Discord</a>. If you would like to learn how to fix standard-error's repository or learn how to set up an electrum-server, read <a href="https://docs.google.com/document/d/1w0jRCX9fJg3c3BXCGHEIpE_VkJnoxIAG83QwBE-iONI/edit?usp=sharing">this document</a> which is an FAQ about all things Electrum-RVN. 
+  </p>
 
   <p>When setting up the Electrum-RVN wallet for the first time follow these steps:</p>
 
@@ -97,5 +99,5 @@ permalink: /ledger/
   <br>
   <h3>Support</h3>
 
-  <p>If you need any help using your Ledger device with Ravencoin, you can contact the community through Telegram and Discord's ledger-electrum channel.</p>
+  <p>If you need any help using your Ledger device with Ravencoin, you can contact the community through <a href="https://t.me/RavencoinDev">Telegram</a> and <a href="https://discord.gg/VuubYncHz4">Discord</a>.</p>
 </div>
