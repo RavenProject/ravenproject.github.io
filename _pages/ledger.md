@@ -37,8 +37,8 @@ permalink: /ledger/
   <br>
   <h3>Installing the Electrum-RVN wallet</h3>
 
-  <p>In order to use your ledger device to manage your Ravencoin you will need to download and install the Electrum-RVN wallet which can be found here: <a href="https://github.com/kralverde/electrum-raven/releases">https://github.com/kralverde/electrum-raven/releases</a>. This project, originally by standard-error, as been updated in a fork. Choose the most recent version and download the appropriate choice for your operating system. Unfortunately, OSX is not currently supported in this new fork. If you are an OSX user, you may try running the raw python as outlined in the README of <a href="https://github.com/kralverde/electrum-raven">https://github.com/kralverde/electrum-raven</a> or use wine to run the .exe binary.</p> 
-  <p>A better electrum client is currently being worked on. If you would like more detail about the current electrum client, see <a href="https://docs.google.com/document/d/1w0jRCX9fJg3c3BXCGHEIpE_VkJnoxIAG83QwBE-iONI/edit?usp=sharing">HERE</a>. You can track work on the new electrum client at our discord <a href="https://discord.gg/VuubYncHz4">HERE</a>. 
+  <p>You will need the <a href="https://github.com/kralverde/electrum-raven/releases">Electrum-RVN</a> wallet to manage your Ravencoin with a ledger device. Electrum-RVN is an up-to-date project from the <a href="https://github.com/Electrum-RVN-SIG">Electrum-RVN Special Interest Group</a> and based on the original by <a href="https://github.com/standard-error">standard-error</a>. Choose the most recent version and download the appropriate file for your operating system. Unfortunately, OSX is currently not supported in this new fork. If you are an OSX user, you could try running the raw python file as outlined in the README of <a href="https://github.com/kralverde/electrum-raven">https://github.com/kralverde/electrum-raven</a> or use <a href="https://wiki.winehq.org/MacOS">wine</a> to run the .exe binary.</p> 
+  <p>The Electrum-RVN Special Interest Group is working on improving the electrum client for full Ravencoin support. If you would like to learn more about the current electrum client, read <a href="https://docs.google.com/document/d/1w0jRCX9fJg3c3BXCGHEIpE_VkJnoxIAG83QwBE-iONI/edit?usp=sharing">this document</a>. You can track work on the new electrum client at the <a href="https://discord.gg/VuubYncHz4">Ravencoin Community Discord</a>. 
   </p>
 
   <p>When setting up the Electrum-RVN wallet for the first time follow these steps:</p>
@@ -99,5 +99,5 @@ permalink: /ledger/
   <br>
   <h3>Support</h3>
 
-  <p>If you need any help using your Ledger device with Ravencoin, you can contact the community through Telegram and Discord.</p>
+  <p>If you need any help using your Ledger device with Ravencoin, you can contact the community through <a href="https://t.me/RavencoinDev">Telegram</a> and <a href="https://discord.gg/VuubYncHz4">Discord</a>.</p>
 </div>
