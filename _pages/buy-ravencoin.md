@@ -19,8 +19,6 @@ permalink: /buy-ravencoin/
                   {% if exchange.donates_to_project == true %}
                     <span><i class="zmdi zmdi-balance"></i> &nbsp; Donates to foundation</span>
                   {% endif %}
-                  
-                  <h3 class="mt-6"><a href="{{ exchange.url }}" target="_blank">{{ exchange.name }}</a></h3>
                 </div>
             {% endif %}
       {% endfor %}
