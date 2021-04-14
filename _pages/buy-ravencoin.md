@@ -16,7 +16,9 @@ permalink: /buy-ravencoin/
                   <div class="bg-grey-lighter max-w-sm rounded overflow-hidden shadow-md hover:by-grey">
                     <a class="block px-6 py-8" href="{{ exchange.url }}" target="_blank"><img src="{{ exchange.logo }}" alt="{{ exchange.name }} exchange"/></a>
                   </div>
-                  <h3 class="mt-6"><a href="{{ exchange.url }}" target="_blank">{{ exchange.name }}</a></h3>
+                  {% if exchange.donates_to_project == true %}
+                    <span><i class="zmdi zmdi-balance"></i> &nbsp; Donates to foundation</span>
+                  {% endif %}
                 </div>
             {% endif %}
       {% endfor %}
@@ -30,6 +32,9 @@ permalink: /buy-ravencoin/
             <div class="bg-grey-lighter max-w-sm rounded overflow-hidden shadow-md hover:by-grey">
               <a class="block px-6 py-8" href="{{ exchange.url }}" target="_blank"><img src="{{ exchange.logo }}" alt="{{ exchange.name }} exchange"/></a>
             </div>
+                  {% if exchange.donates_to_project == true %}
+                    <span><i class="zmdi zmdi-balance"></i> &nbsp; Donates to foundation</span>
+                  {% endif %}
             <h3 class="mt-6"><a href="{{ exchange.url }}" target="_blank">{{ exchange.name }}</a></h3>
           </div>
         {% endif %}
