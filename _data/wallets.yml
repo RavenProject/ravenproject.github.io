@@ -1,3 +1,10 @@
+- name: SevenB
+  logo: /assets/img/pages/wallet/7b.png
+  url: https://sevenb.io/
+  asset-support: false
+  platforms:
+    - google-play-badge
+
 - name: Atomic
   logo: /assets/img/pages/wallet/atomic.png
   url: https://atomicwallet.io/
