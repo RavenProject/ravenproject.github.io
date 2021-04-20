@@ -106,6 +106,13 @@
     - app-store-badge
     - google-play-badge
 
+- name: SevenB
+  logo: /assets/img/pages/wallet/7b.png
+  url: https://sevenb.io/
+  asset-support: false
+  platforms:
+    - google-play-badge
+
 - name: Safepay
   logo: /assets/img/pages/wallet/safepay.png
   url: https://safepay.safecoin.org/
