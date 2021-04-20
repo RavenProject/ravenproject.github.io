@@ -1,6 +1,6 @@
 - name: SevenB
   logo: /assets/img/pages/wallet/7b.png
-  url: https://sevenb.io/
+  url: https://sevenb.io?utm_source=ravencoin.org&utm_medium=partner&utm_campaign=coins-promo
   asset-support: false
   platforms:
     - google-play-badge
