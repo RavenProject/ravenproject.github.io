@@ -25,7 +25,7 @@ permalink: /pools/
     </div>
 
     <h3>Other options</h3>
-    <p>While those are not mining pools in the traditional sense, you can also mine Ravencoin with following platforms.</p>
+    <p>While these are not mining pools in the traditional sense, you can also mine Ravencoin with following platforms.</p>
     <p>Most of the time you don't have to create a wallet or generate a wallet address. You also don't have to download and update a miner yourself, most platforms include a mining software in their client application.</p>
 
     <p class="mb-8">Ravencoin (RVN) is supported on:</p>
