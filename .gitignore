@@ -6,3 +6,4 @@ _site
 
 # Mac specific
 .DS_Store
+/.vs

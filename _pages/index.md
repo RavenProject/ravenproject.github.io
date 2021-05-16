@@ -215,7 +215,7 @@ modalCacheRef: "4.3.1"
   <div class="flex flex-wrap wrapper">
     <div class="w-full sm:w-1/2 md:w-3/4">
       <h2 class="text-white font-medium mb-3">Get Involved Today!</h2>
-      <p class="text-white">Become a part of the community and contribute to Ravencoin’s global decentralized network of miners, contributes, traders, and developers.</p>
+      <p class="text-white">Become a part of the community and contribute to Ravencoin’s global decentralized network of miners, contributors, traders, and developers.</p>
     </div>
     <div class="w-full sm:w-1/2 md:w-1/4 text-left sm:text-center">
       <a class="btn btn-primary mx-2 mt-5 mb-3 px-4 py-3 font-normal text-base rounded text-white border-white border-solid border-2 hover:text-black" href="/community">Join the Community</a>

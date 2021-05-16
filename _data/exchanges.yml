@@ -1,18 +1,6 @@
-- name: Altilly
-  logo: /assets/img/pages/exchanges/altilly.png
-  url: https://www.altilly.com/asset/RVN
-  kyc: true
-  donates_to_project: false
-
 - name: ATAIX
   logo: /assets/img/pages/exchanges/ataix.png
   url:  https://ataix.com/market/RVN-BTC
-  kyc: true
-  donates_to_project: false
-
-- name: BarterDEX
-  logo: /assets/img/pages/exchanges/barterdex.png
-  url: https://www.atomicexplorer.com/#/coins
   kyc: true
   donates_to_project: false
 
@@ -70,12 +58,6 @@
   kyc: false
   donates_to_project: false
 
-- name: Coinall
-  logo: /assets/img/pages/exchanges/coinall.png
-  url: https://www.coinall.com/spot/trade#product=rvn_btc
-  kyc: true
-  donates_to_project: false
-
 - name: CoinSpot
   logo: /assets/img/pages/exchanges/coinspot.png
   url: https://www.coinspot.com.au/chart/RVN
@@ -90,13 +72,7 @@
 
 - name: DEX Trade
   logo: /assets/img/pages/exchanges/dextrade.png
-  url:  https://dex-trade.com/trading/RVNBTC
-  kyc: true
-  donates_to_project: false
-
-- name: Diger
-  logo: /assets/img/pages/exchanges/diger.png
-  url:  https://diger.exchange/
+  url:  https://dex-trade.com/spot/trading/RVNUSDT
   kyc: true
   donates_to_project: false
 
@@ -112,22 +88,16 @@
   kyc: false
   donates_to_project: false
 
-- name: Exolix
-  logo: /assets/img/pages/exchanges/exolix.png
-  url: https://exolix.com/exchange/BTC-RVN
-  kyc: false
-  donates_to_project: false
-
-- name: Gazua
-  logo: /assets/img/pages/exchanges/gazua.png
-  url:  https://www.gazuaex.io/
-  kyc: true
-  donates_to_project: false
-
 - name: Graviex
   logo: /assets/img/pages/exchanges/graviex.png
   url: https://graviex.net/markets/rvnbtc
   kyc: true
+  donates_to_project: false
+
+- name: Guardarian
+  logo: /assets/img/pages/exchanges/guardarian.png
+  url: https://guardarian.com
+  kyc: false
   donates_to_project: false
 
 - name: Indodax
@@ -148,21 +118,21 @@
   kyc: true
   donates_to_project: false
 
-- name: QBTC
-  logo: /assets/img/pages/exchanges/qbtc.png
-  url: https://www.qbtc.com/trade?symbol=RVN_USDT
-  kyc: true
-  donates_to_project: false
-
 - name: ProBit
   logo: /assets/img/pages/exchanges/probit.png
   url: https://www.probit.com/app/exchange/RVN-USDT
   kyc: true
   donates_to_project: false
 
-- name: SimpleSamp
+- name: SimpleSwap
   logo: /assets/img/pages/exchanges/simpleswap.png
   url:  https://simpleswap.io/
+  kyc: false
+  donates_to_project: false
+
+- name: StealthEX
+  logo: /assets/img/pages/exchanges/stealthex.png
+  url: https://stealthex.io/?to=rvn
   kyc: false
   donates_to_project: false
 
@@ -186,7 +156,7 @@
 
 - name: tZero
   logo: /assets/img/pages/exchanges/tzero.png
-  url: https://www.tzero.com/crypto-app
+  url: https://www.tzero.com/
   kyc: true
   donates_to_project: false
 
@@ -196,26 +166,8 @@
   kyc: true
   donates_to_project: false
 
-- name: Vertbase
-  logo: /assets/img/pages/exchanges/vertbase.png
-  url: https://app.vertbase.com/assets/rvn
-  kyc: true
-  donates_to_project: true
-
-- name: StealthEX
-  logo: /assets/img/pages/exchanges/stealthex.png
-  url: https://stealthex.io/?to=rvn
-  kyc: false
-  donates_to_project: false
-
 - name: UnicornX
   logo: /assets/img/pages/exchanges/UnicornX.png
   url: https://www.unicornx.exchange/markets/spot-info/rvn-usdt
   kyc: true
-  donates_to_project: false
-
-- name: Guardarian
-  logo: /assets/img/pages/exchanges/guardarian.png
-  url: https://guardarian.com
-  kyc: false
   donates_to_project: false
