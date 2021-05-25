@@ -173,7 +173,7 @@
   donates_to_project: false
 
 - name: NOWPayments
-  logo: /assets/img/pages/exchanges/nowpayments.png
+  logo: /assets/img/pages/exchanges/nowpayments.svg
   url: https://nowpayments.io/
   kyc: false
   donates_to_project: false
