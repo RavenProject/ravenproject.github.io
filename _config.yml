@@ -20,7 +20,6 @@ minima:
 # this and add the path to the pages in order as they should show up
 header_pages:
  - _pages/index.md
- - _pages/assets.md
  - _pages/buy-ravencoin.md
  - _pages/wallet.md
  - _pages/whitepaper.md
