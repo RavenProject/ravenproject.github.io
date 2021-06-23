@@ -13,7 +13,7 @@ permalink: /projects/
     <div class="flex flex-wrap">
       {% assign sorted_projects = site.data.projects | sort: "name" %}
       {% for project in sorted_projects %}
-      <div class="mb-2 px-2 sm:w-1/2 md:w-1/3 text-center">
+      <div class="mb-2 px-2">
         <div class="bg-grey-lighter max-w-sm rounded overflow-hidden shadow-md hover:by-grey">
           <h3>{{ project.name }}</h3>          
           <p>{{ project.description }}</p>
