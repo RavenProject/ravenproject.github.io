@@ -539,6 +539,7 @@ overlooked. If you come across any problems or believe information needs to be c
    will save the new metadata. These asset creation and reissuance transactions are the only places where the metadata is stored on the chain.</p>
   <p>This means that, say, a 3rd party wallet sends you asset information. Whatever protocol they are using will need to send the client the VOUT of asset creations or reissues so that the
    client may verify the integrity of the metadata.</p>
+  <p>The same is true for asset tags. They only exist on the chain in one singular transaction. The node then keeps track of where that transaction is in a database for verification later.</p>
   <p>You may have been surprised earlier when learning that the associated data of an asset is only 34 bytes. You are correct in believing that is not
   a lot of information. This is an intentional decision to keep clutter off of the chain. Typically, users will use this field for an
   <a href="https://ipfs.io/#how">IPFS hash</a> allowing for websites and files to be stored and hosted off chain whether it be on personal hardware or <a href="https://ravencoinipfs.com/">cloud file management hosts</a>. IPFS hashs are unique (literally a SHA256 hash of the data) and therefore
@@ -621,7 +622,9 @@ overlooked. If you come across any problems or believe information needs to be c
   <p>Here is where the technical protocol-ly stuff starts.</p>
   <p>The following sections assume that you are familiar with <a href="https://en.bitcoin.it/wiki/Script">script</a> and
    <a href="https://en.bitcoin.it/wiki/Transaction">transactions</a>.</p>
+  <p>We do not endorse any of the assets shown in examples.</p>
   <p>There are 4 types of asset transfer scripts and 3 types of asset tag scripts. All asset scripts mush have a RVN value of 0.</p>
+  <p>If you are looking to use this as a guide to parse the ravencoin chain, please see a note at the end of this section.</p>
   <h4>New asset script</h4>
   <p>New asset scripts are used to transfer an amount of an asset into and address during an asset create as well as associate metadata
    with the created asset.</p>
@@ -877,6 +880,7 @@ overlooked. If you come across any problems or believe information needs to be c
   
   <h4>Verifier asset tag script</h4>
   <p>This script must be sent with a new asset script or a reissue asset script for a restricted asset. It associates qualifiers with the restricted asset.</p>
+  <p>An asset name portion of 'true' in ascii is the default to denote no associated qualifiers.</p>
   <table style="width:100%">
     <tr>
       <th>Script portion</th>
@@ -943,6 +947,268 @@ overlooked. If you come across any problems or believe information needs to be c
   </table>
   <p>On chain example: <a href="https://rvn.cryptoscope.io/api/getrawtransaction/?txid=2fc0bb7e3a33d12ca08f72add0effc3d059cf63382bebcad96e8923e91c3c537&decode=1">2fc0bb7e3a33d12ca08f72add0effc3d059cf63382bebcad96e8923e91c3c537</a> VOUT 2</p>
 
+  <br>
+
+  <p>**Chain parsing note**</p>
+  <p>Just like the pirate by-laws, the OP_PUSH after OP_RVN_ASSET can be seen more as a suggestion rather than a rule-of-thumb. Currently nodes accept assets based on whether or not the ‘rvn’ is within 1 or 2 bytes after OP_RVN_ASSET instead of actually reading the OP_PUSH after OP_RVN_ASSET. Because of this, there are some transactions on the chain that have non-standard bytes after OP_RVN_ASSET. (Including lengths that are greater or less than the asset data or bytes that are greater than OP_PUSHDATA4). 
+</p>
+  <p>If you only want to track ‘good’ transactions you can ignore these, as the vast majority of transactions follow proper serialization protocols. However, these malformed transactions are in fact ‘valid’ outpoints (for now) and if you want an all-encompassing tracking of the chain, you will need to check for these edge cases.</p>
+  <p>See <a href="https://github.com/Electrum-RVN-SIG/electrumx-ravencoin/blob/0dbe9496196c529ed2a92c202d6b6bc45e917a73/electrumx/server/block_processor.py#L673">here</a> for an example of a full chain parsing or <a href="https://github.com/Electrum-RVN-SIG/electrumx-ravencoin/blob/9acf5dd1d9af7ca038a895b674bad39f0d612807/electrumx/server/mempool.py#L320">here</a> for a best-effort parsing.</p>
+  <br>
+
+  <h3>Asset transaction structures</h3>
+  <p>Similar to normal Ravencoin (and bitcoin) transactions, the amount of an asset from the VINS must equal the amount in the VOUTS.</p>
+  <p>All of the protocols pertaining to transactions are the same. The only thing that changes is the scripts.</p>
   
+  <h4>Transfer asset transaction</h4>
+  <table>
+  <tr>
+      <th>VINS</th>
+      <th>VOUTS</th>
+    </tr>
+    <tr>
+      <td>
+      <p>RVN outpoint(s) for fee</p>
+      <p>Asset outpoint(s) for transfer</p>
+      </td>
+      <td>
+      <p>RVN change address(s)</p>
+      <p>Asset transfer script(s)</p>
+      </td>
+    </tr>
+  </table>
+  <p>On chain example: <a href="https://rvn.cryptoscope.io/api/getrawtransaction/?txid=bae95f349f15effe42e75134ee7f4560f53462ddc19c47efdd03f85ef4ab8f40&decode=1">bae95f349f15effe42e75134ee7f4560f53462ddc19c47efdd03f85ef4ab8f40</a></p>
+  
+  <h4>Creating a main asset transaction</h4>
+  Note that when creating assets, you get to freely determine what address to send the assets and ownership asset to.
+  <table>
+  <tr>
+      <th>VINS</th>
+      <th>VOUTS</th>
+    </tr>
+    <tr>
+      <td>
+      <p>RVN outpoint(s) for fee and burn</p>
+      </td>
+      <td>
+      <p>RVN change address(s)</p>
+      <p>Issue asset burn address</p>
+      <p>New asset script</p>
+      <p>Ownership asset script</p>
+      </td>
+    </tr>
+  </table>
+  <p>On chain example: <a href="https://rvn.cryptoscope.io/api/getrawtransaction/?txid=8eefce8d264d723b6b8f3cf87bcb400a009d01c2771f94e5cc07af252851aa96&decode=1">8eefce8d264d723b6b8f3cf87bcb400a009d01c2771f94e5cc07af252851aa96</a></p>
+
+  <h4>Creating a sub-asset transaction</h4>
+  <table>
+  <tr>
+      <th>VINS</th>
+      <th>VOUTS</th>
+    </tr>
+    <tr>
+      <td>
+      <p>RVN outpoint(s) for fee and burn</p>
+      <p>Parent ownership asset outpoint</p>
+      </td>
+      <td>
+      <p>RVN change address(s)</p>
+      <p>Issue sub-asset burn address</p>
+      <p>Transfer asset script (For parent ownership asset)</p>
+      <p>New asset script</p>
+      <p>Ownership asset script</p>
+      </td>
+    </tr>
+  </table>
+  <p>On chain example: <a href="https://rvn.cryptoscope.io/api/getrawtransaction/?txid=15127b9ea4c21c323dde1f2dd64b24b12efef2adec43b0b5f2e2377ad4aea369&decode=1">15127b9ea4c21c323dde1f2dd64b24b12efef2adec43b0b5f2e2377ad4aea369</a></p>
+
+  <h4>Creating a unique asset transaction</h4>
+  <table>
+  <tr>
+      <th>VINS</th>
+      <th>VOUTS</th>
+    </tr>
+    <tr>
+      <td>
+      <p>RVN outpoint(s) for fee and burn</p>
+      <p>Parent ownership asset outpoint</p>
+      </td>
+      <td>
+      <p>RVN change address(s)</p>
+      <p>Issue unique asset burn address</p>
+      <p>Transfer asset script (For parent ownership asset)</p>
+      <p>New asset script</p>
+      </td>
+    </tr>
+  </table>
+  <p>On chain example: <a href="https://rvn.cryptoscope.io/api/getrawtransaction/?txid=12f39ab78609e312e80c86d1ed3f25937120cbdeee6fc81b1068c400eb1c8518&decode=1">12f39ab78609e312e80c86d1ed3f25937120cbdeee6fc81b1068c400eb1c8518</a></p>
+
+  <h4>Creating a reissue asset transaction</h4>
+  <table>
+  <tr>
+      <th>VINS</th>
+      <th>VOUTS</th>
+    </tr>
+    <tr>
+      <td>
+      <p>RVN outpoint(s) for fee and burn</p>
+      <p>Ownership asset outpoint</p>
+      </td>
+      <td>
+      <p>RVN change address(s)</p>
+      <p>Reissue asset burn address</p>
+      <p>Transfer asset script (For ownership asset)</p>
+      <p>Reissue asset script</p>
+      </td>
+    </tr>
+  </table>
+  <p>On chain example: <a href="https://rvn.cryptoscope.io/api/getrawtransaction/?txid=1370040248ba64a2676f125e645a83421adb2859c8c2aacc74017d738309ebda&decode=1">1370040248ba64a2676f125e645a83421adb2859c8c2aacc74017d738309ebda</a></p>
+
+  <h4>Creating a message channel asset transaction</h4>
+  <table>
+  <tr>
+      <th>VINS</th>
+      <th>VOUTS</th>
+    </tr>
+    <tr>
+      <td>
+      <p>RVN outpoint(s) for fee and burn</p>
+      <p>Parent ownership asset outpoint</p>
+      </td>
+      <td>
+      <p>RVN change address(s)</p>
+      <p>Issue message channel asset burn address</p>
+      <p>Transfer asset script (For parent ownership asset)</p>
+      <p>New asset script</p>
+      </td>
+    </tr>
+  </table>
+  <p>On chain example: <a href="https://rvn.cryptoscope.io/api/getrawtransaction/?txid=d5a13003bff69513b1bb172164ba015afd9bd5afc0a2d654cf10daf1ae470a8c&decode=1">d5a13003bff69513b1bb172164ba015afd9bd5afc0a2d654cf10daf1ae470a8c</a></p>
+
+  
+  <h4>Creating a qualifier asset transaction</h4>
+  <table>
+  <tr>
+      <th>VINS</th>
+      <th>VOUTS</th>
+    </tr>
+    <tr>
+      <td>
+      <p>RVN outpoint(s) for fee and burn</p>
+      </td>
+      <td>
+      <p>RVN change address(s)</p>
+      <p>Issue qualifier asset burn address</p>
+      <p>New asset script</p>
+      </td>
+    </tr>
+  </table>
+  <p>On chain example: <a href="https://rvn.cryptoscope.io/tx/?txid=748c7e0996e0a4f599c51635c8fce8ddd6ae0e625be640fa4074f51f2574d7a1">748c7e0996e0a4f599c51635c8fce8ddd6ae0e625be640fa4074f51f2574d7a1</a></p>
+
+  <h4>Creating a sub-qualifier asset transaction</h4>
+  <table>
+  <tr>
+      <th>VINS</th>
+      <th>VOUTS</th>
+    </tr>
+    <tr>
+      <td>
+      <p>RVN outpoint(s) for fee and burn</p>
+      <p>Parent asset outpoint</p>
+      </td>
+      <td>
+      <p>RVN change address(s)</p>
+      <p>Issue sub-qualifier asset burn address</p>
+      <p>Transfer asset script (For parent asset)</p>
+      <p>New asset script</p>
+      </td>
+    </tr>
+  </table>
+  <p>On chain example: <a href="https://rvn.cryptoscope.io/tx/?txid=748c7e0996e0a4f599c51635c8fce8ddd6ae0e625be640fa4074f51f2574d7a1">748c7e0996e0a4f599c51635c8fce8ddd6ae0e625be640fa4074f51f2574d7a1</a></p>
+
+  <h4>Creating a restricted asset transaction</h4>
+  <table>
+  <tr>
+      <th>VINS</th>
+      <th>VOUTS</th>
+    </tr>
+    <tr>
+      <td>
+      <p>RVN outpoint(s) for fee and burn</p>
+      </td>
+      <td>
+      <p>RVN change address(s)</p>
+      <p>Ownership asset script</p>
+      <p>New asset script</p>
+      <p>Verifier asset tag script</p>
+      </td>
+    </tr>
+  </table>
+  <p>On chain example: <a href="https://rvn.cryptoscope.io/api/getrawtransaction/?txid=c1e61a69bfb3a02f15c44b530a76fee8d69c8b54b0cc69c0fab81a583e3e5c33&decode=1">c1e61a69bfb3a02f15c44b530a76fee8d69c8b54b0cc69c0fab81a583e3e5c33</a></p>
+
+  
+  <h4>Creating a reissue restricted asset with new qualifiers transaction</h4>
+  <table>
+  <tr>
+      <th>VINS</th>
+      <th>VOUTS</th>
+    </tr>
+    <tr>
+      <td>
+      <p>RVN outpoint(s) for fee and burn</p>
+      <p>Ownership asset outpoint</p>
+      </td>
+      <td>
+      <p>RVN change address(s)</p>
+      <p>Reissue asset burn address</p>
+      <p>Transfer asset script (For ownership asset)</p>
+      <p>Reissue asset script</p>
+      <p>Verifier asset tag script</p>
+      </td>
+    </tr>
+  </table>
+  <p>On chain example: <a href="https://rvnt.cryptoscope.io/api/getrawtransaction/?txid=a2b634e160974348647484302501a64bc80a841d4a9ea833498a47e72e987628&decode=1">a2b634e160974348647484302501a64bc80a841d4a9ea833498a47e72e987628 (testnet)</a></p>
+
+  <h4>Creating a null asset script transaction</h4>
+  <table>
+  <tr>
+      <th>VINS</th>
+      <th>VOUTS</th>
+    </tr>
+    <tr>
+      <td>
+      <p>RVN outpoint(s) for fee and burn</p>
+      <p>Qualifier or restricted ownership asset outpoint</p>
+      </td>
+      <td>
+      <p>RVN change address(s)</p>
+      <p>Tag burn address</p>
+      <p>Transfer asset script (For qualifier or restricted ownership asset)</p>
+      <p>Null asset tag script</p>
+      </td>
+    </tr>
+  </table>
+  <p>On chain example: <a href="https://rvn.cryptoscope.io/api/getrawtransaction/?txid=0332beef9c76cf300b166cf5f56e8acd83788201eae1fc93f05364c28cd882f2&decode=1">0332beef9c76cf300b166cf5f56e8acd83788201eae1fc93f05364c28cd882f2</a></p>
+
+  <h4>Creating a freeze restricted asset transaction</h4>
+  <table>
+  <tr>
+      <th>VINS</th>
+      <th>VOUTS</th>
+    </tr>
+    <tr>
+      <td>
+      <p>RVN outpoint(s) for fee and burn</p>
+      <p>Restricted ownership asset outpoint</p>
+      </td>
+      <td>
+      <p>RVN change address(s)</p>
+      <p>Tag burn address</p>
+      <p>Transfer asset script (For restricted ownership asset)</p>
+      <p>Global restriction asset tag script</p>
+      </td>
+    </tr>
+  </table>
+  <p>On chain example: <a href="https://rvn.cryptoscope.io/api/getrawtransaction/?txid=cb6f7a7cf7d65d532101a259ef37cebff77ccb1e9f86823910537d6580071668&decode=1">cb6f7a7cf7d65d532101a259ef37cebff77ccb1e9f86823910537d6580071668</a></p>
 
   </div>
