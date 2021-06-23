@@ -1,0 +1,36 @@
+- name: Electrum Ravencoin
+  description: The Electrum Ravencoin wallet is meant to be a light weight wallet for users who are unable or unwilling
+  to run a full ravencoin core wallet as well as allow for hardware support for users. It runs on a "shared node" system
+  where users can wrap an electrum server around a Ravencoin node which allows electrum clients to get information about
+  their addresses.
+  project_sites:
+    - name: Electrum Client
+      url: https://github.com/Electrum-RVN-SIG/electrum-ravencoin
+    - name: Electrum Server
+      url: https://github.com/Electrum-RVN-SIG/electrumx-ravencoin
+    - name: Server and Protocol Documentation
+      url: https://electrumx-ravencoin.readthedocs.io/en/latest/protocol-methods.html
+  roadmap:
+    - name: Convert the base electrum repository to Ravencoin
+      value: complete
+    - name: Convert the electrum server to be asset aware
+      value: complete
+    - name: Allow ledger hardware RVN transactions
+      value: complete
+    - name: Allow trezor hardware RVN transactions
+      value: complete
+    - name: Allow users to see assets
+      value: complete
+    - name: Allow software to send assets
+      value: testing
+    - name: Allow ledger to send assets
+      value: testing
+    - name: Allow trezor to send assets
+      value: testing
+    - name: Create, Reissue, and Tag with assets
+      value: upcoming
+    - name: Allow users to create atomic swaps as per RIP15
+      value: upcoming
+  social:
+    - name: Discord
+      url: https://discord.gg/VuubYncHz4
