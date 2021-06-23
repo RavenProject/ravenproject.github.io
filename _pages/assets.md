@@ -26,6 +26,9 @@ overlooked. If you come across any problems or believe information needs to be c
  to make their own 'coin', sell digital art, and even incorporated it as an in-video game currency.</p>
 
   <br>
+  <h3>Where can I trade assets?</h3>
+  <p><a href="https://raventrader.net/">Raven Trader</a> is a on-chain peer to peer market for users to post half-signed atomic swaps.</p>
+  <br>
   <h3>The jargon...</h3>
   <p>When dealing with assets, it is inevitable that you will eventually come across some strange words denoting strange
  concepts. Before we move on, you should familiarize yourself with these concepts.</p>
