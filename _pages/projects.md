@@ -9,7 +9,6 @@ permalink: /projects/
 <div class="page-content">
   <h2>Current Ravencoin Projects</h2>
     <p></p>
-    <div class="flex flex-wrap">
       {% assign sorted_projects = site.data.projects | sort: "name" %}
       {% for project in sorted_projects %}
       <div class="bg-grey-lighter max-w-sm rounded overflow-hidden shadow-md hover:by-grey">
@@ -35,5 +34,4 @@ permalink: /projects/
           </ul>
         </div>
       {% endfor %}
-    </div>
 </div>
