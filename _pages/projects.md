@@ -11,7 +11,6 @@ permalink: /projects/
     <p></p>
       {% assign sorted_projects = site.data.projects | sort: "name" %}
       {% for project in sorted_projects %}
-      <div class="bg-grey-lighter max-w-sm rounded overflow-hidden shadow-md hover:by-grey">
           <h3>{{ project.name }}</h3>          
           <p>{{ project.description }}</p>
           <h4>Project Websites</h4>
@@ -32,6 +31,5 @@ permalink: /projects/
           <li><a href="{{ site.url }}">{{ site.name }}</a></li>
           {% endfor %}
           </ul>
-        </div>
       {% endfor %}
 </div>
