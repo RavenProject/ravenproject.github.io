@@ -6,7 +6,7 @@ bannerImage: /assets/img/pages/exchanges/exchange-banner.jpg
 permalink: /projects/
 ---
 
-<div class="page-content">
+<div class="wrapper mt-16 pb-20">
   <h2>Current Ravencoin Projects</h2>
     <p></p>
       {% assign sorted_projects = site.data.projects | sort: "name" %}
@@ -32,4 +32,5 @@ permalink: /projects/
           {% endfor %}
           </ul>
       {% endfor %}
+
 </div>
