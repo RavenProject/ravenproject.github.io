@@ -27,6 +27,8 @@ header_pages:
  - _pages/pools.md
  - _pages/updates.md
  - _pages/about.md
+ - _pages/projects.md
+ - _pages/ledger.md
 
 # Build settings
 theme: minima
@@ -38,7 +40,7 @@ include:
   - _posts
   - _wallets
   - _translations
- 
+
 # Defaults
 defaults:
   # _pages
