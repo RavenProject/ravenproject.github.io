@@ -652,7 +652,7 @@ overlooked. If you come across any problems or believe information needs to be c
   <p>The following sections assume that you are familiar with <a href="https://en.bitcoin.it/wiki/Script">script</a> and
    <a href="https://en.bitcoin.it/wiki/Transaction">transactions</a>.</p>
   <p>We do not endorse any of the assets shown in examples.</p>
-  <p>There are 4 types of asset transfer scripts and 3 types of asset tag scripts. All asset scripts mush have a RVN value of 0.</p>
+  <p>There are 4 types of asset transfer scripts and 3 types of asset tag scripts. All asset scripts must be in a VOUT with a RVN value of 0.</p>
   <p>If you are looking to use this as a guide to parse the ravencoin chain, please see a note at the end of this section.</p>
   <h4>New asset script</h4>
   <p>New asset scripts are used to transfer an amount of an asset into and address during an asset create as well as associate metadata
@@ -986,9 +986,11 @@ overlooked. If you come across any problems or believe information needs to be c
   <br>
 
   <h3 id="create_transactions">Asset transaction structures</h3>
-  <p>Similar to normal Ravencoin (and bitcoin) transactions, the amount of an asset from the VINS must equal the amount in the VOUTS.</p>
+  <p>Similar to normal Ravencoin (and bitcoin) transactions, the amount of an asset from the VINS must equal the amount in the VOUTS (Not including created assets).</p>
+  <p>A RVN fee must be paid for asset-only transactions just like any other.</p>
   <p>All of the protocols pertaining to transactions are the same. The only thing that changes is the scripts.</p>
-  <p>The order of the VOUTS does matter when creating and reissuing assets.</p>
+  <p>The order of the VOUTS <i>does</i> matter when creating and reissuing assets.</p>
+  <p>When creating transactions the created ownership asset (if there is one) must be sent to the same address as the created asset.</p>
   <h4>Transfer asset transaction</h4>
   <table>
   <tr>
