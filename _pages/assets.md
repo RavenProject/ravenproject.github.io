@@ -18,7 +18,31 @@ overlooked. If you come across any problems or believe information needs to be c
   <p>This webpage will attempt to cover all aspects of Ravencoin assets from what they are to their on-chain encodings.
  As you read on, this document will become increasingly technical.</p>
   <br>
-  <h3>What is an asset?</h3>
+
+  <h2>Table of Contents</h2>
+  <ul>
+    <li><a href="#what_is_an_asset">What is an asset?</a></li>
+    <li><a href="#where_can_i_trade_assets">Where can I trade assets?</a></li>
+    <li><a href="#the_jargon">The Jargon</a></li>
+    <li><a href="#creating_assets">Creating Assets</a>
+    <ul>
+    <li><a href="#the_big_three">The Big Three</a></li>
+    <li><a href="#broadcasts_and_messages">Broadcasts and Messages</a></li>
+    <li><a href="#qualifiers_restricted_tags">Qualifiers, Restricted Assets, and More</a></li>
+    </ul>
+    </li>
+    <li><a href="#what_is_on_chain">What is on the chain?</a></li>
+    <li><a href="#burn_addresses">Burn Addresses</a></li>
+    <li><a href="#scripts">Standard Asset Scripts</a>
+    <ul>
+    <li><a href="#chain_parsing_note">A note on chain parsing</a></li>
+    </ul>
+    </li>
+    <li><a href="#create_transactions">Building Asset Transactions</a></li>
+  </ul>
+
+  <br><br>
+  <h3 id="what_is_an_asset">What is an asset?</h3>
 
   <p>A Ravencoin asset (also less commonly referred to as a token) is an on-chain way of creating, storing, and transfering
  custom end-user generated information. Assets come with a unique, user-chosen name which can
@@ -26,10 +50,11 @@ overlooked. If you come across any problems or believe information needs to be c
  to make their own 'coin', sell digital art, and even incorporated it as an in-video game currency.</p>
 
   <br>
-  <h3>Where can I trade assets?</h3>
+  <h3 id ="where_can_i_trade_assets">Where can I trade assets?</h3>
   <p><a href="https://raventrader.net/">Raven Trader</a> is a on-chain peer to peer market for users to post half-signed atomic swaps.</p>
   <br>
-  <h3>The jargon...</h3>
+
+  <h3 id="the_jargon">The jargon...</h3>
   <p>When dealing with assets, it is inevitable that you will eventually come across some strange words denoting strange
  concepts. Before we move on, you should familiarize yourself with these concepts.</p>
   <ul>
@@ -86,7 +111,7 @@ overlooked. If you come across any problems or believe information needs to be c
 
   <br>
 
-  <h3>Creating Assets</h3>
+  <h3 id="creating_assets">Creating Assets</h3>
   <p>When creating an asset, you need to know what type of asset you want, the name of the asset, the amount of an asset,
  how much it costs to create an asset, and the metadata associated with an asset.</p>
   <p>Assets cannot be differentiated against one another except through their names. This means that all asset names must be unique.
@@ -172,7 +197,8 @@ overlooked. If you come across any problems or believe information needs to be c
       <td>No data can be associated</td>
     </tr>
   </table>
-  <h3>The big three</h3>
+  <br>
+  <h3 id="the_big_three">The big three</h3>
   <p>When working with Ravencoin assets you will most likely be using one of these three. They are by far the most used
  types of assets. It can help to think of these assets as pieces of some abstract on-chain website.</p>
   <br>
@@ -312,7 +338,7 @@ overlooked. If you come across any problems or believe information needs to be c
     </tr>
   </table>
   <br>
-  <h3>Broadcasts and Message Channels</h3>
+  <h3 id="broadcasts_and_messages">Broadcasts and Message Channels</h3>
   <p>Our next asset type is a message channel, and we cannot talk about message channels without first talking about
    broadcasts. It is important to note that asset broadcasts and message channels are rarely used and their use-case has not been
    solidified by the community.</p>
@@ -366,7 +392,7 @@ overlooked. If you come across any problems or believe information needs to be c
     </tr>
   </table>
   <br>
-  <h3>Qualifiers, restricted assets, addresses, and tags</h3>
+  <h3 id="qualifiers_restricted_tags">Qualifiers, restricted assets, addresses, and tags</h3>
   <p>This is where things really start to get complicated. First you should know that qualifier assets, or simply qualifiers, dictate what addresses can hold a restricted asset by "qualifying" them with a null asset tag.
    A restricted asset can be associated with 0 or more qualifiers. The main factor in deciding whether or not an address can recieve a restricted asset is whether that address has been qualifier by all of the qualifiers associated with the said restricted asset.</p>
   <p>This means you DO NOT WANT TO SEND QUALIFIERS to addresses you do not trust! Qualifiers are an administrative asset much like ownership assets.</p>
@@ -534,7 +560,7 @@ overlooked. If you come across any problems or believe information needs to be c
   </ul>
 
   <br>
-  <h3>What is stored on the chain?</h3>
+  <h3 id="what_is_on_chain">What is stored on the chain?</h3>
   <p>All asset creations, reissues, transfers, and tags are special scripts and are part of normal transactions.
   </p>
   <p>When an asset is created, nodes store the asset name, reissuability, divisions, associated data, and respective VOUT information in a database.
@@ -549,7 +575,7 @@ overlooked. If you come across any problems or believe information needs to be c
    a user can be confident that an IPFS hash on an asset will always point to the correct data.</p>
 
   <br>
-  <h3>Burn Addresses</h3>
+  <h3 id="burn_addresses">Burn Addresses</h3>
   <p>In order to create an asset, a certain amount of RVN must be sent to a burn address.</p>
   <p>The first two characters are due to Ravencoin's <a href="https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki#Coin_type">coin type</a> and the seeming random characters at the end of each address are the <a href="https://en.bitcoin.it/wiki/File:Address_map.jpg">public key's checksum</a>.</p>
   <table style="width:100%">
@@ -621,7 +647,7 @@ overlooked. If you come across any problems or believe information needs to be c
     </tr>
   </table>
   <br>
-  <h3>Asset Scripts</h3>
+  <h3 id="scripts">Asset Scripts</h3>
   <p>Here is where the technical protocol-ly stuff starts.</p>
   <p>The following sections assume that you are familiar with <a href="https://en.bitcoin.it/wiki/Script">script</a> and
    <a href="https://en.bitcoin.it/wiki/Transaction">transactions</a>.</p>
@@ -952,17 +978,17 @@ overlooked. If you come across any problems or believe information needs to be c
 
   <br>
 
-  <p>**Chain parsing note**</p>
+  <p id="chain_parsing_note">**Chain parsing note**</p>
   <p>Just like the pirate by-laws, the OP_PUSH after OP_RVN_ASSET can be seen more as a suggestion rather than a rule-of-thumb. Currently nodes accept assets based on whether or not the ‘rvn’ is within 1 or 2 bytes after OP_RVN_ASSET instead of actually reading the OP_PUSH after OP_RVN_ASSET. Because of this, there are some transactions on the chain that have non-standard bytes after OP_RVN_ASSET. (Including lengths that are greater or less than the asset data or bytes that are greater than OP_PUSHDATA4). 
 </p>
   <p>If you only want to track ‘good’ transactions you can ignore these, as the vast majority of transactions follow proper serialization protocols. However, these malformed transactions are in fact ‘valid’ outpoints (for now) and if you want an all-encompassing tracking of the chain, you will need to check for these edge cases.</p>
   <p>See <a href="https://github.com/Electrum-RVN-SIG/electrumx-ravencoin/blob/0dbe9496196c529ed2a92c202d6b6bc45e917a73/electrumx/server/block_processor.py#L673">here</a> for an example of a full chain parsing or <a href="https://github.com/Electrum-RVN-SIG/electrumx-ravencoin/blob/9acf5dd1d9af7ca038a895b674bad39f0d612807/electrumx/server/mempool.py#L320">here</a> for a best-effort parsing.</p>
   <br>
 
-  <h3>Asset transaction structures</h3>
+  <h3 id="create_transactions">Asset transaction structures</h3>
   <p>Similar to normal Ravencoin (and bitcoin) transactions, the amount of an asset from the VINS must equal the amount in the VOUTS.</p>
   <p>All of the protocols pertaining to transactions are the same. The only thing that changes is the scripts.</p>
-  
+  <p>The order of the VOUTS does matter when creating and reissuing assets.</p>
   <h4>Transfer asset transaction</h4>
   <table>
   <tr>
@@ -994,10 +1020,10 @@ overlooked. If you come across any problems or believe information needs to be c
       <p>RVN outpoint(s) for fee and burn</p>
       </td>
       <td>
-      <p>RVN change address(s)</p>
       <p>Issue asset burn address</p>
-      <p>New asset script</p>
+      <p>RVN change address(s)</p>
       <p>Ownership asset script</p>
+      <p>New asset script</p>
       </td>
     </tr>
   </table>
@@ -1015,11 +1041,11 @@ overlooked. If you come across any problems or believe information needs to be c
       <p>Parent ownership asset outpoint</p>
       </td>
       <td>
-      <p>RVN change address(s)</p>
       <p>Issue sub-asset burn address</p>
+      <p>RVN change address(s)</p>
       <p>Transfer asset script (For parent ownership asset)</p>
-      <p>New asset script</p>
       <p>Ownership asset script</p>
+      <p>New asset script</p>
       </td>
     </tr>
   </table>
@@ -1037,8 +1063,8 @@ overlooked. If you come across any problems or believe information needs to be c
       <p>Parent ownership asset outpoint</p>
       </td>
       <td>
-      <p>RVN change address(s)</p>
       <p>Issue unique asset burn address</p>
+      <p>RVN change address(s)</p>
       <p>Transfer asset script (For parent ownership asset)</p>
       <p>New asset script</p>
       </td>
