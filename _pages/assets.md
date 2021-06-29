@@ -23,6 +23,7 @@ overlooked. If you come across any problems or believe information needs to be c
   <ul>
     <li><a href="#what_is_an_asset">What is an asset?</a></li>
     <li><a href="#where_can_i_trade_assets">Where can I trade assets?</a></li>
+    <li><a href="#privacy">Privacy and Assets</a></li>
     <li><a href="#the_jargon">The Jargon</a></li>
     <li><a href="#creating_assets">Creating Assets</a>
     <ul>
@@ -52,6 +53,10 @@ overlooked. If you come across any problems or believe information needs to be c
   <br>
   <h3 id ="where_can_i_trade_assets">Where can I trade assets?</h3>
   <p><a href="https://raventrader.net/">Raven Trader</a> is a on-chain peer to peer market for users to post half-signed atomic swaps.</p>
+  <br>
+
+  <h3 id="privacy">Privacy and Access</h3>
+  <p></p>
   <br>
 
   <h3 id="the_jargon">The jargon...</h3>
@@ -114,9 +119,12 @@ overlooked. If you come across any problems or believe information needs to be c
   <h3 id="creating_assets">Creating Assets</h3>
   <p>When creating an asset, you need to know what type of asset you want, the name of the asset, the amount of an asset,
  how much it costs to create an asset, and the metadata associated with an asset.</p>
-  <p>Assets cannot be differentiated against one another except through their names. This means that all asset names must be unique.
+  <p>Assets cannot be differentiated against one another except through their names. This means that all asset names must be unique;
    an asset creation will not be accepted by the chain if the name is not unique.</p>
+  <p>Asset names are encoded via the ascii scheme. This means that asset names can currently only be in the latin alphabet.</p>
   <p>The cost of creating an asset can also be see more of as cost to "reserve the name"; this cost is static no matter how much of an asset you create (However, do note that it costs 100 RVN to reissue an asset).</p>
+  <p>When creating a child asset the parent asset and parent ownership asset have no control over it. If you wish to have more control over assets,
+   see <a href="#qualifiers_restricted_tags">restricted assets</a></p>
   <p>To put this information in a more readable format, all of the upcoming asset types will contain the following chart:</p>
    <table style="width:100%">
     <tr>
