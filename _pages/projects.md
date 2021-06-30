@@ -25,14 +25,14 @@ permalink: /projects/
           <li>{{ value.name }} -- {{ value.value }}</li>
           {% endfor %}
           </ul>
-          { % if project contains "social" % }
+          {% if project contains "social" %}
           <h4>Get In Contact</h4>
           <ul>
           {% for site in project.social %}
           <li><a href="{{ site.url }}">{{ site.name }}</a></li>
           {% endfor %}
           </ul>
-          { % endif % }
+          {% endif %}
       {% endfor %}
   <br><br>
   <p>Want to add your project? Make a PR to <a href="https://github.com/RavenProject/ravenproject.github.io/blob/master/_data/projects.yml">this webpage's data</a></p>
