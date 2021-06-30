@@ -19,12 +19,14 @@ permalink: /projects/
           <li><a href="{{ site.url }}">{{ site.name }}</a></li>
           {% endfor %}
           </ul>
+          {% if project contains "roadmap" %}
           <h4>Project Roadmap</h4>
           <ul>
           {% for value in project.roadmap %}
           <li>{{ value.name }} -- {{ value.value }}</li>
           {% endfor %}
           </ul>
+          {% endif %}
           {% if project contains "social" %}
           <h4>Get In Contact</h4>
           <ul>
@@ -33,7 +35,8 @@ permalink: /projects/
           {% endfor %}
           </ul>
           {% endif %}
+          <br>
       {% endfor %}
   <br><br>
-  <p>Want to add your project? Make a PR to <a href="https://github.com/RavenProject/ravenproject.github.io/blob/master/_data/projects.yml">this webpage's data</a></p>
+  <p>Want to add your project? Make a PR to <a href="https://github.com/RavenProject/ravenproject.github.io/blob/master/_data/projects.yml">this webpage's data</a> on github.</p>
 </div>
