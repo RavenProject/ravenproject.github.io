@@ -25,7 +25,7 @@ permalink: /projects/
           <li>{{ value.name }} -- {{ value.value }}</li>
           {% endfor %}
           </ul>
-          { % if project.social % }
+          { % if project contains "social" % }
           <h4>Get In Contact</h4>
           <ul>
           {% for site in project.social %}
