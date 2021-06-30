@@ -23,7 +23,7 @@ overlooked. If you come across any problems or believe information needs to be c
   <ul>
     <li><a href="#what_is_an_asset">What is an asset?</a></li>
     <li><a href="#where_can_i_trade_assets">Where can I trade assets?</a></li>
-    <li><a href="#privacy">Privacy and Assets</a></li>
+    <li><a href="#privacy">Privacy and Access</a></li>
     <li><a href="#the_jargon">The Jargon</a></li>
     <li><a href="#creating_assets">Creating Assets</a>
     <ul>
