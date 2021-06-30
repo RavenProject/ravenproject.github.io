@@ -35,8 +35,8 @@ permalink: /projects/
           {% endfor %}
           </ul>
           {% endif %}
-          <br>
+          <br><br>
       {% endfor %}
-  <br><br>
+  <br><br><br><br>
   <p>Want to add your project? Make a PR to <a href="https://github.com/RavenProject/ravenproject.github.io/blob/master/_data/projects.yml">this webpage's data</a> on github.</p>
 </div>
