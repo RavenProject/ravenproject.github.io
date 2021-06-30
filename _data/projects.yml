@@ -11,6 +11,8 @@
       url: https://github.com/Electrum-RVN-SIG/electrumx-ravencoin
     - name: Server and Protocol Documentation
       url: https://electrumx-ravencoin.readthedocs.io/en/latest/protocol-methods.html
+    - name: RavenTraderPro - Atomic Swaps
+      uyl: https://github.com/ben-abraham/raven-trader-pro
   roadmap:
     - name: Convert the base electrum repository to Ravencoin
       value: complete
@@ -28,6 +30,10 @@
       value: testing
     - name: Allow trezor to send assets
       value: testing
+    - name: Execute atomic swaps
+      value: upcoming
+    - name: Create and share atomic swaps
+      value: upcoming
     - name: Create, Reissue, and Tag with assets
       value: upcoming
     - name: Allow users to create atomic swaps as per RIP15
