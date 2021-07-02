@@ -35,3 +35,27 @@
   social:
     - name: Discord
       url: https://discord.gg/VuubYncHz4
+      
+- name: RVNFT
+  description: >
+    RVNFT is a full service NFT Tokenization platform on the Ravencoin Blockchain Network.
+    You can create your own Artwork, Game Reward, Song, Movie, Certificate of Authenticity and much more. 
+    Let RVNFT add it to the Network, so you can focus on what you do best.
+  project_sites:
+    - name: RVNFT
+      url: https://www.rvnft.art/
+    - name: RVNFT Marketplace
+      url: https://www.rvnft.art/nft-marketplace/
+    - name: RVNFT Gallery
+      url: https://www.rvnft.art/rvn-nft-gallery/
+    - name: RVNBAY/RVNFT
+      url: https://rvnbay.com/category/rvnft/
+  social:
+    - name: RVNFT Discord
+      url: https://discord.gg/ZSqqS5Gr
+    - name: RVNFT Twitter
+      url: https://twitter.com/RVNFT_ART
+    - name: RVNFT Instagram
+      url: https://www.instagram.com/rvnft.art/
+    - name: Find RVNFT NFTs on Raven Trader
+      url: https://raventrader.net/
