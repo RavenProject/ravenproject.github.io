@@ -6,12 +6,20 @@ bannerImage: /assets/img/pages/exchanges/exchange-banner.jpg
 permalink: /projects/
 ---
 
+{% assign sorted_projects = site.data.projects | sort: "name" %}
+
 <div class="wrapper mt-16 pb-20">
-  <h2>Current Ravencoin Projects</h2>
-    <p></p>
-      {% assign sorted_projects = site.data.projects | sort: "name" %}
+  <h2>Current Ravencoin Community Projects</h2>
+    <p>These projects are all created and ran by the Ravencoin community.</p>
+      <h3>Table of Contents</h3>
+      <ul>
       {% for project in sorted_projects %}
-          <h3>{{ project.name }}</h3>          
+          <li><a href="#{{ project.name }}">{{ project.name }}</a></li>
+      {% endfor %}
+      </ul>
+      <br><br>
+      {% for project in sorted_projects %}
+          <h3 id="{{ project.name }}">{{ project.name }}</h3>          
           <p>{{ project.description }}</p>
           <h4>Project Websites</h4>
           <ul>
