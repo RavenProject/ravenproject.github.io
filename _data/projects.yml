@@ -28,6 +28,10 @@
       value: testing
     - name: Allow trezor to send assets
       value: testing
+    - name: Execute atomic swaps
+      value: upcoming
+    - name: Create and share atomic swaps
+      value: upcoming
     - name: Create, Reissue, and Tag with assets
       value: upcoming
     - name: Allow users to create atomic swaps as per RIP15
@@ -35,7 +39,44 @@
   social:
     - name: Discord
       url: https://discord.gg/VuubYncHz4
-      
+
+- name: Atomic Swaps
+  description: >
+    Atomic swaps allow for on-chain trades between ravencoin and ravencoin assets, or between two different ravencoin
+    assets. This provides all the needed functionality to make Buy, Sell, and Trade orders that others may execute at
+    will. In addition, these partial orders can be specially signed such that they are easily shared and completable
+    by another party, allowing for clean 2-step orders where that can be shared through any number of side-channels.
+  project_sites:
+    - name: RIP-15 Specification
+      url: https://github.com/RavenProject/rips/blob/master/rip-0015.mediawiki
+    - name: RavenTraderPro - Desktop Client (python)
+      url: https://github.com/ben-abraham/raven-trader-pro
+    - name: RavenTrader - Server (C#)
+      url: https://github.com/ben-abraham/raven-trader
+    - name: Core Wallet - Atomic Swap PR
+      url: https://github.com/RavenProject/Ravencoin/pull/1083
+  roadmap:
+    - name: Process for creating swaps
+      value: complete
+    - name: Support buy/sell/trade orders
+      value: complete
+    - name: Public site sharing incomplete orders
+      value: complete
+    - name: Dedicated client able to execute swaps
+      value: complete
+    - name: Dedicated client able to create swaps
+      value: complete
+    - name: Dedicated client able to post swaps to public site
+      value: complete
+    - name: Core wallet able to view swaps in detail
+      value: submitted
+    - name: Core wallet able to execute swaps
+      value: submitted
+    - name: Core wallet able to create swaps
+      value: upcoming
+    - name: Automated create/listing/execution of orders. (Effectively a self-hosted LP)
+      value: upcoming
+
 - name: RVNFT
   description: >
     RVNFT is a full service NFT Tokenization platform on the Ravencoin Blockchain Network.
