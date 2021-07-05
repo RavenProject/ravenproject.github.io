@@ -101,7 +101,7 @@
     - name: Find RVNFT NFTs on Raven Trader
       url: https://raventrader.net/
       
-      - name: SYNTH
+- name: SYNTH
   description: >
     SYNTH is a digital guild based on the Main RVN Token which aims to augment the
     Ravencoin NFT/Cyber Collectible community. SYNTH uses tokens as a company structure,
