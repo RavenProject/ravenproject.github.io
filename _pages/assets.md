@@ -585,7 +585,7 @@ overlooked. If you come across any problems or believe information needs to be c
   <br>
   <h3 id="burn_addresses">Burn Addresses</h3>
   <p>In order to create an asset, a certain amount of RVN must be sent to a burn address.</p>
-  <p>The first two characters are due to Ravencoin's <a href="https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki#Coin_type">coin type</a> and the seeming random characters at the end of each address are the <a href="https://en.bitcoin.it/wiki/File:Address_map.jpg">public key's checksum</a>.</p>
+  <p>The first two characters are due to Ravencoin's P2PKH address type of 0x3C and the seeming random characters at the end of each address are the <a href="https://en.bitcoin.it/wiki/File:Address_map.jpg">public key's checksum</a>.</p>
   <table style="width:100%">
     <tr>
       <th></th>
