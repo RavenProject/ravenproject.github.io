@@ -100,3 +100,26 @@
       url: https://www.instagram.com/rvnft.art/
     - name: Find RVNFT NFTs on Raven Trader
       url: https://raventrader.net/
+      
+      - name: SYNTH
+  description: >
+    SYNTH is a digital guild based on the Main RVN Token which aims to augment the
+    Ravencoin NFT/Cyber Collectible community. SYNTH uses tokens as a company structure,
+    and offers a range of different NFT/token types on various marketplaces.
+    SYNTH has also produced a user friendly front end for current RVN marketplaces & swap
+    options, as well as a private high speed IPFS network to host NFTs/Tokens for ourselves &
+    partnered NFT creators.
+    
+  project_sites:
+    - name: NiftySynth - Website/Blog for Synth Token
+      url: https://www.niftysynth.com/
+    - name: rvnBay
+      url: https://rvnbay.com
+    - name: GradeSynth IPFS Gateway
+      url: https://gradesynth.com/ipfs/QmPJeUzChXMSfe3uoXxLTqWP2MR8u1CdFuurUZXRvjed9U/
+
+  social:
+    - name: SYNTH Discord
+      url: https://discord.gg/R2pveQWx
+    - name: SYNTH Twitter
+      url: https://twitter.com/NiftySynth
