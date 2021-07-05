@@ -52,11 +52,12 @@ overlooked. If you come across any problems or believe information needs to be c
 
   <br>
   <h3 id ="where_can_i_trade_assets">Where can I trade assets?</h3>
-  <p><a href="https://raventrader.net/">Raven Trader</a> is a on-chain peer to peer market for users to post half-signed atomic swaps.</p>
+  <p><a href="https://raventrader.net/">Raven Trader</a> is a on-chain peer to peer market which utilises <a href="https://github.com/RavenProject/rips/blob/master/rip-0015.mediawiki">RIP-15</a> for users to post half-signed atomic swaps. There are also asset markets such as <a href="https://www.rvnft.art/">RVNTF</a> and <a href="https://rvnbay.com/">RVNBay</a>.</p>
   <br>
 
   <h3 id="privacy">Privacy and Access</h3>
-  <p></p>
+  <p>A common question about assets is who can see whats on an asset and is there any way to limit viewership of the asset to a recipient.
+   The simple answer is that anyone is able to see the data associated with an asset, however there are protocols (see <a href="https://github.com/RavenProject/rips/blob/master/rip-0010.mediawiki">RIP-10</a>, <a href="https://github.com/RavenProject/rips/blob/master/rip-0011.mediawiki">RIP-11</a>, and <a href="https://github.com/RavenProject/rips/blob/master/rip-0014.mediawiki">RIP-14</a>) that allow for the encryption of IPFS data such that only a recipient of an asset may view it.</p>
   <br>
 
   <h3 id="the_jargon">The jargon...</h3>
@@ -348,13 +349,12 @@ overlooked. If you come across any problems or believe information needs to be c
   <br>
   <h3 id="broadcasts_and_messages">Broadcasts and Message Channels</h3>
   <p>Our next asset type is a message channel, and we cannot talk about message channels without first talking about
-   broadcasts. It is important to note that asset broadcasts and message channels are rarely used and their use-case has not been
+   broadcasts, and we can't talk about broadcasts without talking about messages. It is important to note that asset broadcasts and message channels are rarely used and their use-case has not been
    solidified by the community.</p>
-  <h4>Message Broadcasts</h4>
-  <p>Any user can broadcast a message on any asset that they own. A broadcasted message is 34 bytes long. End users can subscribe
-   to assets and will be able to see all of the broadcasts made by an asset, that asset's ownership asset, and all <i>message channels</i>
-   for that asset and be able to filter their subscriptions by general asset broadcasts, ownership asset broadcasts, and message channels. (This feature is not yet implement in the core wallet).</p>
-
+  <h4>Asset Messages</h4>
+  <p>Any user can send an asset message on any asset that they own. An asset message is 34 bytes long and is seen as directed to the asset recipient.</p>
+  <h4>Asset Broadcasts</h4>
+  <p>In an asset transaction, if the sending address is the same as the receiving address, this is seen as a broadcast. Only message channels can broadcast messages. It is important to note that the user interface for message broadcasts do not seem to be fully implemented in the core wallet yet.</p>
   <h4>Message Channels</h4>
   <p>A message channel requires a main or sub-asset's ownership asset. A message channel is an asset specifically made for broadcasting messages. Their purpose is to add more control to whoever
   might be subscribed to the message channel's parent.</p>
@@ -433,7 +433,7 @@ overlooked. If you come across any problems or believe information needs to be c
     </li>
     <li>
     <h4>Qualifier Asset</h4>
-    <p>Qualifier assets are used to determine what addresses can receive restricted assets. Simply owning a qualifier asset gives a user this power.</p>
+    <p>Qualifier assets are administrative assets (in the same group as ownership assets) used to determine what addresses can receive restricted assets. Simply owning a qualifier asset gives a user this power.</p>
     <table style="width:100%">
     <tr>
       <th>Metadata</th>
@@ -477,7 +477,7 @@ overlooked. If you come across any problems or believe information needs to be c
     </li>
     <li>
     <h4>Sub-qualifier Asset</h4>
-    <p>Currently, sub-qualifiers have exactly the same powers as their parents.</p>
+    <p>Currently, sub-qualifiers have exactly the same powers as their parents. Sub-qualifiers use a parent qualifier asset in lieu of a parent ownership asset in its creation.</p>
     <table style="width:100%">
     <tr>
       <th>Metadata</th>
@@ -1094,8 +1094,8 @@ overlooked. If you come across any problems or believe information needs to be c
       <p>Ownership asset outpoint</p>
       </td>
       <td>
-      <p>RVN change address(s)</p>
       <p>Reissue asset burn address</p>
+      <p>RVN change address(s)</p>
       <p>Transfer asset script (For ownership asset)</p>
       <p>Reissue asset script</p>
       </td>
@@ -1115,8 +1115,8 @@ overlooked. If you come across any problems or believe information needs to be c
       <p>Parent ownership asset outpoint</p>
       </td>
       <td>
-      <p>RVN change address(s)</p>
       <p>Issue message channel asset burn address</p>
+      <p>RVN change address(s)</p>
       <p>Transfer asset script (For parent ownership asset)</p>
       <p>New asset script</p>
       </td>
@@ -1136,8 +1136,8 @@ overlooked. If you come across any problems or believe information needs to be c
       <p>RVN outpoint(s) for fee and burn</p>
       </td>
       <td>
-      <p>RVN change address(s)</p>
       <p>Issue qualifier asset burn address</p>
+      <p>RVN change address(s)</p>
       <p>New asset script</p>
       </td>
     </tr>
@@ -1156,8 +1156,8 @@ overlooked. If you come across any problems or believe information needs to be c
       <p>Parent asset outpoint</p>
       </td>
       <td>
-      <p>RVN change address(s)</p>
       <p>Issue sub-qualifier asset burn address</p>
+      <p>RVN change address(s)</p>
       <p>Transfer asset script (For parent asset)</p>
       <p>New asset script</p>
       </td>
@@ -1176,10 +1176,11 @@ overlooked. If you come across any problems or believe information needs to be c
       <p>RVN outpoint(s) for fee and burn</p>
       </td>
       <td>
+      <p>Issue restricted asset burn address</p>
       <p>RVN change address(s)</p>
+      <p>Verifier asset tag script</p>
       <p>Ownership asset script</p>
       <p>New asset script</p>
-      <p>Verifier asset tag script</p>
       </td>
     </tr>
   </table>
@@ -1198,11 +1199,11 @@ overlooked. If you come across any problems or believe information needs to be c
       <p>Ownership asset outpoint</p>
       </td>
       <td>
-      <p>RVN change address(s)</p>
       <p>Reissue asset burn address</p>
+      <p>RVN change address(s)</p>
+      <p>Verifier asset tag script</p>
       <p>Transfer asset script (For ownership asset)</p>
       <p>Reissue asset script</p>
-      <p>Verifier asset tag script</p>
       </td>
     </tr>
   </table>
@@ -1220,8 +1221,8 @@ overlooked. If you come across any problems or believe information needs to be c
       <p>Qualifier or restricted ownership asset outpoint</p>
       </td>
       <td>
-      <p>RVN change address(s)</p>
       <p>Tag burn address</p>
+      <p>RVN change address(s)</p>
       <p>Transfer asset script (For qualifier or restricted ownership asset)</p>
       <p>Null asset tag script</p>
       </td>
@@ -1241,8 +1242,8 @@ overlooked. If you come across any problems or believe information needs to be c
       <p>Restricted ownership asset outpoint</p>
       </td>
       <td>
-      <p>RVN change address(s)</p>
       <p>Tag burn address</p>
+      <p>RVN change address(s)</p>
       <p>Transfer asset script (For restricted ownership asset)</p>
       <p>Global restriction asset tag script</p>
       </td>
