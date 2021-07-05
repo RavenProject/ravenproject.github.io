@@ -123,3 +123,30 @@
       url: https://discord.gg/R2pveQWx
     - name: SYNTH Twitter
       url: https://twitter.com/NiftySynth
+
+- name: RavenWallet by MoonTree
+  description: >
+    The RavenWallet sponsored by MoonTree is a full featured raven specific mobile wallet.
+    From this wallet users can send and recieve RVN, Create distribute and manage Assets,
+    as well as trade assets on a distributed exchange in the form of atomic swaps.
+    
+  project_sites:
+    - name: Raven Source Code - a dart library for the projects underlying functionality.
+      url: https://github.com/moontreeapp/raven
+
+  roadmap:
+    - name: Investigate BlueWallet Fork
+      value: complete
+    - name: Create Underlying Library for Dart/Flutter App
+      value: testing
+    - name: Create Flutter UI
+      value: upcoming
+    - name: Add Asset Creation and Transaction Functionality
+      value: upcoming
+    - name: Add Asset Management Functionality
+      value: upcoming
+    - name: Add Asset Distributed Exchange Functionality
+      value: upcoming
+  social:
+    - name: Discord
+      url: https://discord.gg/pEnHZbqhZV
