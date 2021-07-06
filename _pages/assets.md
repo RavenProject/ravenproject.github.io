@@ -46,13 +46,11 @@ overlooked. If you come across any problems or believe information needs to be c
   <h3 id="what_is_an_asset">What is an asset?</h3>
 
   <p>A Ravencoin asset (also less commonly referred to as a token) is an on-chain way of creating, storing, and transfering
- custom end-user generated information. Assets come with a unique, user-chosen name which can
- allow for assets to be verified by name only and metadata (which we will look into later). Ravencoin users have created assets
- to make their own 'coin', sell digital art, and even incorporated it as an in-video game currency.</p>
+ custom end-user generated information. Assets come with a unique, user-chosen name which can allow for assets to be verified by name only and metadata (which we will look into later). Ravencoin users have created assets to make their own 'coin', sell digital art, real estate, gem stones, security tokens, wine futures, and even incorporated it as an in-video game currency.</p>
 
   <br>
   <h3 id ="where_can_i_trade_assets">Where can I trade assets?</h3>
-  <p><a href="https://raventrader.net/">Raven Trader</a> is a on-chain peer to peer market which utilises <a href="https://github.com/RavenProject/rips/blob/master/rip-0015.mediawiki">RIP-15</a> for users to post half-signed atomic swaps. There are also asset markets such as <a href="https://www.rvnft.art/">RVNTF</a> and <a href="https://rvnbay.com/">RVNBay</a>.</p>
+  <p><a href="https://raventrader.net/">Raven Trader</a> is a on-chain peer to peer market which utilises <a href="https://github.com/RavenProject/rips/blob/master/rip-0015.mediawiki">RIP-15</a> for users to post half-signed atomic swaps. There are also asset markets such as <a href="https://www.rvnft.art/">RVNTF</a> and <a href="https://rvnbay.com/">RVNBay</a>. In addition, one can pay for a listing at <a href="https://cryptosx.io/">Cryptosx</a> for security tokens or <a href="https://www.okex.com"> OKEX</a> for regular tokens.</p>
   <br>
 
   <h3 id="privacy">Privacy and Access</h3>
@@ -61,20 +59,15 @@ overlooked. If you come across any problems or believe information needs to be c
   <br>
 
   <h3 id="the_jargon">The jargon...</h3>
-  <p>When dealing with assets, it is inevitable that you will eventually come across some strange words denoting strange
- concepts. Before we move on, you should familiarize yourself with these concepts.</p>
+  <p>When dealing with assets, it is inevitable that you will eventually come across some strange words denoting strange concepts. Before we move on, you should familiarize yourself with these concepts.</p>
   <ul>
     <li>
       <h4>Reissuability</h4>
-      <p>This is a metadata flag that denotes whether or not an asset can be reissued. Once this flag is set to false it
- CANNOT be changed back! If you want (or have even a sliver of belief) that you want to change your asset's information in
- the future, ensure that you asset is reissuable when you create it!</p>
+      <p>This is a metadata flag that denotes whether or not an asset can be reissued. Once this flag is set to false it CANNOT be changed back! If you want (or have even a sliver of belief) that you want to change your asset's information in the future, ensure that you asset is reissuable when you create it!</p>
     </li>
     <li>
       <h4>Divisibility</h4>
-      <p>This is a metadata value from zero to eight that denotes how much an asset can be broken up. Specifically this
- number is how many digits past the decimal this asset can be divided into (a minimum size of 10<sup>-d</sup> where d is the
- divisibility).</p>
+      <p>This is a metadata value from zero to eight that denotes how much an asset can be broken up. Specifically this number is how many digits past the decimal this asset can be divided into (a minimum size of 10<sup>-d</sup> where d is the divisibility).</p>
     </li>
     <li>
       <h4>Reissuing</h4>
@@ -86,46 +79,34 @@ overlooked. If you come across any problems or believe information needs to be c
       <br>
       <p>In order to reissue an asset, the asset must be reissuable and you must have the associated ownership asset.</p>
       <br>
-      <p>When changing divisibility during a reissuance, the divisibility can only go up. (What would happen if you changed
- divisibility to zero when users had fractions of an asset?)</p>
+      <p>When changing divisibility during a reissuance, the divisibility can only go up. (What would happen if you changed divisibility to zero when users had fractions of an asset?)</p>
     </li>
     <li>
       <h4>Ownership Assets</h4>
-      <p>When creating certain types of assets, you will also receive an ownership asset. Ownship assets allow a user to
- reissue an asset and create "child assets" which we will explore in the next section. Ownership assets always come in the
- form of an exclamation point (!) coming after whatever you named your asset. For instance, say we create an asset named
- "ASSET". The associated ownership asset would be "ASSET!". If an asset A requires the ownership asset of asset B to be created,
-  asset B is said to be asset A's "parent" and asset A is said to be asset B's "child".</p>
+      <p>When creating certain types of assets, you will also receive an ownership asset. Ownship assets allow a user to reissue an asset and create "child assets" which we will explore in the next section. Ownership assets always come in the form of an exclamation point (!) coming after whatever you named your asset. For instance, say we create an asset named "ASSET". The associated ownership asset would be "ASSET!". If an asset A requires the ownership asset of asset B to be created, asset B is said to be asset A's "parent" and asset A is said to be asset B's "child".</p>
     </li>
     <li>
       <h4>Associated Data</h4>
-      <p>Or IPFS hash or associated TXID. 34 bytes of user-decided information. Generally this is used with an IPFS hash
- or a TXID, but it can be anything.</p>
+      <p>Or IPFS hash or associated TXID. 34 bytes of user-decided information. Generally this is used with an IPFS hash or a TXID, but it can be anything.</p>
     </li>
     <li>
       <h4>Message Broadcasts</h4>
-      <p>Any owner of any asset can broadcast a 34 byte message associated with that asset. We will go more in-depth with
- broadcasts later.</p>
+      <p>Any owner of any asset can broadcast a 34 byte message associated with that asset. We will go more in-depth with broadcasts later.</p>
     </li>
     <li>
       <h4>Null Asset Tags</h4>
-      <p>These are special <a href="https://en.bitcoin.it/wiki/Script">scripts</a> used by holders of qualifier assets and restricted ownership assets
- to define behavior between restricted assets and addresses. The relationship between qualifiers, restricted assets, tags, and
- addresses is fairly complicated. We will go more in-depth further down the page.</p>
+      <p>These are special <a href="https://en.bitcoin.it/wiki/Script">scripts</a> used by holders of qualifier assets and restricted ownership assets to define behavior between restricted assets and addresses. The relationship between qualifiers, restricted assets, tags, and addresses is fairly complicated. We will go more in-depth further down the page.</p>
     </li>
   </ul>
 
   <br>
 
   <h3 id="creating_assets">Creating Assets</h3>
-  <p>When creating an asset, you need to know what type of asset you want, the name of the asset, the amount of an asset,
- how much it costs to create an asset, and the metadata associated with an asset.</p>
-  <p>Assets cannot be differentiated against one another except through their names. This means that all asset names must be unique;
-   an asset creation will not be accepted by the chain if the name is not unique.</p>
+  <p>When creating an asset, you need to know what type of asset you want, the name of the asset, the amount of an asset, how much it costs to create an asset, and the metadata associated with an asset.</p>
+  <p>Assets cannot be differentiated against one another except through their names. This means that all asset names must be unique; an asset creation will not be accepted by the chain if the name is not unique.</p>
   <p>Asset names are encoded via the ascii scheme. This means that asset names can currently only be in the latin alphabet.</p>
   <p>The cost of creating an asset can also be see more of as cost to "reserve the name"; this cost is static no matter how much of an asset you create (However, do note that it costs 100 RVN to reissue an asset).</p>
-  <p>When creating a child asset the parent asset and parent ownership asset have no control over it. If you wish to have more control over assets,
-   see <a href="#qualifiers_restricted_tags">restricted assets</a></p>
+  <p>When creating a child asset the parent asset and parent ownership asset have no control over it. If you wish to have more control over assets, see <a href="#qualifiers_restricted_tags">restricted assets</a></p>
   <p>To put this information in a more readable format, all of the upcoming asset types will contain the following chart:</p>
    <table style="width:100%">
     <tr>
@@ -208,8 +189,7 @@ overlooked. If you come across any problems or believe information needs to be c
   </table>
   <br>
   <h3 id="the_big_three">The big three</h3>
-  <p>When working with Ravencoin assets you will most likely be using one of these three. They are by far the most used
- types of assets. It can help to think of these assets as pieces of some abstract on-chain website.</p>
+  <p>When working with Ravencoin assets you will most likely be using one of these three. They are by far the most used types of assets. It can help to think of these assets as pieces of some abstract on-chain website.</p>
   <br>
   <h4>Main assets</h4>
   <p>Running on our website analogy, a main asset is like the domain name.</p>
@@ -221,8 +201,7 @@ overlooked. If you come across any problems or believe information needs to be c
     </tr>
     <tr>
       <td>Asset Name</td>
-      <td>3-31 capital letters. '.' and '_' are also allowed, but they cannot be at the beginning or end of the asset name.
- More than one of these special characters also cannot be next to one another. The names RVN, RAVEN, and RAVENCOIN are reserved.</td>
+      <td>3-31 capital letters. '.' and '_' are also allowed, but they cannot be at the beginning or end of the asset name. More than one of these special characters also cannot be next to one another. The names RVN, RAVEN, and RAVENCOIN are reserved.</td>
     </tr>
     <tr>
       <td>Ownership Asset</td>
@@ -267,8 +246,7 @@ overlooked. If you come across any problems or believe information needs to be c
     </tr>
     <tr>
       <td>Asset Name</td>
-      <td><p>The sub-portion of the name must be at least 1 capital letter. '.' and '_' are also allowed, but they cannot be at the beginning or end of the sub-portion.
- More than one of these special characters also cannot be next to one another.</p>
+      <td><p>The sub-portion of the name must be at least 1 capital letter. '.' and '_' are also allowed, but they cannot be at the beginning or end of the sub-portion. More than one of these special characters also cannot be next to one another.</p>
       <p>The full sub-asset name takes the form [main asset name]/[sub-portion]. This full name must be less than 32 characters.</p></td>
     </tr>
     <tr>
@@ -304,8 +282,7 @@ overlooked. If you come across any problems or believe information needs to be c
   <br>
 
   <h4>Unique assets</h4>
-  <p>A unique asset can be likened to a file on a website. Creating a unique asset requires a main asset ownership token or
- a sub-asset ownership token. There can only be 1 of a unique asset.</p>
+  <p>A unique asset can be likened to a file on a website. Creating a unique asset requires a main asset ownership token or a sub-asset ownership token. There can only be 1 of a unique asset.</p>
 
   <table style="width:100%">
     <tr>
@@ -314,8 +291,7 @@ overlooked. If you come across any problems or believe information needs to be c
     </tr>
     <tr>
       <td>Asset Name</td>
-      <td>The unique portion of the name must be at least 1 character. The full unique asset name takes the form
- [main or sub asset name]#[unique portion]. This full name must be less than 32 characters.</td>
+      <td>The unique portion of the name must be at least 1 character. The full unique asset name takes the form [main or sub asset name]#[unique portion]. This full name must be less than 32 characters.</td>
     </tr>
     <tr>
       <td>Ownership Asset</td>
@@ -348,9 +324,7 @@ overlooked. If you come across any problems or believe information needs to be c
   </table>
   <br>
   <h3 id="broadcasts_and_messages">Broadcasts and Message Channels</h3>
-  <p>Our next asset type is a message channel, and we cannot talk about message channels without first talking about
-   broadcasts, and we can't talk about broadcasts without talking about messages. It is important to note that asset broadcasts and message channels are rarely used and their use-case has not been
-   solidified by the community.</p>
+  <p>Our next asset type is a message channel, and we cannot talk about message channels without first talking about broadcasts, and we can't talk about broadcasts without talking about messages. It is important to note that asset broadcasts and message channels are rarely used and their use-case has not been solidified by the community.</p>
   <h4>Asset Messages</h4>
   <p>Any user can send an asset message on any asset that they own. An asset message is 34 bytes long and is seen as directed to the asset recipient.</p>
   <h4>Asset Broadcasts</h4>
@@ -365,10 +339,8 @@ overlooked. If you come across any problems or believe information needs to be c
     </tr>
     <tr>
       <td>Asset Name</td>
-      <td><p>The message channel portion of the name must at most 12 characters. It can contain letters, numbers, and '_'. '_'
-   cannot be at the beginning or end of the message channel portion and two or more '_''s cannot be next to each other.</p>
-      <p>The message channel asset name takes the form
- [main or sub asset name]~[message channel portion]. This full name must be less than 32 characters.</p></td>
+      <td><p>The message channel portion of the name must at most 12 characters. It can contain letters, numbers, and '_'. '_' cannot be at the beginning or end of the message channel portion and two or more '_''s cannot be next to each other.</p>
+      <p>The message channel asset name takes the form [main or sub asset name]~[message channel portion]. This full name must be less than 32 characters.</p></td>
     </tr>
     <tr>
       <td>Ownership Asset</td>
@@ -401,8 +373,7 @@ overlooked. If you come across any problems or believe information needs to be c
   </table>
   <br>
   <h3 id="qualifiers_restricted_tags">Qualifiers, restricted assets, addresses, and tags</h3>
-  <p>This is where things really start to get complicated. First you should know that qualifier assets, or simply qualifiers, dictate what addresses can hold a restricted asset by "qualifying" them with a null asset tag.
-   A restricted asset can be associated with 0 or more qualifiers. The main factor in deciding whether or not an address can recieve a restricted asset is whether that address has been qualifier by all of the qualifiers associated with the said restricted asset.</p>
+  <p>This is where things really start to get complicated. First you should know that qualifier assets, or simply qualifiers, dictate what addresses can hold a restricted asset by "qualifying" them with a null asset tag. A restricted asset can be associated with 0 or more qualifiers. The main factor in deciding whether or not an address can recieve a restricted asset is whether that address has been qualifier by all of the qualifiers associated with the said restricted asset.</p>
   <p>This means you DO NOT WANT TO SEND QUALIFIERS to addresses you do not trust! Qualifiers are an administrative asset much like ownership assets.</p>
   <p>*phew*</p>
   <p>Lets start out with some definitions.</p>
@@ -442,8 +413,7 @@ overlooked. If you come across any problems or believe information needs to be c
     <tr>
       <td>Asset Name</td>
       <td><p>The qualifier portion of the name has the same naming rules as a main asset.</p>
-      <p>The qualifier asset name takes the form
- #[qualifier portion]. Note how this is differentiated from unique assets with the fact that a qualifier has no parent. This full name must be less than 32 characters.</p></td>
+      <p>The qualifier asset name takes the form #[qualifier portion]. Note how this is differentiated from unique assets with the fact that a qualifier has no parent. This full name must be less than 32 characters.</p></td>
     </tr>
     <tr>
       <td>Ownership Asset</td>
@@ -486,8 +456,7 @@ overlooked. If you come across any problems or believe information needs to be c
     <tr>
       <td>Asset Name</td>
       <td><p>The sub-qualifier portion of the name has the same naming rules as a sub-asset.</p>
-      <p>The sub-qualifier asset name takes the form
- #[qualifier portion]/#[sub-qualifier]. Note how this is differentiated from unique assets with the fact the the intermediary characters are '/#' This full name must be less than 32 characters.</p></td>
+      <p>The sub-qualifier asset name takes the form #[qualifier portion]/#[sub-qualifier]. Note how this is differentiated from unique assets with the fact the the intermediary characters are '/#' This full name must be less than 32 characters.</p></td>
     </tr>
     <tr>
       <td>Ownership Asset</td>
@@ -521,8 +490,7 @@ overlooked. If you come across any problems or believe information needs to be c
     </li>
     <li>
     <h4>Restricted Asset</h4>
-    <p>Restricted assets are comparable to main assets except for the fact that they are, well, restricted. Currently restricted assets can only be associated with main qualifiers (not sub-qualifiers).
-    If a restricted asset is not associated with any qualifier, it cannot be transfered. 
+    <p>Restricted assets are comparable to main assets except for the fact that they are, well, restricted. Currently restricted assets can only be associated with main qualifiers (not sub-qualifiers). If a restricted asset is not associated with any qualifier, it cannot be transfered. 
     Restricted assets are also somewhat unique in the fact that if they can be reissued, they are able to change what qualifiers they are associated with.</p>
     <table style="width:100%">
     <tr>
@@ -532,8 +500,7 @@ overlooked. If you come across any problems or believe information needs to be c
     <tr>
       <td>Asset Name</td>
       <td><p>The restricted portion of the name has the same naming rules as a main asset.</p>
-      <p>The restricted asset name takes the form
- $[restricted protion]. This full name must be less than 32 characters.</p></td>
+      <p>The restricted asset name takes the form $[restricted protion]. This full name must be less than 32 characters.</p></td>
     </tr>
     <tr>
       <td>Ownership Asset</td>
@@ -571,16 +538,10 @@ overlooked. If you come across any problems or believe information needs to be c
   <h3 id="what_is_on_chain">What is stored on the chain?</h3>
   <p>All asset creations, reissues, transfers, and tags are special scripts and are part of normal transactions.
   </p>
-  <p>When an asset is created, nodes store the asset name, reissuability, divisions, associated data, and respective VOUT information in a database.
-   This is how nodes easily access metadata. During a reissuance, the ownership asset must be sent to prove ownership on-chain and the node
-   will save the new metadata. These asset creation and reissuance transactions are the only places where the metadata is stored on the chain.</p>
-  <p>This means that, say, a 3rd party wallet sends you asset information. Whatever protocol they are using will need to send the client the VOUT of asset creations or reissues so that the
-   client may verify the integrity of the metadata.</p>
+  <p>When an asset is created, nodes store the asset name, reissuability, divisions, associated data, and respective VOUT information in a database. This is how nodes easily access metadata. During a reissuance, the ownership asset must be sent to prove ownership on-chain and the node will save the new metadata. These asset creation and reissuance transactions are the only places where the metadata is stored on the chain.</p>
+  <p>This means that, say, a 3rd party wallet sends you asset information. Whatever protocol they are using will need to send the client the VOUT of asset creations or reissues so that the client may verify the integrity of the metadata.</p>
   <p>The same is true for asset tags. They only exist on the chain in one singular transaction. The node then keeps track of where that transaction is in a database for verification later.</p>
-  <p>You may have been surprised earlier when learning that the associated data of an asset is only 34 bytes. You are correct in believing that is not
-  a lot of information. This is an intentional decision to keep clutter off of the chain. Typically, users will use this field for an
-  <a href="https://ipfs.io/#how">IPFS hash</a> allowing for websites and files to be stored and hosted off chain whether it be on personal hardware or <a href="https://ravencoinipfs.com/">cloud file management hosts</a>. IPFS hashs are unique (literally a SHA256 hash of the data) and therefore
-   a user can be confident that an IPFS hash on an asset will always point to the correct data.</p>
+  <p>You may have been surprised earlier when learning that the associated data of an asset is only 34 bytes. You are correct in believing that is not a lot of information. This is an intentional decision to keep clutter off of the chain. Typically, users will use this field for an <a href="https://ipfs.io/#how">IPFS hash</a> allowing for websites and files to be stored and hosted off chain whether it be on personal hardware or <a href="https://ravencoinipfs.com/">cloud file management hosts</a>. IPFS hashs are unique (literally a SHA256 hash of the data) and therefore a user can be confident that an IPFS hash on an asset will always point to the correct data.</p>
 
   <br>
   <h3 id="burn_addresses">Burn Addresses</h3>
@@ -987,8 +948,7 @@ overlooked. If you come across any problems or believe information needs to be c
   <br>
 
   <p id="chain_parsing_note">**Chain parsing note**</p>
-  <p>Just like the pirate by-laws, the OP_PUSH after OP_RVN_ASSET can be seen more as a suggestion rather than a rule-of-thumb. Currently nodes accept assets based on whether or not the ‘rvn’ is within 1 or 2 bytes after OP_RVN_ASSET instead of actually reading the OP_PUSH after OP_RVN_ASSET. Because of this, there are some transactions on the chain that have non-standard bytes after OP_RVN_ASSET. (Including lengths that are greater or less than the asset data or bytes that are greater than OP_PUSHDATA4). 
-</p>
+  <p>Just like the pirate by-laws, the OP_PUSH after OP_RVN_ASSET can be seen more as a suggestion rather than a rule-of-thumb. Currently nodes accept assets based on whether or not the ‘rvn’ is within 1 or 2 bytes after OP_RVN_ASSET instead of actually reading the OP_PUSH after OP_RVN_ASSET. Because of this, there are some transactions on the chain that have non-standard bytes after OP_RVN_ASSET. (Including lengths that are greater or less than the asset data or bytes that are greater than OP_PUSHDATA4).</p>
   <p>If you only want to track ‘good’ transactions you can ignore these, as the vast majority of transactions follow proper serialization protocols. However, these malformed transactions are in fact ‘valid’ outpoints (for now) and if you want an all-encompassing tracking of the chain, you will need to check for these edge cases.</p>
   <p>See <a href="https://github.com/Electrum-RVN-SIG/electrumx-ravencoin/blob/0dbe9496196c529ed2a92c202d6b6bc45e917a73/electrumx/server/block_processor.py#L673">here</a> for an example of a full chain parsing or <a href="https://github.com/Electrum-RVN-SIG/electrumx-ravencoin/blob/9acf5dd1d9af7ca038a895b674bad39f0d612807/electrumx/server/mempool.py#L320">here</a> for a best-effort parsing.</p>
   <br>
