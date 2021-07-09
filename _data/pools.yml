@@ -45,3 +45,7 @@
 - name: Skypool
   url: https://rvn.skypool.org/
   twitter: ''
+
+- name: Cruxpool
+  url: https://cruxpool.com/
+  twitter: '@cruxpool'
