@@ -249,7 +249,7 @@ overlooked. If you come across any problems or believe information needs to be c
     <tr>
       <td>Asset Name</td>
       <td><p>The sub-portion of the name must be at least 1 capital letter. '.' and '_' are also allowed, but they cannot be at the beginning or end of the sub-portion. More than one of these special characters also cannot be next to one another.</p>
-      <p>The full sub-asset name takes the form [main asset name]/[sub-portion]. This full name must be less than 32 characters.</p></td>
+      <p>The full sub-asset name takes the form [main asset name]/[sub-portion]. This full name must be 30 or less characters.</p></td>
     </tr>
     <tr>
       <td>Ownership Asset</td>
@@ -293,7 +293,7 @@ overlooked. If you come across any problems or believe information needs to be c
     </tr>
     <tr>
       <td>Asset Name</td>
-      <td>The unique portion of the name must be at least 1 character. The full unique asset name takes the form [main or sub asset name]#[unique portion]. This full name must be less than 32 characters.</td>
+      <td>The unique portion of the name must be at least 1 character. The full unique asset name takes the form [main or sub asset name]#[unique portion]. This full name must be 30 or less characters.</td>
     </tr>
     <tr>
       <td>Ownership Asset</td>
@@ -342,7 +342,7 @@ overlooked. If you come across any problems or believe information needs to be c
     <tr>
       <td>Asset Name</td>
       <td><p>The message channel portion of the name must at most 12 characters. It can contain letters, numbers, and '_'. '_' cannot be at the beginning or end of the message channel portion and two or more '_''s cannot be next to each other.</p>
-      <p>The message channel asset name takes the form [main or sub asset name]~[message channel portion]. This full name must be less than 32 characters.</p></td>
+      <p>The message channel asset name takes the form [main or sub asset name]~[message channel portion]. This full name must be 30 or less characters.</p></td>
     </tr>
     <tr>
       <td>Ownership Asset</td>
