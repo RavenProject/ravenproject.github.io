@@ -80,6 +80,8 @@ overlooked. If you come across any problems or believe information needs to be c
       <p>In order to reissue an asset, the asset must be reissuable and you must have the associated ownership asset.</p>
       <br>
       <p>When changing divisibility during a reissuance, the divisibility can only go up. (What would happen if you changed divisibility to zero when users had fractions of an asset?)</p>
+      <br>
+      <p>When increasing divisibility, you cannot use the new lowest asset amount when creating more of the asset; the asset still has the old divisibility amount until the reissue transaction exits the mempool.</p>
     </li>
     <li>
       <h4>Ownership Assets</h4>
