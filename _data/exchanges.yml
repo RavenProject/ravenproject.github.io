@@ -88,6 +88,12 @@
   kyc: false
   donates_to_project: false
 
+- name: Exolix
+  logo: /assets/img/pages/exchanges/exolix.png
+  url: https://exolix.com/exchange/BTC-RVN
+  kyc: false
+  donates_to_project: false
+
 - name: Graviex
   logo: /assets/img/pages/exchanges/graviex.png
   url: https://graviex.net/markets/rvnbtc
