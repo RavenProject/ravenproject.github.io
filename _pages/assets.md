@@ -203,7 +203,7 @@ overlooked. If you come across any problems or believe information needs to be c
     </tr>
     <tr>
       <td>Asset Name</td>
-      <td>3-31 capital letters. '.' and '_' are also allowed, but they cannot be at the beginning or end of the asset name. More than one of these special characters also cannot be next to one another. The names RVN, RAVEN, and RAVENCOIN are reserved.</td>
+      <td>3-30 capital letters. '.' and '_' are also allowed, but they cannot be at the beginning or end of the asset name. More than one of these special characters also cannot be next to one another. The names RVN, RAVEN, and RAVENCOIN are reserved.</td>
     </tr>
     <tr>
       <td>Ownership Asset</td>
@@ -394,7 +394,7 @@ overlooked. If you come across any problems or believe information needs to be c
     </li>
     <li>
     <h5>Verifier Asset Tag</h5>
-    <p>A verifier asset tag can be created with a restricted asset's ownership asset. It associates this restricted asset with one ore more qualifiers. (This
+    <p>A verifier asset tag can be created with a restricted asset's ownership asset. It associates this restricted asset with one or more qualifiers. (This
    means that to recieve this restricted asset, an address must be qualified by all of the qualifiers defined in this tag).</p>
     </li>
     <li>
@@ -415,7 +415,7 @@ overlooked. If you come across any problems or believe information needs to be c
     <tr>
       <td>Asset Name</td>
       <td><p>The qualifier portion of the name has the same naming rules as a main asset.</p>
-      <p>The qualifier asset name takes the form #[qualifier portion]. Note how this is differentiated from unique assets with the fact that a qualifier has no parent. This full name must be less than 32 characters.</p></td>
+      <p>The qualifier asset name takes the form #[qualifier portion]. Note how this is differentiated from unique assets with the fact that a qualifier has no parent. This full name must be less than 30 characters.</p></td>
     </tr>
     <tr>
       <td>Ownership Asset</td>
@@ -458,7 +458,7 @@ overlooked. If you come across any problems or believe information needs to be c
     <tr>
       <td>Asset Name</td>
       <td><p>The sub-qualifier portion of the name has the same naming rules as a sub-asset.</p>
-      <p>The sub-qualifier asset name takes the form #[qualifier portion]/#[sub-qualifier]. Note how this is differentiated from unique assets with the fact the the intermediary characters are '/#' This full name must be less than 32 characters.</p></td>
+      <p>The sub-qualifier asset name takes the form #[qualifier portion]/#[sub-qualifier]. Note how this is differentiated from unique assets with the fact the the intermediary characters are '/#' This full name must be less than 30 characters.</p></td>
     </tr>
     <tr>
       <td>Ownership Asset</td>
@@ -502,7 +502,7 @@ overlooked. If you come across any problems or believe information needs to be c
     <tr>
       <td>Asset Name</td>
       <td><p>The restricted portion of the name has the same naming rules as a main asset.</p>
-      <p>The restricted asset name takes the form $[restricted protion]. This full name must be less than 32 characters.</p></td>
+      <p>The restricted asset name takes the form $[restricted protion]. This full name must be less than 30 characters.</p></td>
     </tr>
     <tr>
       <td>Ownership Asset</td>
