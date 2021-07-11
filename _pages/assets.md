@@ -89,11 +89,11 @@ overlooked. If you come across any problems or believe information needs to be c
     </li>
     <li>
       <h4>Associated Data</h4>
-      <p>Or IPFS hash or associated TXID. 34 bytes of user-decided information. Generally this is used with an IPFS hash or a TXID, but it can be anything.</p>
+      <p>Or IPFS hash or associated TXID. 32 bytes of user-decided information. Generally this is used with an IPFS hash or a TXID, but it can be anything.</p>
     </li>
     <li>
       <h4>Message Broadcasts</h4>
-      <p>Any owner of any asset can broadcast a 34 byte message associated with that asset. We will go more in-depth with broadcasts later.</p>
+      <p>Any owner of any asset can broadcast a 32 byte message associated with that asset. We will go more in-depth with broadcasts later.</p>
     </li>
     <li>
       <h4>Null Asset Tags</h4>
@@ -525,8 +525,8 @@ overlooked. If you come across any problems or believe information needs to be c
       <td>This asset can be reissued</td>
     </tr>
     <tr>
-      <td>Divisibility</td>
-      <td>Divisibility can be 0 - 8</td>
+      <td>Divisibility (Units)</td>
+      <td>Divisibility (Units) can be 0 - 8</td>
     </tr>
     <tr>
       <td>Associated Data</td>
@@ -543,7 +543,7 @@ overlooked. If you come across any problems or believe information needs to be c
   <p>When an asset is created, nodes store the asset name, reissuability, divisions, associated data, and respective VOUT information in a database. This is how nodes easily access metadata. During a reissuance, the ownership asset must be sent to prove ownership on-chain and the node will save the new metadata. These asset creation and reissuance transactions are the only places where the metadata is stored on the chain.</p>
   <p>This means that, say, a 3rd party wallet sends you asset information. Whatever protocol they are using will need to send the client the VOUT of asset creations or reissues so that the client may verify the integrity of the metadata.</p>
   <p>The same is true for asset tags. They only exist on the chain in one singular transaction. The node then keeps track of where that transaction is in a database for verification later.</p>
-  <p>You may have been surprised earlier when learning that the associated data of an asset is only 34 bytes. You are correct in believing that is not a lot of information. This is an intentional decision to keep clutter off of the chain. Typically, users will use this field for an <a href="https://ipfs.io/#how">IPFS hash</a> allowing for websites and files to be stored and hosted off chain whether it be on personal hardware or <a href="https://ravencoinipfs.com/">cloud file management hosts</a>. IPFS hashs are unique (literally a SHA256 hash of the data) and therefore a user can be confident that an IPFS hash on an asset will always point to the correct data.</p>
+  <p>You may have been surprised earlier when learning that the associated data of an asset is only 32 bytes. You are correct in believing that is not a lot of information. This is an intentional decision to keep clutter off of the chain. Typically, users will use this field for an <a href="https://ipfs.io/#how">IPFS hash</a> allowing for websites and files to be stored and hosted off chain whether it be on personal hardware or <a href="https://ravencoinipfs.com/">cloud file management hosts</a>. IPFS hashs are unique (literally a SHA256 hash of the data) and therefore a user can be confident that an IPFS hash on an asset will always point to the correct data.</p>
 
   <br>
   <h3 id="burn_addresses">Burn Addresses</h3>
@@ -679,7 +679,8 @@ overlooked. If you come across any problems or believe information needs to be c
     </tr>
     <tr>
       <td>Associated data (Optional; only if previous byte is 01)</td>
-      <td>34 bytes</td>
+      <td>0x12 and 0x20 if IPFS data in which case API will encode/decode as IPFS content identifier
+      <td>32 bytes of user defined data</td>
     </tr>
     <tr>
       <td>OP_DROP (75)</td>
@@ -779,7 +780,7 @@ overlooked. If you come across any problems or believe information needs to be c
     </tr>
     <tr>
       <td>Associated data (Optional; only if associating new data)</td>
-      <td>34 bytes</td>
+      <td>1 type byte, 1 length byte, 32 bytes user data</td>
     </tr>
     <tr>
       <td>OP_DROP (75)</td>
@@ -829,7 +830,7 @@ overlooked. If you come across any problems or believe information needs to be c
     </tr>
     <tr>
       <td>Associated data (Optional; only if a broadcast)</td>
-      <td>34 bytes</td>
+      <td>1 type byte, 1 length byte, 32 bytes user data</td>
     </tr>
     <tr>
       <td>OP_DROP (75)</td>
