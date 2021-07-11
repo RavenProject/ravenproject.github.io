@@ -66,8 +66,8 @@ overlooked. If you come across any problems or believe information needs to be c
       <p>This is a metadata flag that denotes whether or not an asset can be reissued. Once this flag is set to false it CANNOT be changed back! If you want (or have even a sliver of belief) that you want to change your asset's information in the future, ensure that you asset is reissuable when you create it!</p>
     </li>
     <li>
-      <h4>Divisibility</h4>
-      <p>This is a metadata value from zero to eight that denotes how much an asset can be broken up. Specifically this number is how many digits past the decimal this asset can be divided into (a minimum size of 10<sup>-d</sup> where d is the divisibility).</p>
+      <h4>Divisibility (Units)</h4>
+      <p>Units is a metadata value from zero to eight that denotes how much an asset can be broken up. Specifically this number is how many digits past the decimal this asset can be divided into (a minimum size of 10<sup>-d</sup> where d is the divisibility).</p>. Units=0 means the tokens are not divisible at all -- whole tokens only can be transferred.  Units=2 would be two decimal places like cents on a dollar it would be possible to transfer 0.01.   Units=8 is the most divisible and allows tokens to be tranferred in increments of 0.00000001.
     </li>
     <li>
       <h4>Reissuing</h4>
