@@ -8,7 +8,7 @@ permalink: /halving/
 <div class="page-content">
   <div class="wrapper mt-4 mb-20">
     <h2>How it works...</h2>
-    <p>In Approximately 3 years (~January 2022) at block 2,100,000 the first halving will take place and the reward per block will drop from 5,000 to 2,500 Raven. This will continue with each subsequent 2,100,000 blocks until the reward amount can no longer be halved.</p>
+    <p>In January, 2022, at block 2,100,000 the first halving will take place and the reward per block will drop from 5,000 to 2,500 Raven. This will continue with each subsequent 2,100,000 blocks until the reward amount can no longer be halved.</p>
     <hr class="border-grey border-t mt-8">
     <h3 class="mt-8">How many days is 2,100,000 blocks?</h3>
     <p>2,100,000 blocks = 1458.33333 days @ 1 minute blocks</p>
