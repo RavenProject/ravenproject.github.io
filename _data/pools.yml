@@ -1,3 +1,7 @@
+- name: Ravenpool.ninja
+  url: https://ravenpool.ninja/
+  twitter: 'RavenpoolNinja'
+
 - name: RavenMiner
   url: https://www.ravenminer.com/
   twitter: '@RavenMinerPool'
