@@ -142,7 +142,7 @@
 
 - name: tZERO
   logo: /assets/img/pages/wallet/tzero.png
-  url: https://www.tzero.com/crypto-app
+  url: https://www.tzero.com/crypto
   asset-support: false
   platforms:
     - app-store-badge
