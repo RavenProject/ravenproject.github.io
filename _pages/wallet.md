@@ -31,8 +31,10 @@ permalink: /wallet/
     </div>
     <h3 class="">For verification hashes and signatures visit our github releases</h3>
     <a class="block mt-8 mb-6 text-lg bg-blue hover:bg-blue-dark rounded p-2 text-white" href="https://github.com/RavenProject/Ravencoin/releases"><i class="zmdi zmdi-github-alt"></i><span class="inline-block ml-3">Github Releases (Downloadable Binaries)</span></a>
+    <br>
     <h2 class="">Electrum Community Wallet</h2>
     <a class="block mt-8 mb-6 text-lg bg-blue hover:bg-blue-dark rounded p-2 text-white" href="https://github.com/Electrum-RVN-SIG/Electrum-Ravencoin/releases"><i class="zmdi zmdi-github-alt"></i><span class="inline-block ml-3">Electrum-Ravencoin Releases (Downloadable Binaries)</span></a>
+    <br>
     <h2 class="mb-16">App Downloads With Asset Support</h2>
     <div class="flex flex-wrap align-center justify-center pb-4">
       <div class="px-3 w-full sm:w-1/2 text-center sm:text-right mb-5">
