@@ -28,6 +28,10 @@
       value: testing
     - name: Allow trezor to send assets
       value: testing
+    - name: Execute atomic swaps
+      value: upcoming
+    - name: Create and share atomic swaps
+      value: upcoming
     - name: Create, Reissue, and Tag with assets
       value: upcoming
     - name: Allow users to create atomic swaps as per RIP15
@@ -35,3 +39,114 @@
   social:
     - name: Discord
       url: https://discord.gg/VuubYncHz4
+
+- name: Atomic Swaps
+  description: >
+    Atomic swaps allow for on-chain trades between ravencoin and ravencoin assets, or between two different ravencoin
+    assets. This provides all the needed functionality to make Buy, Sell, and Trade orders that others may execute at
+    will. In addition, these partial orders can be specially signed such that they are easily shared and completable
+    by another party, allowing for clean 2-step orders where that can be shared through any number of side-channels.
+  project_sites:
+    - name: RIP-15 Specification
+      url: https://github.com/RavenProject/rips/blob/master/rip-0015.mediawiki
+    - name: RavenTraderPro - Desktop Client (python)
+      url: https://github.com/ben-abraham/raven-trader-pro
+    - name: RavenTrader - Server (C#)
+      url: https://github.com/ben-abraham/raven-trader
+    - name: Core Wallet - Atomic Swap PR
+      url: https://github.com/RavenProject/Ravencoin/pull/1083
+  roadmap:
+    - name: Process for creating swaps
+      value: complete
+    - name: Support buy/sell/trade orders
+      value: complete
+    - name: Public site sharing incomplete orders
+      value: complete
+    - name: Dedicated client able to execute swaps
+      value: complete
+    - name: Dedicated client able to create swaps
+      value: complete
+    - name: Dedicated client able to post swaps to public site
+      value: complete
+    - name: Core wallet able to view swaps in detail
+      value: submitted
+    - name: Core wallet able to execute swaps
+      value: submitted
+    - name: Core wallet able to create swaps
+      value: upcoming
+    - name: Automated create/listing/execution of orders. (Effectively a self-hosted LP)
+      value: upcoming
+
+- name: RVNFT
+  description: >
+    RVNFT is a full service NFT Tokenization platform on the Ravencoin Blockchain Network.
+    You can create your own Artwork, Game Reward, Song, Movie, Certificate of Authenticity and much more. 
+    Let RVNFT add it to the Network, so you can focus on what you do best.
+  project_sites:
+    - name: RVNFT
+      url: https://www.rvnft.art/
+    - name: RVNFT Marketplace
+      url: https://www.rvnft.art/nft-marketplace/
+    - name: RVNFT Gallery
+      url: https://www.rvnft.art/rvn-nft-gallery/
+    - name: RVNBAY/RVNFT
+      url: https://rvnbay.com/category/rvnft/
+  social:
+    - name: RVNFT Discord
+      url: https://discord.gg/ZSqqS5Gr
+    - name: RVNFT Twitter
+      url: https://twitter.com/RVNFT_ART
+    - name: RVNFT Instagram
+      url: https://www.instagram.com/rvnft.art/
+    - name: Find RVNFT NFTs on Raven Trader
+      url: https://raventrader.net/
+      
+- name: SYNTH
+  description: >
+    SYNTH is a digital guild based on the Main RVN Token which aims to augment the
+    Ravencoin NFT/Cyber Collectible community. SYNTH uses tokens as a company structure,
+    and offers a range of different NFT/token types on various marketplaces.
+    SYNTH has also produced a user friendly front end for current RVN marketplaces & swap
+    options, as well as a private high speed IPFS network to host NFTs/Tokens for ourselves &
+    partnered NFT creators.
+    
+  project_sites:
+    - name: NiftySynth - Website/Blog for Synth Token
+      url: https://www.niftysynth.com/
+    - name: rvnBay
+      url: https://rvnbay.com
+    - name: GradeSynth IPFS Gateway
+      url: https://gradesynth.com/ipfs/QmPJeUzChXMSfe3uoXxLTqWP2MR8u1CdFuurUZXRvjed9U/
+
+  social:
+    - name: SYNTH Discord
+      url: https://discord.gg/R2pveQWx
+    - name: SYNTH Twitter
+      url: https://twitter.com/NiftySynth
+
+- name: RavenWallet by MoonTree
+  description: >
+    The RavenWallet sponsored by MoonTree is a full featured raven specific mobile wallet.
+    From this wallet users can send and recieve RVN, Create distribute and manage Assets,
+    as well as trade assets on a distributed exchange in the form of atomic swaps.
+    
+  project_sites:
+    - name: Raven Source Code - a dart library for the projects underlying functionality.
+      url: https://github.com/moontreeapp/raven
+
+  roadmap:
+    - name: Investigate BlueWallet Fork
+      value: complete
+    - name: Create Underlying Library for Dart/Flutter App
+      value: testing
+    - name: Create Flutter UI
+      value: upcoming
+    - name: Add Asset Creation and Transaction Functionality
+      value: upcoming
+    - name: Add Asset Management Functionality
+      value: upcoming
+    - name: Add Asset Distributed Exchange Functionality
+      value: upcoming
+  social:
+    - name: Discord
+      url: https://discord.gg/pEnHZbqhZV
