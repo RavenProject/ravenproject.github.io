@@ -11,6 +11,8 @@ permalink: /projects/
 <div class="wrapper mt-16 pb-20">
   <h2>Current Ravencoin Community Projects</h2>
     <p>These projects are all created and ran by the Ravencoin community.</p>
+    <br>
+    <p>Want to add your project? Make a PR to <a href="https://github.com/RavenProject/ravenproject.github.io/blob/master/_data/projects.yml">this webpage's data</a> on github.</p>
       <h3>Table of Contents</h3>
       <ul>
       {% for project in sorted_projects %}
@@ -45,6 +47,4 @@ permalink: /projects/
           {% endif %}
           <br><br>
       {% endfor %}
-  <br><br><br><br>
-  <p>Want to add your project? Make a PR to <a href="https://github.com/RavenProject/ravenproject.github.io/blob/master/_data/projects.yml">this webpage's data</a> on github.</p>
 </div>
