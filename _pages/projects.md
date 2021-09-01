@@ -13,7 +13,8 @@ permalink: /projects/
     <p>These projects are all created and ran by the Ravencoin community.</p>
     <br>
     <p>Want to add your project? Make a PR to <a href="https://github.com/RavenProject/ravenproject.github.io/blob/master/_data/projects.yml">this webpage's data</a> on github.</p>
-      <h3>Table of Contents</h3>
+    <br>  
+    <h3>Table of Contents</h3>
       <ul>
       {% for project in sorted_projects %}
           <li><a href="#{{ project.name }}">{{ project.name }}</a></li>
