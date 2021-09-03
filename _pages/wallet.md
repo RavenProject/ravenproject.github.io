@@ -8,15 +8,6 @@ permalink: /wallet/
 
 <div class="page-content">
   <div class="wrapper text-center pt-8 pb-20" style="max-width: 700px;">
-    <h2 class="mb-16">App Downloads With Asset Support</h2>
-    <div class="flex flex-wrap align-center justify-center pb-4">
-      <div class="px-3 w-full sm:w-1/2 text-center sm:text-right mb-5">
-          <a href="https://itunes.apple.com/us/app/rvn-wallet/id1371751946?mt=8" target="_blank" class="block"><img style="width:100%;width: 200px;" src="/assets/img/pages/wallet/app-store-badge.svg" alt="app store"/></a>
-      </div>
-      <div class="px-3 w-full sm:w-1/2 text-center sm:text-left">
-        <a href="https://play.google.com/store/apps/details?id=com.ravenwallet" target="_blank" class="block"><img style="width:100%;width: 200px;" src="/assets/img/pages/wallet/google-play-badge.svg" alt="google play"/></a>
-      </div>
-    </div>
     <h2 class="mt-10 mb-16">Desktop Downloads</h2>
     <div class="flex flex-wrap align-center justify-center">
       <div class="w-full sm:w-1/2 md:w-1/3 px-4 mb-12">
@@ -40,6 +31,19 @@ permalink: /wallet/
     </div>
     <h3 class="">For verification hashes and signatures visit our github releases</h3>
     <a class="block mt-8 mb-6 text-lg bg-blue hover:bg-blue-dark rounded p-2 text-white" href="https://github.com/RavenProject/Ravencoin/releases"><i class="zmdi zmdi-github-alt"></i><span class="inline-block ml-3">Github Releases (Downloadable Binaries)</span></a>
+    <br>
+    <h2 class="">Electrum Community Wallet</h2>
+    <a class="block mt-8 mb-6 text-lg bg-blue hover:bg-blue-dark rounded p-2 text-white" href="https://github.com/Electrum-RVN-SIG/Electrum-Ravencoin/releases"><i class="zmdi zmdi-github-alt"></i><span class="inline-block ml-3">Electrum-Ravencoin Releases (Downloadable Binaries)</span></a>
+    <br>
+    <h2 class="mb-16">App Downloads With Asset Support</h2>
+    <div class="flex flex-wrap align-center justify-center pb-4">
+      <div class="px-3 w-full sm:w-1/2 text-center sm:text-right mb-5">
+          <a href="https://itunes.apple.com/us/app/rvn-wallet/id1371751946?mt=8" target="_blank" class="block"><img style="width:100%;width: 200px;" src="/assets/img/pages/wallet/app-store-badge.svg" alt="app store"/></a>
+      </div>
+      <div class="px-3 w-full sm:w-1/2 text-center sm:text-left">
+        <a href="https://play.google.com/store/apps/details?id=com.ravenwallet" target="_blank" class="block"><img style="width:100%;width: 200px;" src="/assets/img/pages/wallet/google-play-badge.svg" alt="google play"/></a>
+      </div>
+    </div>
     <h2>3rd Party Wallets</h2>
     <div class="flex flex-wrap">
       {% for wallet in site.data.wallets %}

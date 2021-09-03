@@ -35,16 +35,17 @@ permalink: /ledger/
   </ul>
 
   <br>
-  <h3>Installing the Electrum-RVN wallet</h3>
+  <h3>Installing the Electrum-Ravencoin wallet</h3>
 
   <p>Download the <a href="https://github.com/Electrum-RVN-SIG/electrum-ravencoin">Electrum-Ravencoin</a> wallet to manage your Ravencoin with a ledger device.
     For prebuilt binaries, check the <a href="https://github.com/Electrum-RVN-SIG/electrum-ravencoin/releases">releases tab.</a>
   </p>
 
-  <p>When setting up the Electrum-RVN wallet for the first time follow these steps:</p>
+  <p>When setting up the Electrum-Ravencoin wallet for the first time follow these steps:</p>
 
   <ul>
     <li>You will need to connect your ledger device to your computer, unlock it and enter the Ravencoin app before proceeding.</li>
+    <li>Ensure ledger-live is closed and open Electrum-Ravencoin.</li>
     <li>On the first screen you'll be presented with a text box which has the name of the wallet file that will be created on your computer. It will have a name of default_wallet. You can either rename this or leave it as is and click next.</li>
     <li>On the second screen you'll be presented with three options: Standard wallet, Multi-signature wallet and Import Ravencoin addresses or private keys. Choose the Standard Wallet option and click next.</li>
     <li>On the third screen you'll see four options: Create a new seed, I already have a seed, Use a master key and Use a hardware device. Select Use a hardware device and click next.</li>
@@ -54,21 +55,21 @@ permalink: /ledger/
     <li>The wallet is now set up.</li>
   </ul>
 
-  <p>When using the Electrum-RVN wallet after initial setup:</p>
+  <p>When using the Electrum-Ravencoin wallet after initial setup:</p>
 
   <ul>
     <li>If you encrypted your wallet file, you'll need to connect your Ledger device and open the Ravencoin app.</li>
-    <li>In the Electrum-RVN wallet select the wallet file you want to open and click next.</li>
+    <li>In the Electrum-Ravencoin wallet select the wallet file you want to open and click next.</li>
     <li>The wallet will open and you can send and receive RVN.</li>
   </ul>
 
   <br>
-  <h3>Using the Electrum-RVN wallet</h3>
+  <h3>Using the Electrum-Ravencoin wallet</h3>
 
   <p>When the wallet opens you will see five options across the top: File, Wallet, View, Tools and Help. You will also see three tabs labeled History, Send and Receive. When the wallet is open your account balance will be shown in the bottom left hand corner of the wallet application. This will be visible no matter what tab you have open. The History tab will show the History of transactions using your accounts, the Send tab will allow you to create and broadcast transactions to the Ravencoin blockchain and the Receive tab will allow you to choose and verify a receiving address for incoming RVN.</p>
 
   <br>
-  <h3>Using the Electrum-RVN wallet to receive RVN</h3>
+  <h3>Using the Electrum-Ravencoin wallet to receive RVN</h3>
 
   <ul>
     <li>Click the Receive tab.</li>
@@ -81,7 +82,7 @@ permalink: /ledger/
   </ul>
 
   <br>
-  <h3>Using the Electrum-RVN wallet to send RVN</h3>
+  <h3>Using the Electrum-Ravencoin wallet to send RVN</h3>
 
   <ul>
     <li>Click the Send Tab.</li>
