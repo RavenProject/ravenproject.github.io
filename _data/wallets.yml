@@ -98,6 +98,13 @@
     - google-play-badge
     - world-wide-web
 
+- name: Mango Farm
+  logo: 
+  url: https://mangofarmassets.com/
+  asset-support: true
+  platforms:
+    - world-wide-web
+
 - name: Ownbit
   logo: /assets/img/pages/wallet/ownbit.png
   url: https://ownbit.io/
