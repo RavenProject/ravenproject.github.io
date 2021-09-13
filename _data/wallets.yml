@@ -99,7 +99,7 @@
     - world-wide-web
 
 - name: Mango Farm
-  logo: 
+  logo: /assets/img/pages/wallet/mango-farm-logo.png
   url: https://mangofarmassets.com/
   asset-support: true
   platforms:
