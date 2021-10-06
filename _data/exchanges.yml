@@ -183,3 +183,9 @@
   url: https://nowpayments.io/
   kyc: false
   donates_to_project: false
+  
+- name: Bitvavo
+  logo: /assets/img/pages/exchanges/bitvavo.png
+  url: https://bitvavo.com/en/ravencoin
+  kyc: true
+  donates_to_project: false
