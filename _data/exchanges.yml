@@ -40,6 +40,12 @@
   kyc: true
   donates_to_project: false
 
+- name: Bitvavo
+  logo: /assets/img/pages/exchanges/bitvavo.png
+  url: https://bitvavo.com/en/ravencoin
+  kyc: true
+  donates_to_project: false
+
 - name: ChangeAngel
   logo: /assets/img/pages/exchanges/changeangel.png
   url: https://changeangel.io/
@@ -182,10 +188,4 @@
   logo: /assets/img/pages/exchanges/nowpayments.png
   url: https://nowpayments.io/
   kyc: false
-  donates_to_project: false
-  
-- name: Bitvavo
-  logo: /assets/img/pages/exchanges/bitvavo.png
-  url: https://bitvavo.com/en/ravencoin
-  kyc: true
   donates_to_project: false
