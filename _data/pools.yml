@@ -61,3 +61,7 @@
 - name: CryptoRUSH
   url: https://pool.cryptorush.app/
   twitter: '@CryptoRUSH_Gav'
+
+- name: Ravenclause-WallstreetV2
+  url: https://pool.wallstreetv2.com/
+  twitter: ''
