@@ -65,3 +65,7 @@
 - name: Ravenclause-WallstreetV2
   url: https://pool.wallstreetv2.com/
   twitter: ''
+  
+- name: Kaww.io
+  url: https://kaww.io/
+  twitter: '@kaww_io'
