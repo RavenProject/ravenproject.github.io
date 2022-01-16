@@ -99,6 +99,8 @@ modalCacheRef: "4.3.1"
     </div>
   </div>
   <br>
+  <a href="https://raven.wiki/">Ravencoin Wiki</a><br>
+  <a href="https://ravencoin.foundation/">Ravencoin Foundation</a><br>
   <br>
   <br>
   <br>
