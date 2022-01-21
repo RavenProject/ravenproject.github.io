@@ -138,7 +138,17 @@
   platforms:
     - app-store-badge
     - google-play-badge
-
+    
+- name: SimpleHold
+  logo: /assets/img/pages/wallet/simplehold.png
+  url: https://simplehold.io/
+  asset-support: true
+  platforms:
+    - app-store-badge
+    - google-play-badge
+    - windows
+    - mac
+    
 - name: Trust
   logo: /assets/img/pages/wallet/trust.png
   url: https://trustwallet.com/
