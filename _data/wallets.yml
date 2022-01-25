@@ -173,3 +173,13 @@
   platforms:
     - app-store-badge
     - google-play-badge
+
+- name: SimpleHold
+  logo: /assets/img/pages/wallet/simplehold.svg
+  url: https://simplehold.io/
+  asset-support: yes
+  platforms:
+    - app-store-badge
+    - google-play-badge
+    - windows
+    - mac
