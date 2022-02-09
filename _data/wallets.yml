@@ -107,7 +107,7 @@
     
 - name: NOW Wallet
   logo: /assets/img/pages/wallet/NOW_wallet_logo.png
-  url: https://walletnow.app/
+  url: https://walletnow.app.link/internal_ref
   asset-support: false
   platforms:
     - app-store-badge
