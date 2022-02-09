@@ -104,6 +104,14 @@
   asset-support: true
   platforms:
     - world-wide-web
+    
+- name: NOW Wallet
+  logo: /assets/img/pages/wallet/NOW_wallet_logo.png
+  url: https://walletnow.app/
+  asset-support: false
+  platforms:
+    - app-store-badge
+    - google-play-badge
 
 - name: Ownbit
   logo: /assets/img/pages/wallet/ownbit.png
