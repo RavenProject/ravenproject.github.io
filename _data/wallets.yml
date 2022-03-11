@@ -105,7 +105,7 @@
   platforms:
     - world-wide-web
     
-- name: NOW Wallet
+- name: NOW
   logo: /assets/img/pages/wallet/NOW_wallet_logo.png
   url: https://walletnow.app/
   asset-support: false
