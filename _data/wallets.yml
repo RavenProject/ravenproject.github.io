@@ -175,7 +175,7 @@
     - google-play-badge
 
 - name: SimpleHold
-  logo: /assets/img/pages/wallet/simplehold.svg
+  logo: /assets/img/pages/wallet/simplehold.png
   url: https://simplehold.io/
   asset-support: yes
   platforms:
