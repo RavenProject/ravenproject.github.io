@@ -139,14 +139,6 @@
     - linux
     - world-wide-web
 
-- name: Spend
-  logo: /assets/img/pages/wallet/spend.png
-  url: https://www.spend.com/
-  asset-support: false
-  platforms:
-    - app-store-badge
-    - google-play-badge
-
 - name: Trust
   logo: /assets/img/pages/wallet/trust.png
   url: https://trustwallet.com/
