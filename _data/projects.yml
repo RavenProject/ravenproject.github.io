@@ -162,13 +162,13 @@
     Built-in RPC connexion, High Level RPC API Commands, RPC Shell & Command list
     Highly Customizable End User Interface / Components
     ... More to come !
-   
+
   project_sites:
-    - name: wxRaven - Website.
-      url: https://wxraven.link/
-	  
+  - name: wxRaven - Website.
+    url: https://wxraven.link/
+
 	- name: wxRaven - Github.
-      url: https://github.com/sLiinuX/wxRaven
+    url: https://github.com/sLiinuX/wxRaven
 
   roadmap:
     - name: Base environment
