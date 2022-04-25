@@ -154,18 +154,15 @@
 
 - name: wxRaven - Open source cross-platform Integrated Environment framework for the Ravencoin
   description: >
-	wxRaven is a free and open source cross-platform Integrated Environment framework for the Ravencoin.
-	It provide a Customizable environment direclty connected to a ravencorewallet.
-	
-	Written in Python 3.x and using the wxWidget Library with the inspiration of Eclipse IDE.
-	wxRaven natively support the plugin approach and the view/perspective concept.
-	
-	Asset Search, Navigation, Airdrop, Transaction Explorer.
+    wxRaven is a free and open source cross-platform Integrated Environment framework for the Ravencoin.
+    It provide a Customizable environment direclty connected to a ravencorewallet.
+    Written in Python 3.x and using the wxWidget Library with the inspiration of Eclipse IDE.
+    wxRaven natively support the plugin approach and the view/perspective concept.	
+    Asset Search, Navigation, Airdrop, Transaction Explorer.
     Built-in RPC connexion, High Level RPC API Commands, RPC Shell & Command list
-
-	Highly Customizable End User Interface / Components
-	... More to come !
-    
+    Highly Customizable End User Interface / Components
+    ... More to come !
+   
   project_sites:
     - name: wxRaven - Website.
       url: https://wxraven.link/
