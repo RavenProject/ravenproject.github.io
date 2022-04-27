@@ -136,6 +136,12 @@
   kyc: true
   donates_to_project: false
 
+- name: Qortal
+  logo: /assets/img/pages/exchanges/qortal.png
+  url: https://qortal.org/downloads/
+  kyc: false
+  donates_to_project: false
+
 - name: SimpleSwap
   logo: /assets/img/pages/exchanges/simpleswap.png
   url:  https://simpleswap.io/

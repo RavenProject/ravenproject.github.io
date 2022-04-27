@@ -121,6 +121,15 @@
     - app-store-badge
     - google-play-badge
 
+- name: Qortal
+  logo: /assets/img/pages/wallet/qortal.png
+  url: https://qortal.org/downloads/
+  asset-support: false
+  platforms:
+    - windows
+    - mac
+    - linux
+
 - name: SevenB
   logo: /assets/img/pages/wallet/7b.png
   url: https://sevenb.io/
