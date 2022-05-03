@@ -21,6 +21,10 @@
       value: testing
      - name: Creating application download and install function for Ravencoin projects.
       value: testing
+     - name: Creating a Token function that allows the user to receive continual Tokens based upon the accumulated time RavencoinHelper is maintained.
+      value: testing
+     - name: Creating a website listing and Wiki listing of Ravencoin focused products and services that can be purchased with RavencoinHelper Tokens.
+      value: upcoming
      - name: Creating Github Repository
       value: upcoming
   social:
