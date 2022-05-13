@@ -8,11 +8,11 @@
     - name: RavencoinHelper OS
       url: https://ravencoinhelper.com
   roadmap:
-    - name: Research & Impliment a stable, flexable Operating System across many platforms
+    - name: Research & Implement a stable, flexible Operating System across many platforms
       value: complete
     - name: Created programs to enhance underlining OS for better functioning of Ravencoin Node and IPFS
       value: complete
-    - name: Creating Options for more flexiblity of IPFS
+    - name: Creating Options for more flexibility of IPFS
       value: complete
     - name: Creating Wiki of all things Ravencoin
       value: complete
