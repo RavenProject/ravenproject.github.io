@@ -1,9 +1,10 @@
 - name: RavencoinHelper OS
-  description: RavencoinHelperOS is an Operating System framework for everything Ravencoin.
+  description: >
+    RavencoinHelperOS is an Operating System framework for everything Ravencoin.
     A foundation of services that are focused upon the Ravencoin Blockchain.
     Its intent is to consolidate everything about Ravencoin,
     and to present it all, to the user for easy access!
-    project_sites:
+  project_sites:
     - name: RavencoinHelper OS
       url: https://ravencoinhelper.com
   roadmap:
