@@ -10,27 +10,27 @@
   roadmap:
     - name: Research & Impliment a stable, flexable Operating System across many platforms
       value: complete
-     - name: Created programs to enhance underlining OS for better functioning of Ravencoin Node and IPFS
+    - name: Created programs to enhance underlining OS for better functioning of Ravencoin Node and IPFS
       value: complete
-     - name: Creating Options for more flexiblity of IPFS
+    - name: Creating Options for more flexiblity of IPFS
       value: complete
-     - name: Creating Wiki of all things Ravencoin
+    - name: Creating Wiki of all things Ravencoin
       value: complete
-     - name: Creating web download package for Windows, OSX and Raspberry Pi
+    - name: Creating web download package for Windows, OSX and Raspberry Pi
       value: complete
-     - name: Creating web application for easy (Manual) downloading of NFTs, with Verification & Viewer
+    - name: Creating web application for easy (Manual) downloading of NFTs, with Verification & Viewer
       value: testing
-     - name: Creating application download and install function for Ravencoin projects.
+    - name: Creating application download and install function for Ravencoin projects.
       value: testing
-     - name: Creating a Token function that allows the user to receive continual Tokens based upon the accumulated time RavencoinHelper is maintained.
+    - name: Creating a Token function that allows the user to receive continual Tokens based upon the accumulated time RavencoinHelper is maintained.
       value: testing
-     - name: Creating a website listing and Wiki listing of Ravencoin focused products and services that can be purchased with RavencoinHelper Tokens.
+    - name: Creating a website listing and Wiki listing of Ravencoin focused products and services that can be purchased with RavencoinHelper Tokens.
       value: upcoming
-     - name: Creating Github Repository
+    - name: Creating Github Repository
       value: upcoming
   social:
     - name: RavencoinHelper OS
-     url: https://twitter.com/technobuddha
+      url: https://twitter.com/technobuddha
 
 - name: Electrum Ravencoin
   description: >
