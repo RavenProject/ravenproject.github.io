@@ -14,8 +14,9 @@ permalink: /pools/
     <p>To learn how to mine, visit: <a href="https://raven.wiki/wiki/Mining" target="_blank" rel="noopener">https://raven.wiki/wiki/Mining</a></p>
     <p class="mb-8">Ravencoin (RVN) is supported by the following mining pools:</p>
     <div class="flex flex-wrap">
-      {% assign sorted_pools = site.data.pools | sort: "name" %}
-      {% for pool in sorted_pools %}
+      {% assign n = site.data.pools | size %}
+      {% assign random_sorted_pools = site.data.pools | sample: n %}
+      {% for pool in random_sorted_pools %}
       <div class="mb-2 px-2 sm:w-1/2 md:w-1/3 text-center">
         <div class="bg-grey-lighter max-w-sm rounded overflow-hidden shadow-md hover:by-grey">
           <span class="mb-0"><a class="block p-4" href="{{ pool.url }}" target="_blank">{{ pool.name }}</a></span>
@@ -30,8 +31,9 @@ permalink: /pools/
 
     <p class="mb-8">Ravencoin (RVN) is supported on:</p>
     <div class="flex flex-wrap">
-      {% assign sorted_pools = site.data.platforms | sort: "name" %}
-      {% for pool in sorted_pools %}
+      {% assign n = site.data.platforms | size %}
+      {% assign random_sorted_pools = site.data.platforms | sample: n %}
+      {% for pool in random_sorted_pools %}
       <div class="mb-2 px-2 sm:w-1/2 md:w-1/3 text-center">
         <div class="bg-grey-lighter max-w-sm rounded overflow-hidden shadow-md hover:by-grey">
           <span class="mb-0"><a class="block p-4" href="{{ pool.url }}" target="_blank">{{ pool.name }}</a></span>

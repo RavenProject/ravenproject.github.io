@@ -1,36 +1,37 @@
 - name: RavencoinHelper OS
-  description: >RavencoinHelperOS is an Operating System framework for everything Ravencoin.
+  description: >
+    RavencoinHelperOS is an Operating System framework for everything Ravencoin.
     A foundation of services that are focused upon the Ravencoin Blockchain.
-    Its intent is to consolidate everything about Ravencoin, 
+    Its intent is to consolidate everything about Ravencoin,
     and to present it all, to the user for easy access!
-    project_sites:
+  project_sites:
     - name: RavencoinHelper OS
       url: https://ravencoinhelper.com
   roadmap:
-    - name: Research & Impliment a stable, flexable Operating System across many platforms
+    - name: Research & Implement a stable, flexible Operating System across many platforms
       value: complete
-     - name: Created programs to enhance underlining OS for better functioning of Ravencoin Node and IPFS
+    - name: Created programs to enhance underlining OS for better functioning of Ravencoin Node and IPFS
       value: complete
-     - name: Creating Options for more flexiblity of IPFS
-      value: complete   
-     - name: Creating Wiki of all things Ravencoin
+    - name: Creating Options for more flexibility of IPFS
       value: complete
-     - name: Creating web download package for Windows, OSX and Raspberry Pi
+    - name: Creating Wiki of all things Ravencoin
       value: complete
-     - name: Creating web application for easy (Manual) downloading of NFTs, with Verification & Viewer
+    - name: Creating web download package for Windows, OSX and Raspberry Pi
+      value: complete
+    - name: Creating web application for easy (Manual) downloading of NFTs, with Verification & Viewer
       value: testing
-     - name: Creating application download and install function for Ravencoin projects.
+    - name: Creating application download and install function for Ravencoin projects.
       value: testing
-     - name: Creating a Token function that allows the user to receive continual Tokens based upon the accumulated time RavencoinHelper is maintained.
+    - name: Creating a Token function that allows the user to receive continual Tokens based upon the accumulated time RavencoinHelper is maintained.
       value: testing
-     - name: Creating a website listing and Wiki listing of Ravencoin focused products and services that can be purchased with RavencoinHelper Tokens.
+    - name: Creating a website listing and Wiki listing of Ravencoin focused products and services that can be purchased with RavencoinHelper Tokens.
       value: upcoming
-     - name: Creating Github Repository
+    - name: Creating Github Repository
       value: upcoming
   social:
     - name: RavencoinHelper OS
-     url: https://twitter.com/technobuddha
-      
+      url: https://twitter.com/technobuddha
+
 - name: Electrum Ravencoin
   description: >
     The Electrum Ravencoin wallet is meant to be a light weight wallet for users who are unable or unwilling
@@ -113,7 +114,7 @@
 - name: RVNFT
   description: >
     RVNFT is a full service NFT Tokenization platform on the Ravencoin Blockchain Network.
-    You can create your own Artwork, Game Reward, Song, Movie, Certificate of Authenticity and much more. 
+    You can create your own Artwork, Game Reward, Song, Movie, Certificate of Authenticity and much more.
     Let RVNFT add it to the Network, so you can focus on what you do best.
   project_sites:
     - name: RVNFT
@@ -133,7 +134,7 @@
       url: https://www.instagram.com/rvnft.art/
     - name: Find RVNFT NFTs on Raven Trader
       url: https://raventrader.net/
-      
+
 - name: SYNTH
   description: >
     SYNTH is a digital guild based on the Main RVN Token which aims to augment the
@@ -142,7 +143,7 @@
     SYNTH has also produced a user friendly front end for current RVN marketplaces & swap
     options, as well as a private high speed IPFS network to host NFTs/Tokens for ourselves &
     partnered NFT creators.
-    
+
   project_sites:
     - name: NiftySynth - Website/Blog for Synth Token
       url: https://www.niftysynth.com/
@@ -162,7 +163,7 @@
     The RavenWallet sponsored by MoonTree is a full featured raven specific mobile wallet.
     From this wallet users can send and recieve RVN, Create distribute and manage Assets,
     as well as trade assets on a distributed exchange in the form of atomic swaps.
-    
+
   project_sites:
     - name: Raven Source Code - a dart library for the projects underlying functionality.
       url: https://github.com/moontreeapp/raven
