@@ -201,7 +201,6 @@ modalCacheRef: "4.3.1"
       <div class="w-full sm:w-full md:w-3/4">
         <h2>What Makes Ravencoin Different from Bitcoin?</h2>
         <ul class="checkmark">
-          <li>Block reward of 5,000 RVN instead of 50 BTC.</li>
           <li>Block time of 1 minute instead of 10.</li>
           <li>Total coin supply of 21 billion instead of 21 million.</li>
           <li>A new mining algorithm, KAWPOW which allows for more decentralized mining.</li>
