@@ -185,3 +185,49 @@
     - name: Discord
       url: https://discord.gg/pEnHZbqhZV
 
+- name: Squawker Protocol
+  description: >
+    Squawker is an uncensorable way to communicate with the world. By using asset transfers 
+    to denote the meaning of IPFS filehashes, anyone can say what they want. Through the 
+    power of decentralized mining and proof of work your message will be accepted onto the 
+    blockchain. As long as your IPFS filehash is pinned anyone with accesss to the 
+    blockchain and an ipfs gateway (both are self hostable) can consume that content.
+  project_sites:
+    - name: Squawker
+      url: https://squawker.app
+    - name: Squawker Protocol and Proof of concept code
+      url: https://github.com/Tylerlhess/Squawker
+    - name: Squawker API - source for the backend api 
+      url: https://github.com/Tylerlhess/SquawkerAPI
+  roadmap:
+    - name: Provide Minimum Viable Product as a website
+      value: complete
+    - name: Add Profile creation/curation capabilities
+      value: complete
+    - name: Add Blog/Article posting
+      value: complete
+    - name: Source a web based signing mechanism
+      value: complete - Thanks @RavenRebels
+    - name: Move site contents into a cached database from on-chain lookups.
+      value: ongoing
+    - name: Implement a reply system
+      value: upcoming
+    - name: RSS style feeds for users and articles
+      value: upcoming
+    - name: New Webui
+      value: Send Help
+    - name: Implement onboarding process w/ 12 word wallet generation and initial Kaw
+      value: upcoming
+    - name: Add Asset Encryption Tag sales directly through the site.
+      value: upcoming
+    - name: Source or generate a chrome plugin for in browser RIP 11 decryption
+      value: upcoming
+    - name: Add targeted encyption messages to the protocol - way to denote what decryption key is needed for this message.
+      value: upcoming
+  social:
+    - name: Squawker Twitter
+      url: https://twitter.com/Squawker__
+    - name: (Lead/only Dev) BadGuyTy Twitter
+      url: https://twitter.com/badguyty
+    - name: Discord - @badguyty
+      url: https://discord.gg/pEnHZbqhZV
