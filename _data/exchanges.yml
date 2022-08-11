@@ -112,6 +112,12 @@
   kyc: false
   donates_to_project: false
 
+- name: Huobi
+  logo: /assets/img/pages/exchanges/huobi.png
+  url: https://huobi.com/
+  kyc: true
+  donates_to_project: false
+
 - name: Indodax
   logo: /assets/img/pages/exchanges/indodax.png
   url: https://indodax.com/market/RVNIDR
