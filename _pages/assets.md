@@ -50,7 +50,7 @@ overlooked. If you come across any problems or believe information needs to be c
 
   <br>
   <h3 id ="where_can_i_trade_assets">Where can I trade assets?</h3>
-  <p><a href="https://raventrader.net/">Raven Trader</a> is a on-chain peer to peer market which utilises <a href="https://github.com/RavenProject/rips/blob/master/rip-0015.mediawiki">RIP-15</a> for users to post half-signed atomic swaps. There are also asset markets such as <a href="https://www.rvnft.art/">RVNTF</a> and <a href="https://rvnbay.com/">RVNBay</a>. In addition, one can pay for a listing at <a href="https://cryptosx.io/">Cryptosx</a> for security tokens or <a href="https://www.okex.com"> OKEX</a> for regular tokens.</p>
+  <p><a href="https://raventrader.net/">Raven Trader</a> is a on-chain peer to peer market which utilises <a href="https://github.com/RavenProject/rips/blob/master/rip-0015.mediawiki">RIP-15</a> for users to post half-signed atomic swaps. There are also asset markets such as <a href="https://www.rvnft.art/">RVNFT</a> and <a href="https://rvnbay.com/">RVNBay</a>. In addition, one can pay for a listing at <a href="https://cryptosx.io/">Cryptosx</a> for security tokens or <a href="https://www.okex.com"> OKEX</a> for regular tokens.</p>
   <br>
 
   <h3 id="privacy">Privacy and Access</h3>
@@ -1213,5 +1213,3 @@ overlooked. If you come across any problems or believe information needs to be c
     </tr>
   </table>
   <p>On chain example: <a href="https://rvn.cryptoscope.io/api/getrawtransaction/?txid=cb6f7a7cf7d65d532101a259ef37cebff77ccb1e9f86823910537d6580071668&decode=1">cb6f7a7cf7d65d532101a259ef37cebff77ccb1e9f86823910537d6580071668</a></p>
-
-  </div>
