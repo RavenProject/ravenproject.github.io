@@ -104,7 +104,7 @@
   asset-support: true
   platforms:
     - world-wide-web
-    
+
 - name: NOW
   logo: /assets/img/pages/wallet/NOW_wallet_logo.png
   url: https://walletnow.app/
@@ -138,6 +138,14 @@
     - windows
     - linux
     - world-wide-web
+
+- name: Stibits
+  logo: /assets/img/pages/wallet/stibits.svg
+  url: https://www.stibits.com/
+  asset-support: true
+  platforms:
+    - app-store-badge
+    - google-play-badge
 
 - name: Trust
   logo: /assets/img/pages/wallet/trust.png
