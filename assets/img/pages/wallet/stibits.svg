@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="102px" height="32px" viewBox="0 0 102 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>logo</title>
+    <defs>
+        <linearGradient x1="94.7634237%" y1="22.6658996%" x2="4.9259348%" y2="76.3602254%" id="linearGradient-1">
+            <stop stop-color="#C30C13" offset="0%"></stop>
+            <stop stop-color="#A2000B" offset="100%"></stop>
+        </linearGradient>
+        <path d="M6,0 L34,0 C37.3137085,-6.08718376e-16 40,2.6862915 40,6 L40,26 C40,29.3137085 37.3137085,32 34,32 L6,32 C2.6862915,32 4.05812251e-16,29.3137085 0,26 L0,6 C-4.05812251e-16,2.6862915 2.6862915,6.08718376e-16 6,0 Z" id="path-2"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="stibitsweb1" transform="translate(-150.000000, -43.000000)">
+            <g id="Group-27">
+                <g id="header" transform="translate(0.000000, 19.000000)">
+                    <g id="logo" transform="translate(150.000000, 24.000000)">
+                        <g id="icon">
+                            <mask id="mask-3" fill="white">
+                                <use xlink:href="#path-2"></use>
+                            </mask>
+                            <use id="Mask" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                            <g id="Group-9" mask="url(#mask-3)">
+                                <g transform="translate(20.500000, 16.000000) scale(-1, 1) rotate(90.000000) translate(-20.500000, -16.000000) translate(11.000000, 0.000000)">
+                                    <polygon id="Fill-1" fill="#CE666A" points="0 18.1814647 18.9189172 31.9374646 18.9189172 18.878806 3.60567869 7.74372576"></polygon>
+                                    <polygon id="Fill-4" fill="#E6B2B4" points="3.53382427 16.533132 7.35860006 5.46283852 18.8470628 13.8167991 18.8470628 27.6682123"></polygon>
+                                    <polygon id="Fill-7" fill="#F7E8E8" points="7.42103096 13.3931328 11.2446288 2.32166139 18.9083157 7.89450226 18.9083157 14.4132301 18.9083157 21.7470934"></polygon>
+                                    <polyline id="Fill-10" fill="#FFFFFF" points="18.8863275 3.03123593 18.8863275 16.8838271 11.2226406 11.3098082 15.0474164 0.239514756"></polyline>
+                                </g>
+                            </g>
+                        </g>
+                        <text id="Stibits" fill-rule="nonzero" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="18" font-weight="400" line-spacing="25.3964157" fill="#08254D">
+                            <tspan x="50" y="21">Stibits</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
