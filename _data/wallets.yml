@@ -140,7 +140,7 @@
     - world-wide-web
 
 - name: Stibits
-  logo: /assets/img/pages/wallet/stibits.svg
+  logo: /assets/img/pages/wallet/stibits.png
   url: https://www.stibits.com/
   asset-support: true
   platforms:
