@@ -15,7 +15,7 @@ permalink: /whitepaper/
       <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ White Paper ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
       <div class="w-full sm:w-1/2 mb-8">
         <a id="whitePaper0" href="/assets/documents/Ravencoin.pdf" target="_blank">
-          <div class="mb-6 py-4 px-6 inline-block rounded-full bg-grey hover:bg-grey-dark">
+          <div class="mb-6 py-4 px-6 inline-block rounded-full bg-gray-300 hover:bg-gray-300-dark">
             <i class="zmdi zmdi-file-text text-5xl text-white"></i>
           </div>
         </a>
@@ -25,7 +25,7 @@ permalink: /whitepaper/
       <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ X16R ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
       <div class="w-full sm:w-1/2 mb-8">
         <a id="x16r0" href="/assets/documents/X16R-Whitepaper.pdf" target="_blank">
-          <div class="mb-6 py-4 px-6 inline-block rounded-full bg-grey hover:bg-grey-dark">
+          <div class="mb-6 py-4 px-6 inline-block rounded-full bg-gray-300 hover:bg-gray-300-dark">
             <i class="zmdi zmdi-file-text text-5xl text-white"></i>
           </div>
         </a>
@@ -35,7 +35,7 @@ permalink: /whitepaper/
       <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Road Map ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
       <div class="w-full sm:w-1/2 mb-8">
         <a id="roadMap0" href="https://github.com/RavenProject/Ravencoin/tree/master/roadmap" target="_blank">
-          <div class="mb-6 py-4 px-6 inline-block rounded-full bg-grey hover:bg-grey-dark">
+          <div class="mb-6 py-4 px-6 inline-block rounded-full bg-gray-300 hover:bg-gray-300-dark">
             <i class="zmdi zmdi-map text-5xl text-white"></i>
           </div>
         </a>
@@ -45,7 +45,7 @@ permalink: /whitepaper/
       <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Road Map MD ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
       <div id="roadMapMD" class="w-full sm:w-1/2 mb-8">
         <a href="https://github.com/RavenProject/Ravencoin/tree/master/whitepaper" target="_blank">
-          <div class="mb-6 py-4 px-5 inline-block rounded-full bg-grey hover:bg-grey-dark">
+          <div class="mb-6 py-4 px-5 inline-block rounded-full bg-gray-300 hover:bg-gray-300-dark">
             <i class="zmdi zmdi-github text-5xl text-white"></i>
           </div>
         </a>

@@ -10,33 +10,20 @@ modalCacheRef: "4.6.1"
 
 <link href="/assets/vendors/mediabox/mediabox.css" rel="stylesheet">
 <style>
-  .hero-buttons {
-    margin: 50px 0;
-  }
   .hero-buttons .btn.btn-primary {
     border: 2px solid #f15b22;
   }
   .banner {
     background: url("/assets/img/home/gplaypattern.png");
-    padding: 12em 0 13em;
+    padding: 12em 0 8em;
     animation: animatedBackground 15s linear infinite;
     -moz-animation: animatedBackground 15s linear infinite;
     -webkit-animation: animatedBackground 15s linear infinite;
     -ms-animation: animatedBackground 15s linear infinite;
     -o-animation: animatedBackground 15s linear infinite;
   }
-  .banner h1 {
-    max-width: 800px;
-  }
   .banner .btn {
     min-width: 150px;
-  }
-  .video-icon .video-icon-button {
-    height: 40px;
-  }
-  .video-icon svg {
-    width: 40px;
-    height: 40px;
   }
   .section-intro {
     background-color: #2e3e80;
@@ -49,13 +36,6 @@ modalCacheRef: "4.6.1"
   }
   .section-cta {
     background: #f15b22;
-  }
-  .section-cta .btn:hover {
-    background: #fff;
-    color: #000;
-  }
-  .section-exchange .wrapper {
-    max-width: 800px;
   }
   .enlarge-on-hover {
     transition: transform .2s;
@@ -83,29 +63,26 @@ modalCacheRef: "4.6.1"
 </style>
 
 <div class="banner text-center">
-  <div class="wrapper">
-    <h1 class="animated fadeInRight mb-3 mb-2 m-auto leading-tight">Ravencoin is a peer-to-peer blockchain, handling the efficient creation and transfer of assets from one party to another.</h1>
-    <div class="animated fadeInLeft hero-buttons">
+  <div class="wrapper mb-8">
+    <h1 class="animated max-w-3xl fadeInRight text-4xl mb-3 mx-auto leading-tight">Ravencoin is a peer-to-peer blockchain, handling the efficient creation and transfer of assets from one party to another.</h1>
+    <div class="animated fadeInLeft my-12">
       <a class="btn btn-primary mx-2 mt-4 mb-3 px-3 py-3 font-medium text-base rounded text-white hover:text-white" href="/wallet/">Get Your Wallet</a>
       <a class="btn btn-ghost mx-2 mt-4 mb-3 px-3 py-3 font-medium text-base rounded text-black hover:text-white" href="/buy-ravencoin/">Buy Ravencoin</a>
     </div>
     <div class="video-icon animated fadeInRight flex content-center justify-center font-semibold mt-4" uk-lightbox>
-      <a class="video-icon-button mr-4 mediabox" href="https://www.youtube.com/embed/fbfUvkZaw2w?rel=0&amp;showinfo=0">
-        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+      <a class="h-10 mr-4 mediabox" href="https://www.youtube.com/embed/fbfUvkZaw2w?rel=0&amp;showinfo=0">
+        <svg class="h-10 w-10" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
           <path d="M256,0C114.617,0,0,114.615,0,256s114.617,256,256,256s256-114.615,256-256S397.383,0,256,0z M344.48,269.57l-128,80  c-2.59,1.617-5.535,2.43-8.48,2.43c-2.668,0-5.34-0.664-7.758-2.008C195.156,347.172,192,341.82,192,336V176  c0-5.82,3.156-11.172,8.242-13.992c5.086-2.836,11.305-2.664,16.238,0.422l128,80c4.676,2.93,7.52,8.055,7.52,13.57  S349.156,266.641,344.48,269.57z" fill="#2e3e80"/>
         </svg>
       </a>
     <span class="mt-2">What is Ravencoin?</span>
     </div>
   </div>
-  <br>
-  <br>
-  <h3><a href="https://raven.wiki/">Ravencoin Wiki</a></h3>
-  <h3><a href="https://ravencoin.foundation/">Ravencoin Foundation</a></h3>
-  <h3><a href="https://rvn-dashboard.com/">Ravencoin Dashboard</a></h3>
-  <br>
-  <br>
-  <br>
+  <ul class="flex flex-col justify-center mx-auto">
+    <li><a class="block text-xl p-1 mb-2" href="https://raven.wiki/" target="_blank">Ravencoin Wiki</a></li>
+    <li><a class="block text-xl p-1 mb-2" href="https://ravencoin.foundation/" target="_blank">Ravencoin Foundation</a></li>
+    <li><a class="block text-xl p-1" href="https://rvn-dashboard.com/" target="_blank">Ravencoin Dashboard</a></li>
+  </ul>
 </div>
 <div class="section-intro text-white py-20">
   <div class="wrapper">
@@ -113,9 +90,8 @@ modalCacheRef: "4.6.1"
       <h2 class="text-white">Welcome to Ravencoin</h2>
       <p style="max-width: 900px;" class="m-auto">Ravencoin is a protocol based on a fork of the Bitcoin code which adds features specifically focused on allowing tokens to be issued on the Ravencoin blockchain. These tokens can have whatever properties the issue of the token decides - so they can be limited in quantity, named and be issued as securities or as collectibles.</p>
       <p class="mt-8">You can make your own security token within minutes and have it trade worldwide.</p>
-      <hr class="border-b pt-6"/>
+      <hr class="mt-12 pt-6"/>
     </div>
-    <hr class="my-8"/>
     <ul class="nav nav-tabs list-reset">
       <li class="active"><a href="#tab-1">Project Shares</a></li>
       <li class="tab-2"><a href="#tab-2">Virtual Goods</a></li>
@@ -126,7 +102,7 @@ modalCacheRef: "4.6.1"
       <div id="tab-1" class="tab-pane active">
         <div class="flex flex-wrap">
           <div class="w-full md:w-1/3 lg:w-1/4 text-center">
-            <img class="animated mb-4" id="tab-gold" style="max-width: 150px;margin-top: 15px;" src="{{"/assets/img/svg/gold.svg"}}" alt="gold"/>
+            <img class="animated mb-4 mx-auto" id="tab-gold" style="max-width: 150px;margin-top: 15px;" src="{{"/assets/img/svg/gold.svg"}}" alt="gold"/>
           </div>
           <div class="sm:w-full md:w-2/3 lg:w-3/4">
             <h3 class="text-white">Representing a share of a project</h3>
@@ -148,7 +124,7 @@ modalCacheRef: "4.6.1"
       <div id="tab-2" class="tab-pane">
         <div class="flex flex-wrap">
           <div class="w-full md:w-1/3 lg:w-1/4 text-center">
-            <img class="animated mb-4" id="tab-tickets" style="max-width: 150px;margin-top: 15px;" src="{{"/assets/img/svg/tickets.svg"}}" alt="tickets"/>
+            <img class="animated mb-4 mx-auto" id="tab-tickets" style="max-width: 150px;margin-top: 15px;" src="{{"/assets/img/svg/tickets.svg"}}" alt="tickets"/>
           </div>
           <div class="sm:w-full md:w-2/3 lg:w-3/4">
             <h3 class="text-white">Representing virtual goods</h3>
@@ -164,7 +140,7 @@ modalCacheRef: "4.6.1"
       <div id="tab-3" class="tab-pane">
         <div class="flex flex-wrap">
           <div class="w-full md:w-1/3 lg:w-1/4 text-center">
-            <img class="animated mb-4" id="tab-token" style="max-width: 150px;margin-top: 15px;" src="{{"/assets/img/svg/token.svg"}}" alt="token"/>
+            <img class="animated mb-4 mx-auto" id="tab-token" style="max-width: 150px;margin-top: 15px;" src="{{"/assets/img/svg/token.svg"}}" alt="token"/>
           </div>
           <div class="sm:w-full md:w-2/3 lg:w-3/4">
            <h3 class="text-white">Representing real world custodied physical or digital asset</h3>
@@ -180,7 +156,7 @@ modalCacheRef: "4.6.1"
       <div id="tab-4" class="tab-pane">
         <div class="flex flex-wrap">
           <div class="w-full md:w-1/3 lg:w-1/4 text-center">
-            <img class="animated mb-4" id="tab-gift-card" style="max-width: 150px;" src="{{"/assets/img/svg/gift-card.svg"}}" alt="gift-card"/>
+            <img class="animated mb-4 mx-auto" id="tab-gift-card" style="max-width: 150px;" src="{{"/assets/img/svg/gift-card.svg"}}" alt="gift-card"/>
           </div>
           <div class="sm:w-full md:w-2/3 lg:w-3/4">
             <h3 class="text-white">Representing a credit</h3>
@@ -195,7 +171,7 @@ modalCacheRef: "4.6.1"
     </div>
   </div>
 </div>
-<div class="section-why bg-grey-lighter py-24">
+<div class="section-why bg-gray-100 py-24">
   <div class="wrapper">
     <div class="flex flex-wrap">
       <div class="w-full sm:w-full md:w-3/4">
@@ -222,18 +198,18 @@ modalCacheRef: "4.6.1"
       <p class="text-white">Become a part of the community and contribute to Ravencoin’s global decentralized network of miners, contributors, traders, and developers.</p>
     </div>
     <div class="w-full sm:w-1/2 md:w-1/4 text-left sm:text-center">
-      <a class="btn btn-primary mx-2 mt-5 mb-3 px-4 py-3 font-normal text-base rounded text-white border-white border-solid border-2 hover:text-black" href="/community">Join the Community</a>
+      <a class="btn btn-primary mx-2 mt-5 mb-3 px-4 py-3 font-normal text-base rounded text-white border-white border-solid border-2 active::text-black focus:text-black hover:text-black active:bg-white focus:bg-white hover:bg-white" href="/community">Join the Community</a>
     </div>
   </div>
 
 </div>
-<div class="section-exchange pt-20 pb-24 bg-grey-lighter text-center">
+<div class="section-exchange pt-20 pb-24 bg-gray-100 text-center">
   <h2 class="font-medium">Exchanges</h2>
-  <div class="wrapper mt-8 m-auto">
+  <div class="px-4 max-w-3xl mt-8 mx-auto">
     <div class="flex flex-wrap">
       {% for exchange in site.data.exchanges %}
       <div class="mb-6 px-2 sm:w-1/2 md:w-1/3">
-        <div class="bg-grey-lighter max-w-sm rounded overflow-hidden shadow-md hover:by-grey enlarge-on-hover">
+        <div class="bg-gray-100 max-w-sm rounded overflow-hidden shadow-md hover:by-grey enlarge-on-hover">
           <a class="block px-6 py-4" href="{{ exchange.url }}" target="_blank" rel="nofollow"><img src="{{ exchange.logo }}" alt="{{ exchange.name }} exchange"/></a>
         </div>
       </div>
@@ -244,10 +220,12 @@ modalCacheRef: "4.6.1"
       </div>
   </div>
 </div>
-<div class="bg-grey-lighter text-center" style="padding-bottom:50px">
+<div class="bg-gray-100 text-center" style="padding-bottom:50px">
   <h2 class="font-medium">Twitter Updates</h2>
-  <a class="twitter-timeline" data-width="600" data-height="600" data-dnt="true" data-theme="dark" href="https://twitter.com/Ravencoin?ref_src=twsrc%5Etfw">Tweets by Ravencoin</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-  <a class="twitter-timeline" data-width="600" data-height="600" data-dnt="true" data-theme="dark" href="https://twitter.com/Ravencoin/likes?ref_src=twsrc%5Etfw">Tweets Liked by Ravencoin</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  <div class="max-w-3xl px-4 mx-auto flex flex-col items-center space-y-4">
+    <a class="twitter-timeline" data-width="600" data-height="600" data-dnt="true" data-theme="dark" href="https://twitter.com/Ravencoin?ref_src=twsrc%5Etfw">Tweets by Ravencoin</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <a class="twitter-timeline" data-width="600" data-height="600" data-dnt="true" data-theme="dark" href="https://twitter.com/Ravencoin/likes?ref_src=twsrc%5Etfw">Tweets Liked by Ravencoin</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </div>
 </div>
 <script src="/assets/vendors/mediabox/mediabox.js"></script>
 <script>

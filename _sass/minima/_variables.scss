@@ -26,6 +26,7 @@ $table-text-align: left !default;
 // Width of the content area
 $content-width:    1200px !default;
 
+$on-tablet:          960px !default;
 $on-palm:          600px !default;
 $on-laptop:        800px !default;
 
@@ -45,11 +46,3 @@ $on-laptop:        800px !default;
 @mixin relative-font-size($ratio) {
   font-size: $base-font-size * $ratio;
 }
-
-// Import partials.
-@import
-  "minima/base",
-  "minima/layout",
-  "minima/syntax-highlighting",
-  "partials/index"
-;

@@ -7,3 +7,4 @@ _site
 # Mac specific
 .DS_Store
 /.vs
+node_modules/

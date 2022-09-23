@@ -18,7 +18,7 @@ permalink: /updates/
 </div>
 
 
-<div class="wrapper mt-4 pb-10">
+<div class="text-center mt-4 pb-10">
   	<a href='/devupdates'><h2>I want Developer Updates for Ravencoin</h2></a>
 </div>
 

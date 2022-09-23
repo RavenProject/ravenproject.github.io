@@ -15,10 +15,10 @@ permalink: /ledger/
   <h3>Before you begin</h3>
 
   <ul>
-    <li>Download and install <a href="https://support.ledger.com/hc/en-us/articles/360006395553">Ledger Live</a>.</li>
-    <li><a href="https://support.ledger.com/hc/en-us/articles/360006395233">Set up</a> your Ledger device.</li>
-    <li><a href="https://support.ledger.com/hc/en-us/articles/360002731113-Update-Ledger-Nano-S-firmware">Update</a> to the latest Ledger firmware if needed.</li>
-    <li>Install the latest <a href="https://support.ledger.com/hc/en-us/articles/115005195945">Bitcoin app</a> on your device, as the Ravencoin app requires it.</li>
+    <li>Download and install <a href="https://support.ledger.com/hc/en-us/articles/360006395553" target="_blank">Ledger Live</a>.</li>
+    <li><a href="https://support.ledger.com/hc/en-us/articles/360006395233" target="_blank">Set up</a> your Ledger device.</li>
+    <li><a href="https://support.ledger.com/hc/en-us/articles/360002731113-Update-Ledger-Nano-S-firmware" target="_blank">Update</a> to the latest Ledger firmware if needed.</li>
+    <li>Install the latest <a href="https://support.ledger.com/hc/en-us/articles/115005195945" target="_blank">Bitcoin app</a> on your device, as the Ravencoin app requires it.</li>
   </ul>
 
   <br>
@@ -37,8 +37,8 @@ permalink: /ledger/
   <br>
   <h3>Installing the Electrum-Ravencoin wallet</h3>
 
-  <p>Download the <a href="https://github.com/Electrum-RVN-SIG/electrum-ravencoin">Electrum-Ravencoin</a> wallet to manage your Ravencoin with a ledger device.
-    For prebuilt binaries, check the <a href="https://github.com/Electrum-RVN-SIG/electrum-ravencoin/releases">releases tab.</a>
+  <p>Download the <a href="https://github.com/Electrum-RVN-SIG/electrum-ravencoin" target="_blank">Electrum-Ravencoin</a> wallet to manage your Ravencoin with a ledger device.
+    For prebuilt binaries, check the <a href="https://github.com/Electrum-RVN-SIG/electrum-ravencoin/releases" target="_blank">releases tab.</a>
   </p>
 
   <p>When setting up the Electrum-Ravencoin wallet for the first time follow these steps:</p>
@@ -100,5 +100,5 @@ permalink: /ledger/
   <br>
   <h3>Support</h3>
 
-  <p>If you need any help using your Ledger device with Ravencoin, you can contact the community through <a href="https://t.me/RavencoinDev">Telegram</a> and <a href="https://discord.gg/VuubYncHz4">Discord</a>.</p>
+  <p>If you need any help using your Ledger device with Ravencoin, you can contact the community through <a href="https://t.me/RavencoinDev" target="_blank">Telegram</a> and <a href="https://discord.gg/VuubYncHz4" target="_blank">Discord</a>.</p>
 </div>

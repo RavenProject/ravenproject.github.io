@@ -1,7 +1,7 @@
 title: Ravencoin
 author: RavenProject
 description: A peer-to-peer blockchain designed to handle the efficient creation and transfer of assets from one party to another. It's an open-source project based on Bitcoin
-
+repository: "michaelmcshinsky/ravenproject.github.io"
 baseurl: ""
 
 # social links
@@ -20,15 +20,13 @@ minima:
 # this and add the path to the pages in order as they should show up
 header_pages:
  - _pages/index.md
- - _pages/buy-ravencoin.md
- - _pages/wallet.md
- - _pages/whitepaper.md
- - _pages/community.md
- - _pages/pools.md
- - _pages/updates.md
  - _pages/about.md
+ - _pages/community.md
+ - _pages/wallet.md
+ - _pages/buy-ravencoin.md
+ - _pages/updates.md
+ - _pages/pools.md
  - _pages/projects.md
- - _pages/ledger.md
 
 # Build settings
 theme: minima
@@ -51,5 +49,13 @@ defaults:
       layout: default
 
 plugins:
- - jekyll-feed
- - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+
+sass:
+  load_paths:
+    - _sass
+    - node_modules
+
+include: ["node_modules/tailwindcss"]

@@ -11,8 +11,8 @@ permalink: /assets/
 
   <p>This page is a work in progress. While almost all of the information is correct, there may be some nuance that is 
 overlooked. If you come across any problems or believe information needs to be corrected or added, please make a pull request on
-<a href="https://github.com/RavenProject/ravenproject.github.io">this website's github source</a> or visit us at our
-<a href="https://discord.com/invite/jn6uhur">discord server</a>.</p>
+<a href="https://github.com/RavenProject/ravenproject.github.io" target="_blank">this website's github source</a> or visit us at our
+<a href="https://discord.com/invite/jn6uhur" target="_blank">discord server</a>.</p>
 
   <br>
   <p>This webpage will attempt to cover all aspects of Ravencoin assets from what they are to their on-chain encodings.
@@ -42,7 +42,8 @@ overlooked. If you come across any problems or believe information needs to be c
     <li><a href="#create_transactions">Building Asset Transactions</a></li>
   </ul>
 
-  <br><br>
+<br><br>
+
   <h3 id="what_is_an_asset">What is an asset?</h3>
 
   <p>A Ravencoin asset (also less commonly referred to as a token) is an on-chain way of creating, storing, and transfering
@@ -50,12 +51,12 @@ overlooked. If you come across any problems or believe information needs to be c
 
   <br>
   <h3 id ="where_can_i_trade_assets">Where can I trade assets?</h3>
-  <p><a href="https://raventrader.net/">Raven Trader</a> is a on-chain peer to peer market which utilises <a href="https://github.com/RavenProject/rips/blob/master/rip-0015.mediawiki">RIP-15</a> for users to post half-signed atomic swaps. There are also asset markets such as <a href="https://www.rvnft.art/">RVNFT</a> and <a href="https://rvnbay.com/">RVNBay</a>. In addition, one can pay for a listing at <a href="https://cryptosx.io/">Cryptosx</a> for security tokens or <a href="https://www.okex.com"> OKEX</a> for regular tokens.</p>
+  <p><a href="https://raventrader.net/" target="_blank">Raven Trader</a> is a on-chain peer to peer market which utilises <a href="https://github.com/RavenProject/rips/blob/master/rip-0015.mediawiki" target="_blank">RIP-15</a> for users to post half-signed atomic swaps. There are also asset markets such as <a href="https://www.rvnft.art/" target="_blank">RVNFT</a> and <a href="https://rvnbay.com/" target="_blank">RVNBay</a>. In addition, one can pay for a listing at <a href="https://cryptosx.io/" target="_blank">Cryptosx</a> for security tokens or <a href="https://www.okex.com" target="_blank"> OKEX</a> for regular tokens.</p>
   <br>
 
   <h3 id="privacy">Privacy and Access</h3>
   <p>A common question about assets is who can see whats on an asset and is there any way to limit viewership of the asset to a recipient.
-   The simple answer is that anyone is able to see the data associated with an asset, however there are protocols (see <a href="https://github.com/RavenProject/rips/blob/master/rip-0010.mediawiki">RIP-10</a>, <a href="https://github.com/RavenProject/rips/blob/master/rip-0011.mediawiki">RIP-11</a>, and <a href="https://github.com/RavenProject/rips/blob/master/rip-0014.mediawiki">RIP-14</a>) that allow for the encryption of IPFS data such that only a recipient of an asset may view it.</p>
+   The simple answer is that anyone is able to see the data associated with an asset, however there are protocols (see <a href="https://github.com/RavenProject/rips/blob/master/rip-0010.mediawiki" target="_blank">RIP-10</a>, <a href="https://github.com/RavenProject/rips/blob/master/rip-0011.mediawiki" target="_blank">RIP-11</a>, and <a href="https://github.com/RavenProject/rips/blob/master/rip-0014.mediawiki" target="_blank">RIP-14</a>) that allow for the encryption of IPFS data such that only a recipient of an asset may view it.</p>
   <br>
 
   <h3 id="the_jargon">The jargon...</h3>
@@ -97,7 +98,7 @@ overlooked. If you come across any problems or believe information needs to be c
     </li>
     <li>
       <h4>Null Asset Tags</h4>
-      <p>These are special <a href="https://en.bitcoin.it/wiki/Script">scripts</a> used by holders of qualifier assets and restricted ownership assets to define behavior between restricted assets and addresses. The relationship between qualifiers, restricted assets, tags, and addresses is fairly complicated. We will go more in-depth further down the page.</p>
+      <p>These are special <a href="https://en.bitcoin.it/wiki/Script" target="_blank">scripts</a> used by holders of qualifier assets and restricted ownership assets to define behavior between restricted assets and addresses. The relationship between qualifiers, restricted assets, tags, and addresses is fairly complicated. We will go more in-depth further down the page.</p>
     </li>
   </ul>
 
@@ -279,7 +280,7 @@ overlooked. If you come across any problems or believe information needs to be c
       <td>Associated Data</td>
       <td>This asset can have associated data</td>
     </tr>
-  </table> 
+  </table>
 
   <br>
 
@@ -543,12 +544,12 @@ overlooked. If you come across any problems or believe information needs to be c
   <p>When an asset is created, nodes store the asset name, reissuability, divisions, associated data, and respective VOUT information in a database. This is how nodes easily access metadata. During a reissuance, the ownership asset must be sent to prove ownership on-chain and the node will save the new metadata. These asset creation and reissuance transactions are the only places where the metadata is stored on the chain.</p>
   <p>This means that, say, a 3rd party wallet sends you asset information. Whatever protocol they are using will need to send the client the VOUT of asset creations or reissues so that the client may verify the integrity of the metadata.</p>
   <p>The same is true for asset tags. They only exist on the chain in one singular transaction. The node then keeps track of where that transaction is in a database for verification later.</p>
-  <p>You may have been surprised earlier when learning that the associated data of an asset is only 32 bytes. You are correct in believing that is not a lot of information. This is an intentional decision to keep clutter off of the chain. Typically, users will use this field for an <a href="https://ipfs.io/#how">IPFS hash</a> allowing for websites and files to be stored and hosted off chain whether it be on personal hardware or <a href="https://ravencoinipfs.com/">cloud file management hosts</a>. IPFS hashs are unique (literally a SHA256 hash of the data) and therefore a user can be confident that an IPFS hash on an asset will always point to the correct data.</p>
+  <p>You may have been surprised earlier when learning that the associated data of an asset is only 32 bytes. You are correct in believing that is not a lot of information. This is an intentional decision to keep clutter off of the chain. Typically, users will use this field for an <a href="https://ipfs.io/#how" target="_blank">IPFS hash</a> allowing for websites and files to be stored and hosted off chain whether it be on personal hardware or <a href="https://ravencoinipfs.com/" target="_blank">cloud file management hosts</a>. IPFS hashs are unique (literally a SHA256 hash of the data) and therefore a user can be confident that an IPFS hash on an asset will always point to the correct data.</p>
 
   <br>
   <h3 id="burn_addresses">Burn Addresses</h3>
   <p>In order to create an asset, a certain amount of RVN must be sent to a burn address.</p>
-  <p>The first two characters are due to Ravencoin's P2PKH address type of 0x3C and the seeming random characters at the end of each address are the <a href="https://en.bitcoin.it/wiki/File:Address_map.jpg">public key's checksum</a>.</p>
+  <p>The first two characters are due to Ravencoin's P2PKH address type of 0x3C and the seeming random characters at the end of each address are the <a href="https://en.bitcoin.it/wiki/File:Address_map.jpg" target="_blank">public key's checksum</a>.</p>
   <table style="width:100%">
     <tr>
       <th></th>
@@ -620,8 +621,8 @@ overlooked. If you come across any problems or believe information needs to be c
   <br>
   <h3 id="scripts">Asset Scripts</h3>
   <p>Here is where the technical protocol-ly stuff starts.</p>
-  <p>The following sections assume that you are familiar with <a href="https://en.bitcoin.it/wiki/Script">script</a> and
-   <a href="https://en.bitcoin.it/wiki/Transaction">transactions</a>.</p>
+  <p>The following sections assume that you are familiar with <a href="https://en.bitcoin.it/wiki/Script" target="_blank">script</a> and
+   <a href="https://en.bitcoin.it/wiki/Transaction" target="_blank">transactions</a>.</p>
   <p>We do not endorse any of the assets shown in examples.</p>
   <p>There are 4 types of asset transfer scripts and 3 types of asset tag scripts. All asset scripts must be in a VOUT with a RVN value of 0.</p>
   <p>If you are looking to use this as a guide to parse the ravencoin chain, please see a note at the end of this section.</p>
@@ -687,7 +688,7 @@ overlooked. If you come across any problems or believe information needs to be c
       <td>1 byte</td>
     </tr>
   </table>
-  <p>On chain example: <a href="https://rvn.cryptoscope.io/api/getrawtransaction/?txid=8eefce8d264d723b6b8f3cf87bcb400a009d01c2771f94e5cc07af252851aa96&decode=1">8eefce8d264d723b6b8f3cf87bcb400a009d01c2771f94e5cc07af252851aa96</a> VOUT 3</p>
+  <p>On chain example: <a href="https://rvn.cryptoscope.io/api/getrawtransaction/?txid=8eefce8d264d723b6b8f3cf87bcb400a009d01c2771f94e5cc07af252851aa96&decode=1" target="_blank">8eefce8d264d723b6b8f3cf87bcb400a009d01c2771f94e5cc07af252851aa96</a> VOUT 3</p>
   
   <h4>Ownership asset script</h4>
   <p>Ownership asset scripts are used in tandem with a new asset script if the new asset has an associated ownership asset.
@@ -730,7 +731,7 @@ overlooked. If you come across any problems or believe information needs to be c
       <td>1 byte</td>
     </tr>
   </table>
-  <p>On chain example: <a href="https://rvn.cryptoscope.io/api/getrawtransaction/?txid=8eefce8d264d723b6b8f3cf87bcb400a009d01c2771f94e5cc07af252851aa96&decode=1">8eefce8d264d723b6b8f3cf87bcb400a009d01c2771f94e5cc07af252851aa96</a> VOUT 2</p>
+  <p>On chain example: <a href="https://rvn.cryptoscope.io/api/getrawtransaction/?txid=8eefce8d264d723b6b8f3cf87bcb400a009d01c2771f94e5cc07af252851aa96&decode=1" target="_blank">8eefce8d264d723b6b8f3cf87bcb400a009d01c2771f94e5cc07af252851aa96</a> VOUT 2</p>
   <h4>Reissue asset script</h4>
   <p>Reissue asset scripts are used to change an asset's metadata. If the amount is not zero, that amount of the asset is created for the pubkey in the standard script.</p>
   <table style="width:100%">
@@ -787,7 +788,7 @@ overlooked. If you come across any problems or believe information needs to be c
       <td>1 byte</td>
     </tr>
   </table>
-  <p>On chain example: <a href="https://rvn.cryptoscope.io/api/getrawtransaction/?txid=b9d3ba355acbf58e44e893dccbcad06a10af88727adc340eeacd10d11b026f52&decode=1">b9d3ba355acbf58e44e893dccbcad06a10af88727adc340eeacd10d11b026f52</a> VOUT 3</p>
+  <p>On chain example: <a href="https://rvn.cryptoscope.io/api/getrawtransaction/?txid=b9d3ba355acbf58e44e893dccbcad06a10af88727adc340eeacd10d11b026f52&decode=1" target="_blank">b9d3ba355acbf58e44e893dccbcad06a10af88727adc340eeacd10d11b026f52</a> VOUT 3</p>
   
   <h4>Transfer asset script</h4>
   <p>Transfer asset scripts are used to transfer an amount of an asset to another address. If transfering an ownership asset, use 100,000,000 (00:E1:F5:05:00:00:00:00) for the sat value.</p>
@@ -837,7 +838,7 @@ overlooked. If you come across any problems or believe information needs to be c
       <td>1 byte</td>
     </tr>
   </table>
-  <p>On chain example: <a href="https://rvn.cryptoscope.io/api/getrawtransaction/?txid=bae95f349f15effe42e75134ee7f4560f53462ddc19c47efdd03f85ef4ab8f40&decode=1">bae95f349f15effe42e75134ee7f4560f53462ddc19c47efdd03f85ef4ab8f40</a> VOUT 0</p>
+  <p>On chain example: <a href="https://rvn.cryptoscope.io/api/getrawtransaction/?txid=bae95f349f15effe42e75134ee7f4560f53462ddc19c47efdd03f85ef4ab8f40&decode=1" target="_blank">bae95f349f15effe42e75134ee7f4560f53462ddc19c47efdd03f85ef4ab8f40</a> VOUT 0</p>
   
   <h4>Null asset tag script</h4>
   <p>Dictates if an address is qualified for a restricted asset.</p>
@@ -877,7 +878,7 @@ overlooked. If you come across any problems or believe information needs to be c
       <td>1 byte</td>
     </tr>
   </table>
-  <p>On chain example: <a href="https://rvn.cryptoscope.io/api/getrawtransaction/?txid=4ea3369ef6fb57fc26e176ad5903d4684a8c64f641aa0e1f02e5c7428609e060&decode=1">4ea3369ef6fb57fc26e176ad5903d4684a8c64f641aa0e1f02e5c7428609e060</a> VOUT 1</p>
+  <p>On chain example: <a href="https://rvn.cryptoscope.io/api/getrawtransaction/?txid=4ea3369ef6fb57fc26e176ad5903d4684a8c64f641aa0e1f02e5c7428609e060&decode=1" target="_blank">4ea3369ef6fb57fc26e176ad5903d4684a8c64f641aa0e1f02e5c7428609e060</a> VOUT 1</p>
   
   <h4>Verifier asset tag script</h4>
   <p>This script must be sent with a new asset script or a reissue asset script for a restricted asset. It associates qualifiers with the restricted asset.</p>
@@ -908,7 +909,7 @@ overlooked. If you come across any problems or believe information needs to be c
       <td>Var bytes</td>
     </tr>
   </table>
-  <p>On chain example: <a href="https://rvn.cryptoscope.io/api/getrawtransaction/?txid=477a0b2214475d11e316524b500e29837c6763fec256594c2ca7aa369b15888b&decode=1">477a0b2214475d11e316524b500e29837c6763fec256594c2ca7aa369b15888b</a> VOUT 2</p>
+  <p>On chain example: <a href="https://rvn.cryptoscope.io/api/getrawtransaction/?txid=477a0b2214475d11e316524b500e29837c6763fec256594c2ca7aa369b15888b&decode=1" target="_blank">477a0b2214475d11e316524b500e29837c6763fec256594c2ca7aa369b15888b</a> VOUT 2</p>
   
   <h4>Global restriction asset tag script</h4>
   <p>If the flag is 1, this stops all movement of the restricted asset. A flag of 0 re-enables movement.</p>
@@ -946,14 +947,14 @@ overlooked. If you come across any problems or believe information needs to be c
       <td>1 byte</td>
     </tr>
   </table>
-  <p>On chain example: <a href="https://rvn.cryptoscope.io/api/getrawtransaction/?txid=2fc0bb7e3a33d12ca08f72add0effc3d059cf63382bebcad96e8923e91c3c537&decode=1">2fc0bb7e3a33d12ca08f72add0effc3d059cf63382bebcad96e8923e91c3c537</a> VOUT 2</p>
+  <p>On chain example: <a href="https://rvn.cryptoscope.io/api/getrawtransaction/?txid=2fc0bb7e3a33d12ca08f72add0effc3d059cf63382bebcad96e8923e91c3c537&decode=1" target="_blank">2fc0bb7e3a33d12ca08f72add0effc3d059cf63382bebcad96e8923e91c3c537</a> VOUT 2</p>
 
   <br>
 
   <p id="chain_parsing_note">**Chain parsing note**</p>
   <p>Just like the pirate by-laws, the OP_PUSH after OP_RVN_ASSET can be seen more as a suggestion rather than a rule-of-thumb. Currently nodes accept assets based on whether or not the ‘rvn’ is within 1 or 2 bytes after OP_RVN_ASSET instead of actually reading the OP_PUSH after OP_RVN_ASSET. Because of this, there are some transactions on the chain that have non-standard bytes after OP_RVN_ASSET. (Including lengths that are greater or less than the asset data or bytes that are greater than OP_PUSHDATA4).</p>
   <p>If you only want to track ‘good’ transactions you can ignore these, as the vast majority of transactions follow proper serialization protocols. However, these malformed transactions are in fact ‘valid’ outpoints (for now) and if you want an all-encompassing tracking of the chain, you will need to check for these edge cases.</p>
-  <p>See <a href="https://github.com/Electrum-RVN-SIG/electrumx-ravencoin/blob/0dbe9496196c529ed2a92c202d6b6bc45e917a73/electrumx/server/block_processor.py#L673">here</a> for an example of a full chain parsing or <a href="https://github.com/Electrum-RVN-SIG/electrumx-ravencoin/blob/9acf5dd1d9af7ca038a895b674bad39f0d612807/electrumx/server/mempool.py#L320">here</a> for a best-effort parsing.</p>
+  <p>See <a href="https://github.com/Electrum-RVN-SIG/electrumx-ravencoin/blob/0dbe9496196c529ed2a92c202d6b6bc45e917a73/electrumx/server/block_processor.py#L673" target="_blank">here</a> for an example of a full chain parsing or <a href="https://github.com/Electrum-RVN-SIG/electrumx-ravencoin/blob/9acf5dd1d9af7ca038a895b674bad39f0d612807/electrumx/server/mempool.py#L320" target="_blank">here</a> for a best-effort parsing.</p>
   <br>
 
   <h3 id="create_transactions">Asset transaction structures</h3>
@@ -979,7 +980,7 @@ overlooked. If you come across any problems or believe information needs to be c
       </td>
     </tr>
   </table>
-  <p>On chain example: <a href="https://rvn.cryptoscope.io/api/getrawtransaction/?txid=bae95f349f15effe42e75134ee7f4560f53462ddc19c47efdd03f85ef4ab8f40&decode=1">bae95f349f15effe42e75134ee7f4560f53462ddc19c47efdd03f85ef4ab8f40</a></p>
+  <p>On chain example: <a href="https://rvn.cryptoscope.io/api/getrawtransaction/?txid=bae95f349f15effe42e75134ee7f4560f53462ddc19c47efdd03f85ef4ab8f40&decode=1" target="_blank">bae95f349f15effe42e75134ee7f4560f53462ddc19c47efdd03f85ef4ab8f40</a></p>
   
   <h4>Creating a main asset transaction</h4>
   Note that when creating assets, you get to freely determine what address to send the assets and ownership asset to.
@@ -1000,7 +1001,7 @@ overlooked. If you come across any problems or believe information needs to be c
       </td>
     </tr>
   </table>
-  <p>On chain example: <a href="https://rvn.cryptoscope.io/api/getrawtransaction/?txid=8eefce8d264d723b6b8f3cf87bcb400a009d01c2771f94e5cc07af252851aa96&decode=1">8eefce8d264d723b6b8f3cf87bcb400a009d01c2771f94e5cc07af252851aa96</a></p>
+  <p>On chain example: <a href="https://rvn.cryptoscope.io/api/getrawtransaction/?txid=8eefce8d264d723b6b8f3cf87bcb400a009d01c2771f94e5cc07af252851aa96&decode=1" target="_blank">8eefce8d264d723b6b8f3cf87bcb400a009d01c2771f94e5cc07af252851aa96</a></p>
 
   <h4>Creating a sub-asset transaction</h4>
   <table>
@@ -1022,7 +1023,7 @@ overlooked. If you come across any problems or believe information needs to be c
       </td>
     </tr>
   </table>
-  <p>On chain example: <a href="https://rvn.cryptoscope.io/api/getrawtransaction/?txid=15127b9ea4c21c323dde1f2dd64b24b12efef2adec43b0b5f2e2377ad4aea369&decode=1">15127b9ea4c21c323dde1f2dd64b24b12efef2adec43b0b5f2e2377ad4aea369</a></p>
+  <p>On chain example: <a href="https://rvn.cryptoscope.io/api/getrawtransaction/?txid=15127b9ea4c21c323dde1f2dd64b24b12efef2adec43b0b5f2e2377ad4aea369&decode=1" target="_blank">15127b9ea4c21c323dde1f2dd64b24b12efef2adec43b0b5f2e2377ad4aea369</a></p>
 
   <h4>Creating a unique asset transaction</h4>
   <table>
@@ -1043,7 +1044,7 @@ overlooked. If you come across any problems or believe information needs to be c
       </td>
     </tr>
   </table>
-  <p>On chain example: <a href="https://rvn.cryptoscope.io/api/getrawtransaction/?txid=12f39ab78609e312e80c86d1ed3f25937120cbdeee6fc81b1068c400eb1c8518&decode=1">12f39ab78609e312e80c86d1ed3f25937120cbdeee6fc81b1068c400eb1c8518</a></p>
+  <p>On chain example: <a href="https://rvn.cryptoscope.io/api/getrawtransaction/?txid=12f39ab78609e312e80c86d1ed3f25937120cbdeee6fc81b1068c400eb1c8518&decode=1" target="_blank">12f39ab78609e312e80c86d1ed3f25937120cbdeee6fc81b1068c400eb1c8518</a></p>
 
   <h4>Creating a reissue asset transaction</h4>
   <table>
@@ -1064,7 +1065,7 @@ overlooked. If you come across any problems or believe information needs to be c
       </td>
     </tr>
   </table>
-  <p>On chain example: <a href="https://rvn.cryptoscope.io/api/getrawtransaction/?txid=1370040248ba64a2676f125e645a83421adb2859c8c2aacc74017d738309ebda&decode=1">1370040248ba64a2676f125e645a83421adb2859c8c2aacc74017d738309ebda</a></p>
+  <p>On chain example: <a href="https://rvn.cryptoscope.io/api/getrawtransaction/?txid=1370040248ba64a2676f125e645a83421adb2859c8c2aacc74017d738309ebda&decode=1" target="_blank">1370040248ba64a2676f125e645a83421adb2859c8c2aacc74017d738309ebda</a></p>
 
   <h4>Creating a message channel asset transaction</h4>
   <table>
@@ -1085,9 +1086,8 @@ overlooked. If you come across any problems or believe information needs to be c
       </td>
     </tr>
   </table>
-  <p>On chain example: <a href="https://rvn.cryptoscope.io/api/getrawtransaction/?txid=d5a13003bff69513b1bb172164ba015afd9bd5afc0a2d654cf10daf1ae470a8c&decode=1">d5a13003bff69513b1bb172164ba015afd9bd5afc0a2d654cf10daf1ae470a8c</a></p>
+  <p>On chain example: <a href="https://rvn.cryptoscope.io/api/getrawtransaction/?txid=d5a13003bff69513b1bb172164ba015afd9bd5afc0a2d654cf10daf1ae470a8c&decode=1" target="_blank">d5a13003bff69513b1bb172164ba015afd9bd5afc0a2d654cf10daf1ae470a8c</a></p>
 
-  
   <h4>Creating a qualifier asset transaction</h4>
   <table>
   <tr>
@@ -1105,7 +1105,7 @@ overlooked. If you come across any problems or believe information needs to be c
       </td>
     </tr>
   </table>
-  <p>On chain example: <a href="https://rvn.cryptoscope.io/tx/?txid=748c7e0996e0a4f599c51635c8fce8ddd6ae0e625be640fa4074f51f2574d7a1">748c7e0996e0a4f599c51635c8fce8ddd6ae0e625be640fa4074f51f2574d7a1</a></p>
+  <p>On chain example: <a href="https://rvn.cryptoscope.io/tx/?txid=748c7e0996e0a4f599c51635c8fce8ddd6ae0e625be640fa4074f51f2574d7a1" target="_blank">748c7e0996e0a4f599c51635c8fce8ddd6ae0e625be640fa4074f51f2574d7a1</a></p>
 
   <h4>Creating a sub-qualifier asset transaction</h4>
   <table>
@@ -1126,7 +1126,7 @@ overlooked. If you come across any problems or believe information needs to be c
       </td>
     </tr>
   </table>
-  <p>On chain example: <a href="https://rvn.cryptoscope.io/tx/?txid=748c7e0996e0a4f599c51635c8fce8ddd6ae0e625be640fa4074f51f2574d7a1">748c7e0996e0a4f599c51635c8fce8ddd6ae0e625be640fa4074f51f2574d7a1</a></p>
+  <p>On chain example: <a href="https://rvn.cryptoscope.io/tx/?txid=748c7e0996e0a4f599c51635c8fce8ddd6ae0e625be640fa4074f51f2574d7a1" target="_blank">748c7e0996e0a4f599c51635c8fce8ddd6ae0e625be640fa4074f51f2574d7a1</a></p>
 
   <h4>Creating a restricted asset transaction</h4>
   <table>
@@ -1147,9 +1147,8 @@ overlooked. If you come across any problems or believe information needs to be c
       </td>
     </tr>
   </table>
-  <p>On chain example: <a href="https://rvn.cryptoscope.io/api/getrawtransaction/?txid=c1e61a69bfb3a02f15c44b530a76fee8d69c8b54b0cc69c0fab81a583e3e5c33&decode=1">c1e61a69bfb3a02f15c44b530a76fee8d69c8b54b0cc69c0fab81a583e3e5c33</a></p>
+  <p>On chain example: <a href="https://rvn.cryptoscope.io/api/getrawtransaction/?txid=c1e61a69bfb3a02f15c44b530a76fee8d69c8b54b0cc69c0fab81a583e3e5c33&decode=1" target="_blank">c1e61a69bfb3a02f15c44b530a76fee8d69c8b54b0cc69c0fab81a583e3e5c33</a></p>
 
-  
   <h4>Creating a reissue restricted asset with new qualifiers transaction</h4>
   <table>
   <tr>
@@ -1170,7 +1169,7 @@ overlooked. If you come across any problems or believe information needs to be c
       </td>
     </tr>
   </table>
-  <p>On chain example: <a href="https://rvnt.cryptoscope.io/api/getrawtransaction/?txid=a2b634e160974348647484302501a64bc80a841d4a9ea833498a47e72e987628&decode=1">a2b634e160974348647484302501a64bc80a841d4a9ea833498a47e72e987628 (testnet)</a></p>
+  <p>On chain example: <a href="https://rvnt.cryptoscope.io/api/getrawtransaction/?txid=a2b634e160974348647484302501a64bc80a841d4a9ea833498a47e72e987628&decode=1" target="_blank">a2b634e160974348647484302501a64bc80a841d4a9ea833498a47e72e987628 (testnet)</a></p>
 
   <h4>Creating a null asset script transaction</h4>
   <table>
@@ -1191,7 +1190,7 @@ overlooked. If you come across any problems or believe information needs to be c
       </td>
     </tr>
   </table>
-  <p>On chain example: <a href="https://rvn.cryptoscope.io/api/getrawtransaction/?txid=0332beef9c76cf300b166cf5f56e8acd83788201eae1fc93f05364c28cd882f2&decode=1">0332beef9c76cf300b166cf5f56e8acd83788201eae1fc93f05364c28cd882f2</a></p>
+  <p>On chain example: <a href="https://rvn.cryptoscope.io/api/getrawtransaction/?txid=0332beef9c76cf300b166cf5f56e8acd83788201eae1fc93f05364c28cd882f2&decode=1" target="_blank">0332beef9c76cf300b166cf5f56e8acd83788201eae1fc93f05364c28cd882f2</a></p>
 
   <h4>Creating a freeze restricted asset transaction</h4>
   <table>
@@ -1212,4 +1211,4 @@ overlooked. If you come across any problems or believe information needs to be c
       </td>
     </tr>
   </table>
-  <p>On chain example: <a href="https://rvn.cryptoscope.io/api/getrawtransaction/?txid=cb6f7a7cf7d65d532101a259ef37cebff77ccb1e9f86823910537d6580071668&decode=1">cb6f7a7cf7d65d532101a259ef37cebff77ccb1e9f86823910537d6580071668</a></p>
+  <p>On chain example: <a href="https://rvn.cryptoscope.io/api/getrawtransaction/?txid=cb6f7a7cf7d65d532101a259ef37cebff77ccb1e9f86823910537d6580071668&decode=1" target="_blank">cb6f7a7cf7d65d532101a259ef37cebff77ccb1e9f86823910537d6580071668</a></p>

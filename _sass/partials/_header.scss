@@ -4,27 +4,17 @@
 .site-header {
   border-bottom: 1px solid $grey-color-light;
   min-height: $spacing-unit * 1.865;
-  background-color: #ffffff;
-
-  position: fixed;
-  width:100%;
-  z-index: 1;
-
-  // Positioning context for the mobile navigation icon
-  // position: relative;
 }
 
 .site-title {
   img {
     max-height: 35px;
-    margin-top: 10px;
   }
 }
 
 .site-nav {
   float: right;
   line-height: $base-line-height * $base-font-size * 2.25;
-  z-index: 1;
 
   .nav-trigger {
     display: none;
@@ -54,7 +44,7 @@
     }
   }
 
-  @include media-query($on-palm) {
+  @include media-query($on-tablet) {
     position: absolute;
     top: 9px;
     right: $spacing-unit / 2;
@@ -108,20 +98,7 @@
   }
 }
 
-@media screen and (max-width: 700px) and (min-width: 601px) {
-  .site-title,
-  .site-nav {
-    width: 100%;
-    text-align: center;
-  }
-  .site-title {
-    img {
-      display: block;
-      margin: 20px auto 0;
-    }
-  }
-}
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 960px) {
   .header-nav {
     height: 55px;
   }
