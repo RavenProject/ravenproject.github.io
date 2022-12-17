@@ -161,12 +161,12 @@
 - name: RavenWallet by MoonTree
   description: >
     The RavenWallet sponsored by MoonTree is a full featured raven specific mobile wallet.
-    From this wallet users can send and recieve RVN, Create distribute and manage Assets,
+    From this wallet users can send and receive RVN, Create distribute and manage Assets,
     as well as trade assets on a distributed exchange in the form of atomic swaps.
 
   project_sites:
     - name: Raven Source Code - a dart library for the projects underlying functionality.
-      url: https://github.com/moontreeapp/raven
+      url: https://github.com/moontreeapp
 
   roadmap:
     - name: Investigate BlueWallet Fork
