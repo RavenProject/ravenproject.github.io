@@ -235,16 +235,15 @@
 - name: NOWNodes
   description: >
     A blockchain as a service for Ravencoin nodes via API key. Blockchain-as-a-service solution that lets users get access to full Ravencoin nodes (shared & dedicated nodes on mainnet & testnet + archived nodes) via API key.
- NOWNodes provides a high-quality, quick, cost-effective, and reliable infrastructure for developers, start-ups, and businesses that are developing Web 3 projects on the Ravencoin blockchain.
- Service provides free API key access.
-
- project_sites:
+    NOWNodes provides a high-quality, quick, cost-effective, and reliable infrastructure for developers, start-ups, and businesses that are developing Web 3 projects on the Ravencoin blockchain.
+    Service provides free API key access.
+ 
+  project_sites:
     - name: NOWNodes Set Up 
       url: http://bit.do/nownodes-setup
     - name: NOWNodes Documentation
       url: https://documenter.getpostman.com/view/13630829/TVmFkLwy
   
-
   social:
     - name: Support
       url: https://t.me/+TdoSFV7MVXA1YWEy
