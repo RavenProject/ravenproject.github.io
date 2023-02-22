@@ -160,6 +160,12 @@
   kyc: false
   donates_to_project: false
 
+- name: Swapika
+  logo: /assets/img/pages/exchanges/swapika.png
+  url:  https://swapika.com/
+  kyc: false
+  donates_to_project: false
+
 - name: SwapSpace
   logo: /assets/img/pages/exchanges/swapspace.png
   url:  https://swapspace.co/
