@@ -52,6 +52,12 @@
   kyc: false
   donates_to_project: true
 
+- name: ChangeHero
+  logo: /assets/img/pages/exchanges/changehero.png
+  url: https://changehero.io/
+  kyc: false
+  donates_to_project: false
+
 - name: Changelly
   logo: /assets/img/pages/exchanges/changelly.png
   url: https://changelly.com/
