@@ -94,6 +94,12 @@
   kyc: true
   donates_to_project: false
 
+- name: Digitalexchange.id
+  logo: /assets/img/pages/exchanges/dex.png
+  url: https://digitalexchange.id/basic-trading/RVNIDR
+  kyc: true
+  donates_to_project: false
+
 - name: Evorese
   logo: /assets/img/pages/exchanges/evorese.png
   url: https://exchange.evorese.com/market/BIRAKE.RVN_BIRAKE.BTC
@@ -206,10 +212,4 @@
   logo: /assets/img/pages/exchanges/nowpayments.png
   url: https://nowpayments.io/
   kyc: false
-  donates_to_project: false
-
-- name: Digitalexchange.id
-  logo: /assets/img/pages/exchanges/dex.png
-  url: https://digitalexchange.id/basic-trading/RVNIDR
-  kyc: true
   donates_to_project: false
