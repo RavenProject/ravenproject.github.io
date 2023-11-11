@@ -41,7 +41,7 @@ permalink: /community/
             <img style="width:40px;" src="{{"/assets/img/pages/community/discord.png"}}" alt="discord 2"/>
           </div>
         </a>
-        <h3><a href="https://discord.gg/uh6PrWh" target="_blank">Discord - Raven</a></h3>
+        <h3><a href="https://discord.com/invite/X89fFqgS7e" target="_blank">The Birdhouse</a></h3>
       </div>
       <div class="w-1/2 sm:w-1/4 mb-8">
         <a href="https://discord.gg/fVymYST" target="_blank">
