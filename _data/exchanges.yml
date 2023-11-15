@@ -95,7 +95,7 @@
   donates_to_project: false
 
 - name: Digitalexchange.id
-  logo: /assets/img/pages/exchanges/dex.png
+  logo: /assets/img/pages/exchanges/digitalexchange.png
   url: https://digitalexchange.id/basic-trading/RVNIDR
   kyc: true
   donates_to_project: false
