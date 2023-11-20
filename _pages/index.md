@@ -244,7 +244,7 @@ modalCacheRef: "4.6.1"
       </div>
   </div>
 </div>
-<div class="bg-grey-lighter text-center" style="padding-bottom:50px">
+<div class="bg-grey-lighter flex flex-col justify-center items-center" style="padding-bottom:50px">
   <h2 class="font-medium">Twitter Updates</h2>
   <a class="twitter-timeline" data-width="600" data-height="600" data-dnt="true" data-theme="dark" href="https://twitter.com/Ravencoin?ref_src=twsrc%5Etfw">Tweets by Ravencoin</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   <a class="twitter-timeline" data-width="600" data-height="600" data-dnt="true" data-theme="dark" href="https://twitter.com/Ravencoin/likes?ref_src=twsrc%5Etfw">Tweets Liked by Ravencoin</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
