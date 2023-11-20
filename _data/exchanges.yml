@@ -1,6 +1,6 @@
 - name: ATAIX
   logo: /assets/img/pages/exchanges/ataix.png
-  url:  https://ataix.com/market/RVN-BTC
+  url: https://ataix.com/market/RVN-BTC
   kyc: true
   donates_to_project: false
 
@@ -84,13 +84,19 @@
 
 - name: DEX Trade
   logo: /assets/img/pages/exchanges/dextrade.png
-  url:  https://dex-trade.com/spot/trading/RVNUSDT
+  url: https://dex-trade.com/spot/trading/RVNUSDT
   kyc: true
   donates_to_project: false
 
 - name: Digifinex
   logo: /assets/img/pages/exchanges/digifinex.png
   url: https://www.digifinex.com/en-ww/trade/BTC/RVN
+  kyc: true
+  donates_to_project: false
+
+- name: Digitalexchange.id
+  logo: /assets/img/pages/exchanges/digitalexchange.png
+  url: https://digitalexchange.id/basic-trading/RVNIDR
   kyc: true
   donates_to_project: false
 
@@ -156,7 +162,7 @@
 
 - name: SimpleSwap
   logo: /assets/img/pages/exchanges/simpleswap.png
-  url:  https://simpleswap.io/
+  url: https://simpleswap.io/
   kyc: false
   donates_to_project: false
 
@@ -168,19 +174,19 @@
 
 - name: SwapSpace
   logo: /assets/img/pages/exchanges/swapspace.png
-  url:  https://swapspace.co/
+  url: https://swapspace.co/
   kyc: false
   donates_to_project: false
 
 - name: SwapSwop
   logo: /assets/img/pages/exchanges/swapswop.png
-  url:  https://swapswop.io/
+  url: https://swapswop.io/
   kyc: false
   donates_to_project: false
 
 - name: Swapzone
   logo: /assets/img/pages/exchanges/swapzone.png
-  url:  https://swapzone.io/
+  url: https://swapzone.io/
   kyc: false
   donates_to_project: false
 
