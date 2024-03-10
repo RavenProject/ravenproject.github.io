@@ -11,29 +11,29 @@ permalink: /wallet/
     <h2 class="mt-10 mb-16">Desktop Downloads</h2>
     <div class="flex flex-wrap align-center justify-center">
       <div class="w-full sm:w-1/2 md:w-1/3 px-4 mb-12">
-        <div class="bg-grey-lighter max-w-sm rounded overflow-hidden shadow-md hover:by-grey">
+        <div class="bg-gray-100 max-w-sm rounded overflow-hidden shadow-md hover:by-grey">
           <a class="block px-6 py-4" href="https://github.com/RavenProject/Ravencoin/releases" target="_blank"><img style="max-height: 125px;" src="/assets/img/pages/wallet/windows.svg" align="middle" alt=" Windows wallet"/></a>
         </div>
-        <a class="block mt-8 text-lg bg-blue hover:bg-blue-dark rounded p-2 text-white" href="https://github.com/RavenProject/Ravencoin/releases/download/v4.6.1/raven-4.6.1-7864c39c2-win64-setup-unsigned.exe" download><i class="zmdi zmdi-download"></i><span class="inline-block ml-3">Windows</span></a>
+        <a class="block mt-8 text-lg bg-blue-500 hover:bg-blue-500-dark rounded p-2 text-white" href="https://github.com/RavenProject/Ravencoin/releases/download/v4.6.1/raven-4.6.1-7864c39c2-win64-setup-unsigned.exe" download><i class="zmdi zmdi-download"></i><span class="inline-block ml-3">Windows</span></a>
       </div>
       <div class="w-full sm:w-1/2 md:w-1/3 px-4 mb-12">
-        <div class="bg-grey-lighter max-w-sm rounded overflow-hidden shadow-md hover:by-grey">
+        <div class="bg-gray-100 max-w-sm rounded overflow-hidden shadow-md hover:by-grey">
           <a class="block px-6 py-4" href="https://github.com/RavenProject/Ravencoin/releases" target="_blank"><img style="max-height: 125px;" src="/assets/img/pages/wallet/mac.svg" align="middle" alt=" Mac wallet"/></a>
         </div>
-        <a class="block mt-8 text-lg bg-blue hover:bg-blue-dark rounded p-2 text-white" href="https://github.com/RavenProject/Ravencoin/releases/download/v4.3.2.1/raven-4.3.2.1-osx-signed.dmg" download><i class="zmdi zmdi-download"></i><span class="inline-block ml-3">Mac</span></a>
+        <a class="block mt-8 text-lg bg-blue-500 hover:bg-blue-500-dark rounded p-2 text-white" href="https://github.com/RavenProject/Ravencoin/releases/download/v4.3.2.1/raven-4.3.2.1-osx-signed.dmg" download><i class="zmdi zmdi-download"></i><span class="inline-block ml-3">Mac</span></a>
       </div>
       <div class="w-full sm:w-1/2 md:w-1/3 px-4 mb-12">
-        <div class="bg-grey-lighter max-w-sm rounded overflow-hidden shadow-md hover:by-grey">
+        <div class="bg-gray-100 max-w-sm rounded overflow-hidden shadow-md hover:by-grey">
           <a class="block px-6 py-4" href="https://github.com/RavenProject/Ravencoin/releases" target="_blank"><img style="max-height: 125px;" src="/assets/img/pages/wallet/linux.svg" align="middle" alt="Linux wallet"/></a>
         </div>
-        <a class="block mt-8 text-lg bg-blue hover:bg-blue-dark rounded p-2 text-white" href="https://github.com/RavenProject/Ravencoin/releases/download/v4.6.1/raven-4.6.1-7864c39c2-x86_64-linux-gnu.tar.gz" download><i class="zmdi zmdi-download"></i><span class="inline-block ml-3">Linux</span></a>
+        <a class="block mt-8 text-lg bg-blue-500 hover:bg-blue-500-dark rounded p-2 text-white" href="https://github.com/RavenProject/Ravencoin/releases/download/v4.6.1/raven-4.6.1-7864c39c2-x86_64-linux-gnu.tar.gz" download><i class="zmdi zmdi-download"></i><span class="inline-block ml-3">Linux</span></a>
       </div>
     </div>
     <h3 class="">For verification hashes and signatures visit our github releases</h3>
-    <a class="block mt-8 mb-6 text-lg bg-blue hover:bg-blue-dark rounded p-2 text-white" href="https://github.com/RavenProject/Ravencoin/releases"><i class="zmdi zmdi-github-alt"></i><span class="inline-block ml-3">Github Releases (Downloadable Binaries)</span></a>
+    <a class="block mt-8 mb-6 text-lg bg-blue-500 hover:bg-blue-500-dark rounded p-2 text-white" href="https://github.com/RavenProject/Ravencoin/releases"><i class="zmdi zmdi-github-alt"></i><span class="inline-block ml-3">Github Releases (Downloadable Binaries)</span></a>
     <br>
     <h2 class="">Electrum Community Wallet</h2>
-    <a class="block mt-8 mb-6 text-lg bg-blue hover:bg-blue-dark rounded p-2 text-white" href="https://github.com/Electrum-RVN-SIG/Electrum-Ravencoin/releases"><i class="zmdi zmdi-github-alt"></i><span class="inline-block ml-3">Electrum-Ravencoin Releases (Downloadable Binaries)</span></a>
+    <a class="block mt-8 mb-6 text-lg bg-blue-500 hover:bg-blue-500-dark rounded p-2 text-white" href="https://github.com/Electrum-RVN-SIG/Electrum-Ravencoin/releases"><i class="zmdi zmdi-github-alt"></i><span class="inline-block ml-3">Electrum-Ravencoin Releases (Downloadable Binaries)</span></a>
     <br>
     <h2 class="mb-16">App Downloads With Asset Support</h2>
     <div class="flex flex-wrap align-center justify-center pb-4">
@@ -48,7 +48,7 @@ permalink: /wallet/
     <div class="flex flex-wrap">
       {% for wallet in site.data.wallets %}
       <div class="mb-6 px-2 sm:w-1/2 text-center">
-        <div class="bg-grey-lighter max-w-sm rounded overflow-hidden shadow-md hover:by-grey">
+        <div class="bg-gray-100 max-w-sm rounded overflow-hidden shadow-md hover:by-grey">
           <a class="block px-6 py-4" href="{{ wallet.url }}" target="_blank"><img src="{{ wallet.logo }}" align="middle" alt="{{ wallet.name }} wallet"/>
           {% if wallet.asset-support %}
             <div style="width:125px;height:20px;background:orange;text-align:center;line-height:20px;border-radius:10px;margin-bottom:4px; margin-left:4px">Asset Support</div></a>
@@ -61,7 +61,7 @@ permalink: /wallet/
             <img style="height: 25px; length: 16px; padding-right: 15px; padding-top: 4px;" src="/assets/img/pages/wallet/{{platform}}.svg"/>
           {% endfor %}
         </div>
-        <a class="block mt-4 mb-8 text-lg bg-blue hover:bg-blue-dark rounded p-2 text-white" href="{{ wallet.url }}"><i class="zmdi zmdi-download"></i><span class="inline-block ml-3">{{wallet.name}} Wallet</span></a>
+        <a class="block mt-4 mb-8 text-lg bg-blue-500 hover:bg-blue-500-dark rounded p-2 text-white" href="{{ wallet.url }}"><i class="zmdi zmdi-download"></i><span class="inline-block ml-3">{{wallet.name}} Wallet</span></a>
       </div>
       {% endfor %}
     </div>
@@ -69,10 +69,10 @@ permalink: /wallet/
     <div class="pt-8 mb-8 pb-8">
       <div class="flex flex-wrap">
         <div class="w-full sm:w-1/2 px-2 mb-4">
-          <a class="inline-block text-lg bg-blue hover:bg-blue-dark rounded p-2 text-white px-8" href="https://github.com/todd1251/WalletGenerator.net/tree/ravencoin" target="_blank"><span class="inline-block ml-3">Paper Wallet | Contributed by Penfold</span></a>
+          <a class="inline-block text-lg bg-blue-500 hover:bg-blue-500-dark rounded p-2 text-white px-8" href="https://github.com/todd1251/WalletGenerator.net/tree/ravencoin" target="_blank"><span class="inline-block ml-3">Paper Wallet | Contributed by Penfold</span></a>
         </div>
         <div class="w-full sm:w-1/2 px-2 mb-4">
-          <a class="inline-block text-lg bg-blue hover:bg-blue-dark rounded p-2 text-white px-8" href="https://paper.pocketraven.com/" target="_blank"><span class="inline-block ml-3">Paper Wallet | Contributed by Traysi</span></a>
+          <a class="inline-block text-lg bg-blue-500 hover:bg-blue-500-dark rounded p-2 text-white px-8" href="https://paper.pocketraven.com/" target="_blank"><span class="inline-block ml-3">Paper Wallet | Contributed by Traysi</span></a>
         </div>
       </div>
   </div>

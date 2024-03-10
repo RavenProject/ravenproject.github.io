@@ -1,5 +1,10 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
+# Use the _sass folder for custom styling
 ---
 
-@import "minima";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "minima/index";

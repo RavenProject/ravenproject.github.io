@@ -22,15 +22,15 @@ permalink: /wcc/
     <div class="wrapper ml-80 m-auto">
       <h3>
         <ul>
-          <li><a href="https://github.com/RavenProject/Ravencoin">Public Github</a></li>
-          <li><a href="https://raven-nightly-builds.ravencoin.org">Download Ravencoin Daemon / Qt</a></li>
-          <li><a href="https://github.com/RavenDevKit/insight-api">Ravencoin Api Documentation</a></li>
-          <li><a href="https://testnet.ravencoin.network/">Testnet Faucet</a></li>
-          <li><a href="https://testnet-api.ravencoin.org/api/">Testnet Api</a></li>
-          <li><a href="https://testnet-api.ravencoin.org/">Block Explorer</a></li>
-          <li><a href="https://github.com/underdarkskies/ravencore-lib">Ravencoin Javascript Library</a></li>
-          <li><a href="https://github.com/standard-error/python-ravencoinlib">Ravencoin Python Library</a></li>
-          <li><a href="https://github.com/JonPizza/ravenrpc">2nd Ravencoin Python Library</a></li> 
+          <li><a href="https://github.com/RavenProject/Ravencoin" target="_blank">Public Github</a></li>
+          <li><a href="https://raven-nightly-builds.ravencoin.org" target="_blank">Download Ravencoin Daemon / Qt</a></li>
+          <li><a href="https://github.com/RavenDevKit/insight-api" target="_blank">Ravencoin Api Documentation</a></li>
+          <li><a href="https://testnet.ravencoin.network/" target="_blank">Testnet Faucet</a></li>
+          <li><a href="https://testnet-api.ravencoin.org/api/" target="_blank">Testnet Api</a></li>
+          <li><a href="https://testnet-api.ravencoin.org/" target="_blank">Block Explorer</a></li>
+          <li><a href="https://github.com/underdarkskies/ravencore-lib" target="_blank">Ravencoin Javascript Library</a></li>
+          <li><a href="https://github.com/standard-error/python-ravencoinlib" target="_blank">Ravencoin Python Library</a></li>
+          <li><a href="https://github.com/JonPizza/ravenrpc" target="_blank">2nd Ravencoin Python Library</a></li> 
         </ul>
       </h3>
     </div>
@@ -39,9 +39,9 @@ permalink: /wcc/
     <div class="wrapper ml-80 m-auto">
       <h3>
         <ul>
-          <li><a href="https://github.com/RavenProject/Ravencoin/blob/master/doc/build-osx.md">Mac Build Instructions</a></li>
-          <li><a href="https://github.com/RavenProject/Ravencoin/blob/master/doc/build-unix.md">Unix Build Instructions</a></li>
-          <li> Cross Compile Only - Use the download in the WCC folder <a href="https://raven-nightly-builds.ravencoin.org">Ravencoin Daemon/Qt Download</a></li>
+          <li><a href="https://github.com/RavenProject/Ravencoin/blob/master/doc/build-osx.md" target="_blank">Mac Build Instructions</a></li>
+          <li><a href="https://github.com/RavenProject/Ravencoin/blob/master/doc/build-unix.md" target="_blank">Unix Build Instructions</a></li>
+          <li> Cross Compile Only - Use the download in the WCC folder <a href="https://raven-nightly-builds.ravencoin.org" target="_blank">Ravencoin Daemon/Qt Download</a></li>
         </ul>
       </h3>
 
@@ -52,7 +52,7 @@ permalink: /wcc/
 
     <div class="wrapper ml-80 m-auto">
     <h3>
-      To use the Ravencoin Daemon, you will want to download the client for your OS. We have a snapshot of the testnet available for you to use so you don't need to sync the entire chain. The snapshot is available in the <b>WCC</b> folder on the <a href="https://raven-nightly-builds.ravencoin.org">Ravencoin Daemon/Qt Download</a> website. In order to use the snapshot:
+      To use the Ravencoin Daemon, you will want to download the client for your OS. We have a snapshot of the testnet available for you to use so you don't need to sync the entire chain. The snapshot is available in the <b>WCC</b> folder on the <a href="https://raven-nightly-builds.ravencoin.org" target="_blank">Ravencoin Daemon/Qt Download</a> website. In order to use the snapshot:
       <div class="wrapper mt-6 m-auto">
           <ol>
             <li>Unzip/tar the snapshot into the following locations:
@@ -77,7 +77,7 @@ permalink: /wcc/
 
       <div class="wrapper ml-80 m-auto">
         <h3>
-          The faucent allows you to get Testnet Ravencoin in your wallet. To use the faucet. Go to the <a href="https://testnet.ravencoin.network/">Testnet Faucet</a> and paste in your Ravencoin address and click Submit. A transaction will be created to send Ravencoin to your address.
+          The faucent allows you to get Testnet Ravencoin in your wallet. To use the faucet. Go to the <a href="https://testnet.ravencoin.network/" target="_blank">Testnet Faucet</a> and paste in your Ravencoin address and click Submit. A transaction will be created to send Ravencoin to your address.
 
           <p><br>If you need more RVN grab a Ravencoin mentor and we can send you some of ours :)</p>
         </h3>
@@ -87,14 +87,14 @@ permalink: /wcc/
 
     <div class="wrapper ml-80 m-auto">
       <h3>
-        The block explorer allows you to view the Ravencoin blocks, transactions, and address balances on a website. Visit it here <a href="https://testnet-api.ravencoin.org/">Block Explorer</a>
+        The block explorer allows you to view the Ravencoin blocks, transactions, and address balances on a website. Visit it here <a href="https://testnet-api.ravencoin.org/" target="_blank">Block Explorer</a>
       </h3>
     </div>
 
     <h2><b>How to use the api?</b></h2>
     <div class="wrapper ml-80 m-auto">
       <h3>
-        You can view which api calls are supported at <a href="https://github.com/RavenDevKit/insight-api">Ravencoin Api Documentation</a>
+        You can view which api calls are supported at <a href="https://github.com/RavenDevKit/insight-api" target="_blank">Ravencoin Api Documentation</a>
       </h3>
     </div>
   </div>
