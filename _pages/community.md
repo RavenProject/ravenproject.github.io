@@ -41,14 +41,6 @@ permalink: /community/
             <img style="width:40px;" src="{{"/assets/img/pages/community/discord.png"}}" alt="discord 2"/>
           </div>
         </a>
-        <h3><a href="https://discord.gg/uh6PrWh" target="_blank">Discord - Raven</a></h3>
-      </div>
-      <div class="w-1/2 sm:w-1/4 mb-8">
-        <a href="https://discord.gg/fVymYST" target="_blank">
-          <div class="mb-6 px-5 inline-block rounded-full bg-grey hover:bg-grey-dark" style="padding-top: 1.75em;padding-bottom: 1.75em;">
-            <img style="width:40px;" src="{{"/assets/img/pages/community/discord.png"}}" alt="discord 3"/>
-          </div>
-        </a>
         <h3><a href="https://discord.gg/fVymYST" target="_blank">Discord - Ravencoin (RVN) Lounge</a></h3>
       </div>
       <div class="w-1/2 sm:w-1/4 mb-8">
