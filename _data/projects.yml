@@ -252,7 +252,7 @@
 
 - name: Jackdaw Cryptocurrency
   description: >
-    Jackdaw is a digital scarcity experiment issued on the Ravencoin blockchain. Jackdaw ($JDAW) is a Rsvencoin Main Asset token with no governance structure or centralized authority. The Jackdaw token represents a truly decentralized and leaderless store of value. Jackdaw is limited to only 50 coins but was distributed to over 20,000 Ravencoin addresses during its distribution phase.
+    Jackdaw is a digital scarcity experiment issued on the Ravencoin blockchain. Jackdaw ($JDAW) is a Ravencoin Main Asset token with no governance structure or centralized authority. The Jackdaw token represents a truly decentralized and leaderless store of value. Jackdaw is limited to only 50 coins but was distributed to over 20,000 Ravencoin addresses during its distribution phase.
  
   project_sites:
     - name: JackdawToken.com 
