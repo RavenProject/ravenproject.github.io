@@ -67,17 +67,6 @@
     - mac
     - linux
 
-- name: Flare
-  logo: /assets/img/pages/wallet/flare.png
-  url: https://flarewallet.io/
-  asset-support: false
-  platforms:
-    - google-play-badge
-    - app-store-badge
-    - windows
-    - mac
-    - linux
-
 - name: Guarda
   logo: /assets/img/pages/wallet/guarda.png
   url: https://guarda.com/
