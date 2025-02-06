@@ -38,10 +38,10 @@ permalink: /wallet/
     <h2 class="mb-16">App Downloads With Asset Support</h2>
     <div class="flex flex-wrap align-center justify-center pb-4">
       <div class="px-3 w-full sm:w-1/2 text-center sm:text-right mb-5">
-          <a href="https://itunes.apple.com/us/app/rvn-wallet/id1371751946?mt=8" target="_blank" class="block"><img style="width:100%;width: 200px;" src="/assets/img/pages/wallet/app-store-badge.svg" alt="app store"/></a>
+          <a href="https://apps.apple.com/us/app/magic-wallet/id6670328507" target="_blank" class="block"><img style="width:100%;width: 200px;" src="/assets/img/pages/wallet/app-store-badge.svg" alt="app store"/></a>
       </div>
       <div class="px-3 w-full sm:w-1/2 text-center sm:text-left">
-        <a href="https://play.google.com/store/apps/details?id=com.ravenwallet" target="_blank" class="block"><img style="width:100%;width: 200px;" src="/assets/img/pages/wallet/google-play-badge.svg" alt="google play"/></a>
+        <a href="https://play.google.com/store/apps/details?id=com.magic.mobile" target="_blank" class="block"><img style="width:100%;width: 200px;" src="/assets/img/pages/wallet/google-play-badge.svg" alt="google play"/></a>
       </div>
     </div>
     <h2>3rd Party Wallets</h2>
