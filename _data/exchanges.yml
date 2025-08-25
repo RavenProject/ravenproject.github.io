@@ -70,9 +70,9 @@
   kyc: false
   donates_to_project: false
 
-  - name: CoinoSwap
+- name: CoinoSwap
   logo: /assets/img/pages/exchanges/coinoswap.png
-  url: https://www.coinoswap.com/?to=rvn&toNetwork=rvn&from=btc&fromNetwork=btc&sellAmount=0.01&direction=direct
+  url: https://www.coinoswap.com/?to=rvn&toNetwork=rvn&from=btc&fromNetwork=btc&sellAmount=0.1&direction=direct
   kyc: false
   donates_to_project: false
 
