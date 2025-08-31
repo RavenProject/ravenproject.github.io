@@ -70,6 +70,12 @@
   kyc: false
   donates_to_project: false
 
+- name: CoinoSwap
+  logo: /assets/img/pages/exchanges/coinoswap.png
+  url: https://www.coinoswap.com/?to=rvn&toNetwork=rvn&from=btc&fromNetwork=btc&sellAmount=0.1&direction=direct
+  kyc: false
+  donates_to_project: false
+
 - name: CoinSpot
   logo: /assets/img/pages/exchanges/coinspot.png
   url: https://www.coinspot.com.au/chart/RVN
