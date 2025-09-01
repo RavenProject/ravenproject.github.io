@@ -219,3 +219,9 @@
   url: https://nowpayments.io/
   kyc: false
   donates_to_project: false
+
+- name: FLASHIFT
+  logo: /assets/img/pages/exchanges/flashift.png
+  url:  https://flashift.app/
+  kyc: false
+  donates_to_project: false
