@@ -77,3 +77,7 @@
 - name: KryptexPool
   url: https://pool.kryptex.com/rvn
   twitter: '@KryptexMining'
+
+- name: OKMINER 
+  url: https://okminer.com
+  twitter: '@OkminerPool'
