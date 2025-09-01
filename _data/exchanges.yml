@@ -222,6 +222,6 @@
 
 - name: FLASHIFT
   logo: /assets/img/pages/exchanges/flashift.png
-  url:  https://exchange.flashift.app/?currency_from=btc&currency_to=rvn&amount=0.1
+  url:  https://flashift.app/
   kyc: false
   donates_to_project: false
