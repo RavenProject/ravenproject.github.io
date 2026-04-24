@@ -111,7 +111,6 @@
     - name: Automated create/listing/execution of orders. (Effectively a self-hosted LP)
       value: upcoming
 
-----------------------
 - name: CHISEL
   description: >
     CHISEL is a browser-based Ravencoin toolkit for building, signing, and broadcasting 
@@ -119,13 +118,12 @@
     RPC (or lightweight Python wrappers), enabling Web3-style applications while encouraging 
     users to run their own nodes.
     
-    project_sites:
+  project_sites:
     - name: CHISEL LIVE EXAMPLE
       url: https://johnrigler.github.io/chisel
     - name: CHISEL CODEBASE
       url: https://github.com/johnrigler/chisel
 
------------------
 - name: RVNFT
   description: >
     RVNFT is a full service NFT Tokenization platform on the Ravencoin Blockchain Network.
