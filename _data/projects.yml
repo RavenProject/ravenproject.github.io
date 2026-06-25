@@ -74,6 +74,34 @@
     - name: Discord
       url: https://discord.gg/VuubYncHz4
 
+- name: RavenSafe CLI
+  description: >
+    RavenSafe CLI is a guided command-line helper for managing Ravencoin with a Ledger hardware wallet.
+    It helps users scan RVN balances, find receive addresses, create RVN transactions, sign with the Ledger
+    Ravencoin app, and broadcast safely through a simple terminal workflow. The tool never asks for a seed
+    phrase, mnemonic, private key, or passphrase.
+  project_sites:
+    - name: RavenSafe CLI GitHub
+      url: https://github.com/ELHARAKA/RavenSafe-CLI
+    - name: RavenSafe CLI npm
+      url: https://www.npmjs.com/package/ravensafe-cli
+  roadmap:
+    - name: Guided interactive CLI wallet flow
+      value: complete
+    - name: Ledger hardware wallet signing
+      value: complete
+    - name: RVN balance scanning
+      value: complete
+    - name: Receive address discovery
+      value: complete
+    - name: Safe RVN send and broadcast workflow
+      value: complete
+    - name: Public npm package
+      value: complete
+  social:
+    - name: GitHub Issues
+      url: https://github.com/ELHARAKA/RavenSafe-CLI/issues
+
 - name: Atomic Swaps
   description: >
     Atomic swaps allow for on-chain trades between ravencoin and ravencoin assets, or between two different ravencoin
