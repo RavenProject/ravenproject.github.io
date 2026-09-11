@@ -106,6 +106,12 @@
   kyc: true
   donates_to_project: false
 
+- name: EIDEX
+  logo: /assets/img/pages/exchanges/eidex.png
+  url: https://eidex.io/screener/btc-btc-to-rvn-rvn
+  kyc: false
+  donates_to_project: false
+
 - name: Evorese
   logo: /assets/img/pages/exchanges/evorese.png
   url: https://exchange.evorese.com/market/BIRAKE.RVN_BIRAKE.BTC
