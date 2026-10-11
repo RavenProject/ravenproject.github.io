@@ -81,3 +81,6 @@
 - name: OKMINER 
   url: https://okminer.com
   twitter: '@OkminerPool'
+
+- name: VEIN Pool
+  url: https://veinpool.fr/coin/rvn
