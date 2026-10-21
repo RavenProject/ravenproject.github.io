@@ -18,10 +18,6 @@
   url: https://2miners.com
   twitter: '@pool2miners'
 
-- name: Bsod
-  url: https://bsod.pw
-  twitter: '@BsodPool'
-
 - name: Suprnova
   url: https://rvn.suprnova.cc/index.php
   twitter: '@SuprnovaPools'
@@ -46,14 +42,6 @@
   url: https://ravencoin.herominers.com
   twitter: '@HeroMinerss'
 
-- name: Mole-Pool
-  url: https://rvn.mole-pool.net/
-  twitter: ''
-  
-- name: Skypool
-  url: https://rvn.skypool.org/
-  twitter: ''
-
 - name: Cruxpool
   url: https://cruxpool.com/
   twitter: '@cruxpool'
@@ -62,17 +50,9 @@
   url: https://www.crypticwizardry.com/
   twitter: ''
 
-- name: CryptoRUSH
-  url: https://www.cryptoru.sh/
-  twitter: '@CryptoRUSH_Gav'
-
 - name: Ravenclause-WallstreetV2
   url: https://pool.wallstreetv2.com/
   twitter: ''
-  
-- name: Kaww.io
-  url: https://kaww.io/
-  twitter: '@kaww_io'
   
 - name: KryptexPool
   url: https://pool.kryptex.com/rvn
@@ -81,3 +61,7 @@
 - name: OKMINER 
   url: https://okminer.com
   twitter: '@OkminerPool'
+
+- name: Corepool
+  url: https://corepool.cloud/
+  twitter: ''

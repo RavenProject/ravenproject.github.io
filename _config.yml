@@ -34,6 +34,21 @@ header_pages:
 theme: minima
 relative_permalinks: false
 
+# Files that are kept in the repository but not published as pages
+exclude:
+  - .jekyll-cache
+  - .jekyll-metadata
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  # Verification notes for reviewers, not a public page
+  - LINK_HOLDS.md
+
 # Reading Files
 include:
   - _pages

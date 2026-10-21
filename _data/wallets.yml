@@ -19,7 +19,7 @@
 
 - name: Coinpayments
   logo: /assets/img/pages/wallet/coinpayments.png
-  url: https://www.coinpayments.net/apps
+  url: https://www.coinpayments.net/
   asset-support: false
   platforms:
     - app-store-badge
@@ -27,7 +27,7 @@
 
 - name: Crypto.com
   logo: /assets/img/pages/wallet/crypto.com.png
-  url: https://www.crypto.com/en/index.html
+  url: https://www.crypto.com/en/
   asset-support: false
   platforms:
     - app-store-badge
@@ -58,7 +58,7 @@
 
 - name: Exodus
   logo: /assets/img/pages/wallet/exodus.png
-  url: https://www.exodus.io/download/
+  url: https://www.exodus.com/download/
   asset-support: false
   platforms:
     - app-store-badge
@@ -137,13 +137,6 @@
     - linux
     - world-wide-web
 
-- name: Stibits
-  logo: /assets/img/pages/wallet/stibits.png
-  url: https://www.stibits.com/
-  asset-support: true
-  platforms:
-    - app-store-badge
-    - google-play-badge
 
 - name: Trust
   logo: /assets/img/pages/wallet/trust.png
@@ -155,7 +148,7 @@
 
 - name: tZERO
   logo: /assets/img/pages/wallet/tzero.png
-  url: https://www.tzero.com/crypto
+  url: https://www.tzero.com/
   asset-support: false
   platforms:
     - app-store-badge
@@ -172,20 +165,13 @@
     - mac
     - linux
 
-- name: CoinUs
-  logo: /assets/img/pages/wallet/CoinUs.png
-  url: https://www.coinus.io/
+- name: RavenVault
+  logo: /assets/img/pages/wallet/ravenvault.png
+  url: https://ravenvault.ex.erci.se/en/
   asset-support: true
   platforms:
-    - app-store-badge
-    - google-play-badge
-
-- name: SimpleHold
-  logo: /assets/img/pages/wallet/simplehold.png
-  url: https://simplehold.io/
-  asset-support: yes
-  platforms:
-    - app-store-badge
     - google-play-badge
     - windows
     - mac
+    - linux
+    - world-wide-web

@@ -2,7 +2,7 @@
 ## READ.ME under construction!
 Current Build Status: ![Build Status](https://travis-ci.org/RavenProject/Ravencoin.svg?branch=master)
 Live site: [ravencoin.org](https://ravencoin.org)
-Report problems or help improve the site by opening a [new issue](https://github.com/RavenProject/ravenproject.github.io.org/issues/new) or [pull request](https://github.com/RavenProject/ravenproject.github.io.org/compare).
+Report problems or help improve the site by opening a [new issue](https://github.com/RavenProject/ravenproject.github.io/issues/new) or [pull request](https://github.com/RavenProject/ravenproject.github.io/compare).
 
 > Note: The Ravencoin.com website now redirects to ravencoin.org
 
@@ -14,7 +14,7 @@ comment containing a raven address and automatically receive a payment in the
 amount of the bounty if it gets merged.
 
 ## Setup the website locally
-https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/
+https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll
 View site on localhost:4000
 
 ## How to Participate
@@ -22,9 +22,9 @@ View site on localhost:4000
 2. Click the settings tab
 3. Rename repository from ravenproject.github.io to `username`.github.io
 4. Make changes.
-5. Ensure your changes are published with GitHub Pages at https://`username`.github.io
+5. Ensure your changes are published with GitHub Pages at https://username.github.io
 6. Create a Pull Request from your repository to RavenProject
-7. Add comment to pull request to your local fork of the website. https://`username`.github.io
+7. Add comment to pull request to your local fork of the website. https://username.github.io
 8. Click the Create Pull Request button
 9. Wait for PR to be approved!
 

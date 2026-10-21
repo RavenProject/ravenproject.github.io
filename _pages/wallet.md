@@ -14,19 +14,19 @@ permalink: /wallet/
         <div class="bg-grey-lighter max-w-sm rounded overflow-hidden shadow-md hover:by-grey">
           <a class="block px-6 py-4" href="https://github.com/RavenProject/Ravencoin/releases" target="_blank"><img style="max-height: 125px;" src="/assets/img/pages/wallet/windows.svg" align="middle" alt=" Windows wallet"/></a>
         </div>
-        <a class="block mt-8 text-lg bg-blue hover:bg-blue-dark rounded p-2 text-white" href="https://github.com/RavenProject/Ravencoin/releases/download/v4.6.2snapshot/raven-4.7.0-0b91b62a2-win64-setup-unsigned.exe" download><i class="zmdi zmdi-download"></i><span class="inline-block ml-3">Windows</span></a>
+        <a class="block mt-8 text-lg bg-blue hover:bg-blue-dark rounded p-2 text-white" href="https://github.com/RavenProject/Ravencoin/releases/download/v4.7.0/raven-4.7.0-0b91b62a2-win64-setup-unsigned.exe" download><i class="zmdi zmdi-download"></i><span class="inline-block ml-3">Windows</span></a>
       </div>
       <div class="w-full sm:w-1/2 md:w-1/3 px-4 mb-12">
         <div class="bg-grey-lighter max-w-sm rounded overflow-hidden shadow-md hover:by-grey">
           <a class="block px-6 py-4" href="https://github.com/RavenProject/Ravencoin/releases" target="_blank"><img style="max-height: 125px;" src="/assets/img/pages/wallet/mac.svg" align="middle" alt=" Mac wallet"/></a>
         </div>
-        <a class="block mt-8 text-lg bg-blue hover:bg-blue-dark rounded p-2 text-white" href="https://github.com/RavenProject/Ravencoin/releases/download/v4.6.2snapshot/raven-4.7.0-0b91b62a2-osx-unsigned.dmg" download><i class="zmdi zmdi-download"></i><span class="inline-block ml-3">Mac</span></a>
+        <a class="block mt-8 text-lg bg-blue hover:bg-blue-dark rounded p-2 text-white" href="https://github.com/RavenProject/Ravencoin/releases/download/v4.7.0/raven-4.7.0-0b91b62a2-osx-unsigned.dmg" download><i class="zmdi zmdi-download"></i><span class="inline-block ml-3">Mac</span></a>
       </div>
       <div class="w-full sm:w-1/2 md:w-1/3 px-4 mb-12">
         <div class="bg-grey-lighter max-w-sm rounded overflow-hidden shadow-md hover:by-grey">
           <a class="block px-6 py-4" href="https://github.com/RavenProject/Ravencoin/releases" target="_blank"><img style="max-height: 125px;" src="/assets/img/pages/wallet/linux.svg" align="middle" alt="Linux wallet"/></a>
         </div>
-        <a class="block mt-8 text-lg bg-blue hover:bg-blue-dark rounded p-2 text-white" href="https://github.com/RavenProject/Ravencoin/releases/download/v4.6.2snapshot/raven-4.7.0-0b91b62a2-x86_64-linux-gnu.tar.gz" download><i class="zmdi zmdi-download"></i><span class="inline-block ml-3">Linux</span></a>
+        <a class="block mt-8 text-lg bg-blue hover:bg-blue-dark rounded p-2 text-white" href="https://github.com/RavenProject/Ravencoin/releases/download/v4.7.0/raven-4.7.0-0b91b62a2-x86_64-linux-gnu.tar.gz" download><i class="zmdi zmdi-download"></i><span class="inline-block ml-3">Linux</span></a>
       </div>
     </div>
     <h3 class="">For verification hashes and signatures visit our github releases</h3>
@@ -35,15 +35,8 @@ permalink: /wallet/
     <h2 class="">Electrum Community Wallet</h2>
     <a class="block mt-8 mb-6 text-lg bg-blue hover:bg-blue-dark rounded p-2 text-white" href="https://github.com/Electrum-RVN-SIG/Electrum-Ravencoin/releases"><i class="zmdi zmdi-github-alt"></i><span class="inline-block ml-3">Electrum-Ravencoin Releases (Downloadable Binaries)</span></a>
     <br>
-    <h2 class="mb-16">App Downloads With Asset Support</h2>
-    <div class="flex flex-wrap align-center justify-center pb-4">
-      <div class="px-3 w-full sm:w-1/2 text-center sm:text-right mb-5">
-          <a href="https://itunes.apple.com/us/app/rvn-wallet/id1371751946?mt=8" target="_blank" class="block"><img style="width:100%;width: 200px;" src="/assets/img/pages/wallet/app-store-badge.svg" alt="app store"/></a>
-      </div>
-      <div class="px-3 w-full sm:w-1/2 text-center sm:text-left">
-        <a href="https://play.google.com/store/apps/details?id=com.ravenwallet" target="_blank" class="block"><img style="width:100%;width: 200px;" src="/assets/img/pages/wallet/google-play-badge.svg" alt="google play"/></a>
-      </div>
-    </div>
+    <a class="block mt-8 mb-6 text-lg bg-blue hover:bg-blue-dark rounded p-2 text-white" href="https://github.com/ALENOC/electrum-ravencoin/releases"><i class="zmdi zmdi-github-alt"></i><span class="inline-block ml-3">Electrum-Ravencoin 1.3.2 (Maintained Build Releases)</span></a>
+    <br>
     <h2>3rd Party Wallets</h2>
     <div class="flex flex-wrap">
       {% for wallet in site.data.wallets %}

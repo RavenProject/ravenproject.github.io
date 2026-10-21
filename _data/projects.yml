@@ -1,37 +1,3 @@
-- name: RavencoinHelper OS
-  description: >
-    RavencoinHelperOS is an Operating System framework for everything Ravencoin.
-    A foundation of services that are focused upon the Ravencoin Blockchain.
-    Its intent is to consolidate everything about Ravencoin,
-    and to present it all, to the user for easy access!
-  project_sites:
-    - name: RavencoinHelper OS
-      url: https://ravencoinhelper.com
-  roadmap:
-    - name: Research & Implement a stable, flexible Operating System across many platforms
-      value: complete
-    - name: Created programs to enhance underlining OS for better functioning of Ravencoin Node and IPFS
-      value: complete
-    - name: Creating Options for more flexibility of IPFS
-      value: complete
-    - name: Creating Wiki of all things Ravencoin
-      value: complete
-    - name: Creating web download package for Windows, OSX and Raspberry Pi
-      value: complete
-    - name: Creating web application for easy (Manual) downloading of NFTs, with Verification & Viewer
-      value: testing
-    - name: Creating application download and install function for Ravencoin projects.
-      value: testing
-    - name: Creating a Token function that allows the user to receive continual Tokens based upon the accumulated time RavencoinHelper is maintained.
-      value: testing
-    - name: Creating a website listing and Wiki listing of Ravencoin focused products and services that can be purchased with RavencoinHelper Tokens.
-      value: upcoming
-    - name: Creating Github Repository
-      value: upcoming
-  social:
-    - name: RavencoinHelper OS
-      url: https://twitter.com/technobuddha
-
 - name: Electrum Ravencoin
   description: >
     The Electrum Ravencoin wallet is meant to be a light weight wallet for users who are unable or unwilling
@@ -43,6 +9,14 @@
       url: https://github.com/Electrum-RVN-SIG/electrum-ravencoin
     - name: Electrum Server
       url: https://github.com/Electrum-RVN-SIG/electrumx-ravencoin
+    - name: Electrum Client - maintained fork (v1.3.2)
+      url: https://github.com/ALENOC/electrum-ravencoin
+    - name: Electrum Client - maintained fork releases
+      url: https://github.com/ALENOC/electrum-ravencoin/releases
+    - name: Electrum Server - maintained fork (v1.13.13)
+      url: https://github.com/ALENOC/electrumx-ravencoin
+    - name: Electrum Server - maintained fork releases
+      url: https://github.com/ALENOC/electrumx-ravencoin/releases
     - name: Server and Protocol Documentation
       url: https://electrumx-ravencoin.readthedocs.io/en/latest/protocol-methods.html
   roadmap:
@@ -86,7 +60,7 @@
     - name: RavenTraderPro - Desktop Client (python)
       url: https://github.com/ben-abraham/raven-trader-pro
     - name: RavenTrader - Server (C#)
-      url: https://github.com/ben-abraham/raven-trader
+      url: https://github.com/ben-abraham/raven-trader-server
     - name: Core Wallet - Atomic Swap PR
       url: https://github.com/RavenProject/Ravencoin/pull/1083
   roadmap:
@@ -124,30 +98,6 @@
     - name: CHISEL CODEBASE
       url: https://github.com/johnrigler/chisel
 
-- name: RVNFT
-  description: >
-    RVNFT is a full service NFT Tokenization platform on the Ravencoin Blockchain Network.
-    You can create your own Artwork, Game Reward, Song, Movie, Certificate of Authenticity and much more.
-    Let RVNFT add it to the Network, so you can focus on what you do best.
-  project_sites:
-    - name: RVNFT
-      url: https://www.rvnft.art/
-    - name: RVNFT Marketplace
-      url: https://www.rvnft.art/nft-marketplace/
-    - name: RVNFT Gallery
-      url: https://www.rvnft.art/rvn-nft-gallery/
-    - name: RVNBAY/RVNFT
-      url: https://rvnbay.com/category/rvnft/
-  social:
-    - name: RVNFT Discord
-      url: https://discord.gg/ZSqqS5Gr
-    - name: RVNFT Twitter
-      url: https://twitter.com/RVNFT_ART
-    - name: RVNFT Instagram
-      url: https://www.instagram.com/rvnft.art/
-    - name: Find RVNFT NFTs on Raven Trader
-      url: https://raventrader.net/
-
 - name: SYNTH
   description: >
     SYNTH is a digital guild based on the Main RVN Token which aims to augment the
@@ -163,7 +113,7 @@
     - name: rvnBay
       url: https://rvnbay.com
     - name: GradeSynth IPFS Gateway
-      url: https://gradesynth.com/ipfs/QmPJeUzChXMSfe3uoXxLTqWP2MR8u1CdFuurUZXRvjed9U/
+      url: https://gradesynth.com/
 
   social:
     - name: SYNTH Discord
@@ -253,9 +203,9 @@
  
   project_sites:
     - name: NOWNodes Set Up 
-      url: http://bit.do/nownodes-setup
+      url: https://nownodes.io/
     - name: NOWNodes Documentation
-      url: https://documenter.getpostman.com/view/13630829/TVmFkLwy
+      url: https://docs.nownodes.io/rvn/
   
   social:
     - name: Support
@@ -266,13 +216,7 @@
 - name: Jackdaw Cryptocurrency
   description: >
     Jackdaw is a digital scarcity experiment issued on the Ravencoin blockchain. Jackdaw ($JDAW) is a Ravencoin Main Asset token with no governance structure or centralized authority. The Jackdaw token represents a truly decentralized and leaderless store of value. Jackdaw is limited to only 50 coins but was distributed to over 20,000 Ravencoin addresses during its distribution phase.
- 
-  project_sites:
-    - name: JackdawToken.com 
-      url: https://jackdawtoken.com/
-    - name: Whitepaper
-      url: https://jackdawtoken.com/jackdaw-whitepaper
-  
+
   social:
     - name: "@JackdawCrypto on X"
       url: https://x.com/JackdawCrypto
@@ -282,3 +226,94 @@
       url: https://t.me/+nkh3L2FvyehlMTQx
     - name: BTCtalk Announcement
       url: https://bitcointalk.org/index.php?topic=5478183.0
+
+- name: ChainStrap
+  description: >
+    ChainStrap publishes compressed snapshots of raw Ravencoin chain data to IPFS so that a new node can
+    reach its current height in hours instead of days. A single Python script downloads the snapshot and
+    unpacks it into the block and chainstate folders of your Ravencoin Core data directory.
+    The snapshot only shortens the initial download: Ravencoin Core still checks every block header,
+    proof of work and transaction itself, so the chain is verified exactly as it normally would be.
+  project_sites:
+    - name: ChainStrap
+      url: https://chainstrap.com
+    - name: ChainStrap Source Code
+      url: https://github.com/chainstrap/chainstrap.github.io
+    - name: getchain.py Bootstrap Script
+      url: https://chainstrap.com/getchain.py
+
+- name: KawTrace
+  description: >
+    KawTrace is a serverless, all-in-one block and asset explorer for Ravencoin that runs entirely in the browser.
+    It lists blocks, transactions, addresses and Ravencoin assets, and connects to a Ravencoin RPC proxy, either the
+    public one it ships with or your own self-hosted endpoint.
+    The current release is a beta (v0.1.0-beta.3); mainnet operation has been verified, and mainnet and testnet
+    endpoints can be switched in the explorer settings.
+  project_sites:
+    - name: KawTrace Explorer
+      url: https://cerberuscx.github.io/KawTrace/
+    - name: KawTrace Source Code
+      url: https://github.com/cerberuscx/KawTrace
+
+- name: Raven Network Nodes
+  description: >
+    Raven Network Nodes is a dashboard that measures the Ravencoin peer-to-peer network with its own crawler
+    instead of relying on a third party API. It shows how many nodes are reachable, how they are distributed by
+    country and ISP, which client versions they run and how the count changes over time.
+    The raw measurement data is published as open JSON and CSV and needs no authentication.
+  project_sites:
+    - name: Node Distribution Dashboard
+      url: https://rusiper1000.github.io/Ravencoin-Nodes/
+    - name: Latest Measurement (JSON)
+      url: https://rusiper1000.github.io/Ravencoin-Nodes/data/latest.json
+    - name: Measurement History (JSON)
+      url: https://rusiper1000.github.io/Ravencoin-Nodes/data/history.json
+
+- name: RavenTag
+  description: >
+    RavenTag links NTAG 424 DNA NFC chips to Ravencoin asset tokens so that a physical item can be checked for
+    authenticity and, when the seller holds the linked token, for proof of ownership. The protocol is published as
+    RTP-1 and both the brand manager app and the consumer verification app are available for Android.
+    RavenTag is an independent community project and is not affiliated with the Ravencoin project.
+  project_sites:
+    - name: RavenTag
+      url: https://raventag.com
+    - name: RavenTag Source Code
+      url: https://github.com/ALENOC/RavenTag
+    - name: RavenTag Releases
+      url: https://github.com/ALENOC/RavenTag/releases/latest
+
+- name: Blackwing
+  description: >
+    Blackwing is a non-custodial, multi-chain asset platform covering Ravencoin and Kaspa.
+    It provisions a node inside your own DigitalOcean account, so the node, the keys and the assets stay under your
+    control, and adds self-custody wallets, asset issuance, a peer to peer marketplace, hold to earn distributions,
+    multisig vaults and solo mining on top of that node.
+    The service is in public beta and needs a server of your own.
+  project_sites:
+    - name: Blackwing
+      url: https://blackwing.software
+
+- name: Ravencoin Node Monitor
+  description: >
+    Ravencoin Node Monitor is an open source dashboard for a node you run yourself.
+    It shows Ravencoin Core and ElectrumX status, sync progress, peers, RPC response time and the bandwidth limits
+    you configure on your own machine.
+    The hosted page is a public demo that is not connected to a node, so the values marked as simulated there are
+    only there to show the layout. Run it against your own Core or ElectrumX instance to get real values.
+  project_sites:
+    - name: Source Code
+      url: https://github.com/ALENOC/ravencoin-node-monitor
+    - name: Public Demo
+      url: https://ravencoin-node-monitor.vercel.app
+
+- name: Ravencoin SDK
+  description: >
+    Ravencoin SDK is a developer toolkit for building applications on Ravencoin.
+    It gives access to addresses, transactions, assets, qualifiers, restricted assets and realtime blockchain events
+    without having to implement the Electrum protocol yourself, and ships with unit, integration and live tests
+    together with a CI workflow.
+    The project is in beta and is currently distributed as source code rather than as a published package.
+  project_sites:
+    - name: Ravencoin SDK Source Code
+      url: https://github.com/ALENOC/ravencoin-sdk

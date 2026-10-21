@@ -25,7 +25,6 @@ permalink: /wcc/
           <li><a href="https://github.com/RavenProject/Ravencoin">Public Github</a></li>
           <li><a href="https://raven-nightly-builds.ravencoin.org">Download Ravencoin Daemon / Qt</a></li>
           <li><a href="https://github.com/RavenDevKit/insight-api">Ravencoin Api Documentation</a></li>
-          <li><a href="https://testnet.ravencoin.network/">Testnet Faucet</a></li>
           <li><a href="https://testnet-api.ravencoin.org/api/">Testnet Api</a></li>
           <li><a href="https://testnet-api.ravencoin.org/">Block Explorer</a></li>
           <li><a href="https://github.com/underdarkskies/ravencore-lib">Ravencoin Javascript Library</a></li>
@@ -72,16 +71,6 @@ permalink: /wcc/
         </div>
     </h3>
   </div>
-
-    <h2><b>How to use the faucet?</b></h2>
-
-      <div class="wrapper ml-80 m-auto">
-        <h3>
-          The faucent allows you to get Testnet Ravencoin in your wallet. To use the faucet. Go to the <a href="https://testnet.ravencoin.network/">Testnet Faucet</a> and paste in your Ravencoin address and click Submit. A transaction will be created to send Ravencoin to your address.
-
-          <p><br>If you need more RVN grab a Ravencoin mentor and we can send you some of ours :)</p>
-        </h3>
-      </div>
 
     <h2><b>How to use the block explorer?</b></h2>
 
