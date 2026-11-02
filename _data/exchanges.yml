@@ -178,6 +178,12 @@
   kyc: false
   donates_to_project: false
 
+- name: SwapRocket
+  logo: /assets/img/pages/exchanges/swaprocket.png
+  url: https://swaprocket.io/cryptocurrencies/rvn
+  kyc: false
+  donates_to_project: false
+
 - name: SwapSpace
   logo: /assets/img/pages/exchanges/swapspace.png
   url: https://swapspace.co/
